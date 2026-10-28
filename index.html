@@ -284,9 +284,21 @@ V.rings=()=>`<h2 class="sec" style="margin-bottom:18px">The Ring Room</h2>
 const PK="lfpffl-poll-";
 const getPick=id=>{try{return localStorage.getItem(PK+id)}catch(e){return null}};
 const setPick=(id,v)=>{try{localStorage.setItem(PK+id,v)}catch(e){}};
-V.polls=()=>`<h2 class="sec">League Polls</h2><p class="sub">Tap your pick to lock it in on this device, then post it in the group chat. The commish logs the chat votes here with each update.</p>
- <div class="grid mus">${D.polls.map(p=>{ const tot=p.votes.reduce((a,b)=>a+b,0); const mine=getPick(p.id);
-  return `<article class="card poll"><h3 class="mini" style="color:var(--fg)">${esc(p.q)}</h3>${p.opts.map((o,i)=>{const pct=tot?Math.round(p.votes[i]/tot*100):0; return `<button data-poll="${esc(p.id)}" data-opt="${esc(o)}" aria-pressed="${mine===o}"><i class="fill" style="width:${pct}%"></i><span><b>${esc(o)}${mine===o?" · your pick":""}</b><span class="num">${tot?pct+"% ("+p.votes[i]+")":"—"}</span></span></button>`}).join("")}<div class="note">${tot?tot+" votes logged":"No votes logged yet"}</div></article>`; }).join("")}</div>`;
+let DEV=null; const deviceId=()=>{ if(DEV) return DEV; try{DEV=localStorage.getItem("lfpffl-device")}catch(e){} if(!DEV){ DEV=(crypto.randomUUID?crypto.randomUUID():String(Math.random()).slice(2)+Date.now()); try{localStorage.setItem("lfpffl-device",DEV)}catch(e){} } return DEV; };
+// Live polls: Firebase on the public site; falls back to on-device picks where it can't load.
+const FB={apiKey:"AIzaSyAitgjs_9kdqtxWztWhwq30FOPWkdZOTOY",authDomain:"lfpffl-wire.firebaseapp.com",projectId:"lfpffl-wire",storageBucket:"lfpffl-wire.firebasestorage.app",messagingSenderId:"33441462939",appId:"1:33441462939:web:e8605eed023bcc58c4a43e"};
+const LIVE={ready:false,counts:{},vote:null};
+const curView=()=>(location.hash||"#home").slice(1);
+(async()=>{ try{
+  const [fa,fs]=await Promise.all([import("https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js"),import("https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js")]);
+  const db=fs.getFirestore(fa.initializeApp(FB));
+  LIVE.vote=(poll,opt)=>fs.setDoc(fs.doc(db,"votes",poll+"__"+deviceId()),{poll,opt,at:Date.now()});
+  fs.onSnapshot(fs.collection(db,"votes"),snap=>{ const c={}; snap.forEach(d=>{ const v=d.data(); if(!v||typeof v.poll!=="string"||typeof v.opt!=="string") return; (c[v.poll]=c[v.poll]||{})[v.opt]=((c[v.poll]||{})[v.opt]||0)+1; }); LIVE.counts=c; LIVE.ready=true; if(curView()==="polls") render(); },()=>{});
+ }catch(e){ LIVE.vote=null; } })();
+V.polls=()=>{ const live=!!LIVE.vote;
+ return `<h2 class="sec">League Polls</h2><p class="sub">${live?"Live results. Tap your pick to vote. One vote per poll on each device, and it's locked once you tap.":"Tap your pick to lock it in on this device, then post it in the group chat. The commish logs the chat votes here with each update."}</p>
+ <div class="grid mus">${D.polls.map(p=>{ const cnt=live?p.opts.map(o=>(LIVE.counts[p.id]||{})[o]||0):p.votes; const tot=cnt.reduce((a,b)=>a+b,0); const mine=getPick(p.id);
+  return `<article class="card poll"><h3 class="mini" style="color:var(--fg)">${esc(p.q)}</h3>${p.opts.map((o,i)=>{const pct=tot?Math.round(cnt[i]/tot*100):0; return `<button data-poll="${esc(p.id)}" data-opt="${esc(o)}" aria-pressed="${mine===o}"${live&&mine?' aria-disabled="true"':""}><i class="fill" style="width:${pct}%"></i><span><b>${esc(o)}${mine===o?" · your pick":""}</b><span class="num">${tot?pct+"% ("+cnt[i]+")":"—"}</span></span></button>`}).join("")}<div class="note">${live?(LIVE.ready?(tot?tot+" votes":"No votes yet. Be the first."):"Loading live results…"):(tot?tot+" votes logged":"No votes logged yet")}</div></article>`; }).join("")}</div>`; };
 
 const routes=Object.keys(V);
 function render(){
@@ -297,7 +309,7 @@ function render(){
 }
 document.addEventListener("click",e=>{
  const sb=e.target.closest("[data-sort]"); if(sb){ const k=sb.dataset.sort; if(sortKey===k) sortDir*=-1; else {sortKey=k; sortDir=1;} render(); return; }
- const pb=e.target.closest("[data-poll]"); if(pb){ setPick(pb.dataset.poll,pb.dataset.opt); render(); }
+ const pb=e.target.closest("[data-poll]"); if(pb){ const id=pb.dataset.poll, o=pb.dataset.opt; if(LIVE.vote){ if(getPick(id)) return; setPick(id,o); LIVE.vote(id,o).catch(()=>{}); } else setPick(id,o); render(); }
 });
 window.addEventListener("hashchange",()=>{render(); window.scrollTo(0,0);});
 render();
