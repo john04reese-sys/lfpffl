@@ -158,7 +158,7 @@ footer{color:var(--muted);font-size:12.5px;border-top:1px solid var(--line);padd
   </div>
   <div class="ticker" aria-label="Latest scores"><div class="run" id="ticker"></div></div>
   <div class="wrap"><nav class="tabs" id="tabs" aria-label="Sections">
-    <a href="#home">Home</a><a href="#standings">Standings</a><a href="#power">Power Rankings</a><a href="#matchups">Matchups</a><a href="#rivalries">Rivalries</a><a href="#awards">Weekly Awards</a><a href="#trades">Trades</a><a href="#records">Record Book</a><a href="#rings">The Ring Room</a><a href="#alllfp">All-LFP</a><a href="#hof">Hall of Fame</a><a href="#history">History</a><a href="#polls">Polls</a>
+    <a href="#home">Home</a><a href="#standings">Standings</a><a href="#power">Power Rankings</a><a href="#matchups">Matchups</a><a href="#rivalries">Rivalries</a><a href="#awards">Weekly Awards</a><a href="#trades">Trades</a><a href="#records">Record Book</a><a href="#rings">The Ring Room</a><a href="#alllfp">All-LFP</a><a href="#hof">Hall of Fame</a><a href="#tent">The Blue Tent</a><a href="#history">History</a><a href="#polls">Polls</a>
   </nav></div>
 </header>
 
@@ -278,6 +278,15 @@ V.records=()=>{
  </div>`;
 };
 
+V.tent=()=>{ const T=D.blueTent; if(!T) return ""; const yrs=["2022","2023","2024","2025","2026"];
+ return `<h2 class="sec">The Blue Tent</h2><p class="sub">Every time a player got hurt on your watch, since 2022. Not how many injured guys you own: how many times one of yours went into the tent. A player who goes down twice counts twice.</p>
+ <div class="grid home"><div class="stack"><section class="card"><div class="tbl" style="border:0"><table><thead><tr><th class="r">#</th><th>Manager</th><th class="r">Hurt</th><th class="r">Per yr</th><th class="r">Starters</th>${yrs.map(y=>`<th class="r">${y==="2026"?"’26*":"’"+y.slice(2)}</th>`).join("")}</tr></thead><tbody>${T.rows.map((r,i)=>`<tr><td class="r num">${(k=>(T.rows.filter(x=>x.n===r.n).length>1?"T":"")+(k+1))(T.rows.findIndex(x=>x.n===r.n))}</td><td><b>${esc(r.owner)}</b></td><td class="r num"><b>${r.n}</b></td><td class="r num">${r.rate.toFixed(1)}</td><td class="r num">${r.starters}</td>${yrs.map(y=>`<td class="r num">${r.by[y]===undefined?"–":r.by[y]}</td>`).join("")}</tr>`).join("")}</tbody></table></div><p class="note">*2026 through Week 6. Per yr counts this year as 7/17 of a season. Starters = players hurt the week after starting for you.</p></section>
+ <div class="stack">${T.rows.map(r=>`<article class="card"><h3>${esc(r.owner)} <span class="pill hotp">${r.n} in the tent</span></h3><p>${esc(r.blurb)}</p><div class="meta">Biggest names lost: ${r.names.map(esc).join(", ")}</div></article>`).join("")}</div></div>
+ <aside class="stack"><section class="card"><h3 class="mini">Worst seasons</h3><ol style="margin:0;padding-left:20px;font-size:14px">${T.seasons.map(s=>`<li style="margin:6px 0"><b>${esc(s[0])}</b>, ${s[1]} <span class="num neg">${s[2]}</span></li>`).join("")}</ol></section>
+ <section class="card"><h3 class="mini">Cleanest seasons</h3><ol style="margin:0;padding-left:20px;font-size:14px">${T.clean.map(s=>`<li style="margin:6px 0"><b>${esc(s[0])}</b>, ${s[1]} <span class="num pos">${s[2]}</span></li>`).join("")}</ol></section>
+ <section class="card"><h3 class="mini">2026 so far</h3><ol style="margin:0;padding-left:20px;font-size:14px">${T.y2026.map(s=>`<li style="margin:6px 0">${esc(s[0])} <span class="num">${s[1]}</span></li>`).join("")}</ol></section>
+ <section class="card"><h3 class="mini">How we count</h3><p class="note" style="margin:0">ESPN doesn't save old injury tags, so injuries come from missed games. One counts when a player plays a game for you, then misses his team's next non-bye game. It's charged to the team he got hurt on. Only players averaging 5+ points count, and kickers and defenses are excluded. A suspension or benching can slip in, and a guy who played through it doesn't count.</p></section></aside></div>`;
+};
 V.history=()=>{
  const S=D.seasonRank; const O=[...D.owners].sort((a,b)=>b.titles-a.titles||b.winPct-a.winPct);
  return `<h2 class="sec">History</h2><p class="sub">Five seasons of glory, crime and fraud, 2022 to now.</p>
