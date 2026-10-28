@@ -158,7 +158,7 @@ footer{color:var(--muted);font-size:12.5px;border-top:1px solid var(--line);padd
   </div>
   <div class="ticker" aria-label="Latest scores"><div class="run" id="ticker"></div></div>
   <div class="wrap"><nav class="tabs" id="tabs" aria-label="Sections">
-    <a href="#home">Home</a><a href="#standings">Standings</a><a href="#power">Power Rankings</a><a href="#matchups">Matchups</a><a href="#awards">Weekly Awards</a><a href="#trades">Trades</a><a href="#records">Record Book</a><a href="#rings">The Ring Room</a><a href="#history">History</a><a href="#polls">Polls</a>
+    <a href="#home">Home</a><a href="#standings">Standings</a><a href="#power">Power Rankings</a><a href="#matchups">Matchups</a><a href="#awards">Weekly Awards</a><a href="#trades">Trades</a><a href="#records">Record Book</a><a href="#rings">The Ring Room</a><a href="#alllfp">All-LFP</a><a href="#history">History</a><a href="#polls">Polls</a>
   </nav></div>
 </header>
 
@@ -294,6 +294,15 @@ V.rings=()=>`<h2 class="sec" style="margin-bottom:18px">The Ring Room</h2>
  ${c.score!=null?`<div class="final"><div><b class="num">${f2(c.score)}</b></div><div class="vsx">def.</div><div><small>${esc(c.opp)}</small><b class="num loss">${f2(c.oppScore)}</b></div></div>`:""}
  <p>${esc(c.blurb)}</p>${c.mvp?`<div class="note">Title-game MVP: ${esc(c.mvp)}</div>`:`<div class="note">Final score and stats not on record.</div>`}</div></article>`).join("")}</div>`;
 const hofGroups=()=>{ const m=new Map(); for(const h of D.hof){ const g=m.get(h[1])||{player:h[1],pos:h[2],first:false,best:0,rows:[]}; g.rows.push(h); g.first=g.first||h[5]; g.best=Math.max(g.best,h[3]); m.set(h[1],g); } const out=[...m.values()]; out.forEach(g=>g.rows.sort((a,b)=>b[3]-a[3])); return out.sort((a,b)=>b.best-a.best); };
+V.alllfp=()=>{ const A=D.allLfp, yrs=Object.keys(A).sort().reverse();
+ const slots={first:[["QB",0],["RB",0],["RB",1],["WR",0],["WR",1],["TE",0],["K",0],["DST",0]],second:[["QB",0],["RB",0],["RB",1],["WR",0],["WR",1],["TE",0],["K",0],["DST",0]]};
+ const lbl={first:{QB:["QB1"],RB:["RB1","RB2"],WR:["WR1","WR2"],TE:["TE1"],K:["K1"],DST:["D/ST1"]},second:{QB:["QB2"],RB:["RB3","RB4"],WR:["WR3","WR4"],TE:["TE2"],K:["K2"],DST:["D/ST2"]}};
+ const team=(y,t)=>`<section class="card"><h3 class="mini" style="color:${t==="first"?"var(--gold)":"var(--fg)"}">All-LFP ${t==="first"?"First":"Second"} Team</h3><div class="tbl" style="border:0"><table><tbody>${slots[t].map(([pos,i])=>{const p=A[y][t][pos][i]; return `<tr><td class="num" style="color:var(--muted)">${lbl[t][pos][i]}</td><td><b>${esc(p.n)}</b></td><td style="white-space:normal">${esc(p.owner)}<br><small style="color:var(--muted)">${esc(p.team)}</small></td><td class="r num">${f1(p.pts)}</td></tr>`}).join("")}</tbody></table></div></section>`;
+ const c={}; for(const y of yrs) for(const t of ["first","second"]) for(const arr of Object.values(A[y][t])) for(const p of arr){ const o=c[p.owner]=c[p.owner]||{f:0,s:0}; o[t==="first"?"f":"s"]++; }
+ const rank=Object.entries(c).sort((a,b)=>(b[1].f+b[1].s)-(a[1].f+a[1].s)||b[1].f-a[1].f);
+ return `<h2 class="sec">All-LFP Teams</h2><p class="sub">The best season at every spot, 2022 to 2025, ranked by total fantasy points across Weeks 1–17. Each player is credited to the manager he played the most games for that year; if he never played more than 5 games for one team, he goes to the last team that had him.</p>
+ <section class="card" style="margin-bottom:16px"><h3 class="mini">Most All-LFP selections</h3><div class="tbl" style="border:0"><table><thead><tr><th class="r">#</th><th>Manager</th><th class="r">First team</th><th class="r">Second team</th><th class="r">Total</th></tr></thead><tbody>${rank.map(([o,v],i)=>`<tr><td class="r num">${i+1}</td><td>${esc(o)}</td><td class="r num">${v.f}</td><td class="r num">${v.s}</td><td class="r num"><b>${v.f+v.s}</b></td></tr>`).join("")}</tbody></table></div></section>
+ ${yrs.map(y=>`<h3 class="mini" style="margin-top:22px;font-size:26px;color:var(--fg)">${y}</h3><div class="grid mus">${team(y,"first")}${team(y,"second")}</div>`).join("")}`; };
 const PK="lfpffl-poll-";
 const getPick=id=>{try{return localStorage.getItem(PK+id)}catch(e){return null}};
 const setPick=(id,v)=>{try{localStorage.setItem(PK+id,v)}catch(e){}};
