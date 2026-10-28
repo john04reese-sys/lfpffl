@@ -133,6 +133,7 @@ tr.cut td{border-bottom:2px dashed var(--hot)}
 .poll button span{position:relative;z-index:1;display:flex;justify-content:space-between;gap:10px}
 .note{color:var(--muted);font-size:13px;margin-top:10px}
 .stack{display:flex;flex-direction:column;gap:16px}
+.when{margin-left:8px;font-size:12px;color:var(--muted)}
 .pill{display:inline-block;font-size:12px;font-weight:700;padding:1px 8px;border-radius:99px;background:var(--panel2);color:var(--muted)}
 .pill.hotp{background:#3A1515;color:#FF8A80}.pill.coolp{background:#10283F;color:#8EC5FF}
 .err{padding:40px 0;color:var(--muted)}
@@ -188,11 +189,15 @@ function spark(arr){ const w=90,h=22,mx=Math.max(...arr),mn=Math.min(...arr); co
 
 const V={};
 V.home=()=>{
- const [lead,...rest]=D.headlines; const aw=D.awards[D.awards.length-1];
- const story=h=>`<article class="card story"><span class="tag${h.hot?" hot":""}">${esc(h.tag)}</span><h3>${esc(h.title)}</h3><p class="dek">${esc(h.dek)}</p><details><summary>Read the story</summary><div class="body">${h.body.map(p=>`<p>${esc(p)}</p>`).join("")}</div></details></article>`;
+ const ts=h=>{const t=Date.parse(h.posted||"");return isNaN(t)?null:t};
+ const fresh=D.headlines.filter(h=>{const t=ts(h);return t!==null&&Date.now()-t<5*864e5}).sort((x,y)=>ts(y)-ts(x));
+ const HL=fresh.length?fresh:[...D.headlines].sort((x,y)=>(ts(y)||0)-(ts(x)||0)).slice(0,1);
+ const when=h=>{const t=ts(h);return t?`<span class="when">${new Date(t).toLocaleString("en-US",{weekday:"short",month:"short",day:"numeric",hour:"numeric",minute:"2-digit"})}</span>`:""};
+ const [lead,...rest]=HL; const aw=D.awards[D.awards.length-1];
+ const story=h=>`<article class="card story"><span class="tag${h.hot?" hot":""}">${esc(h.tag)}</span>${when(h)}<h3>${esc(h.title)}</h3><p class="dek">${esc(h.dek)}</p><details><summary>Read the story</summary><div class="body">${h.body.map(p=>`<p>${esc(p)}</p>`).join("")}</div></details></article>`;
  return `<div class="grid home">
   <div class="stack">
-   <article class="card lead"><span class="tag hot">${esc(lead.tag)}</span><h1>${esc(lead.title)}</h1><p class="dek">${esc(lead.dek)}</p><details open><summary>Full story</summary><div class="body">${lead.body.map(p=>`<p>${esc(p)}</p>`).join("")}</div></details></article>
+   <article class="card lead"><span class="tag hot">${esc(lead.tag)}</span>${when(lead)}<h1>${esc(lead.title)}</h1><p class="dek">${esc(lead.dek)}</p><details open><summary>Full story</summary><div class="body">${lead.body.map(p=>`<p>${esc(p)}</p>`).join("")}</div></details></article>
    <div class="grid stories">${rest.map(story).join("")}</div>
   </div>
   <aside class="stack">
