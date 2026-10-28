@@ -158,7 +158,7 @@ footer{color:var(--muted);font-size:12.5px;border-top:1px solid var(--line);padd
   </div>
   <div class="ticker" aria-label="Latest scores"><div class="run" id="ticker"></div></div>
   <div class="wrap"><nav class="tabs" id="tabs" aria-label="Sections">
-    <a href="#home">Home</a><a href="#standings">Standings</a><a href="#power">Power Rankings</a><a href="#matchups">Matchups</a><a href="#awards">Weekly Awards</a><a href="#trades">Trades</a><a href="#records">Record Book</a><a href="#rings">The Ring Room</a><a href="#history">History</a><a href="#polls">Polls</a><a href="#punishment">The Punishment</a>
+    <a href="#home">Home</a><a href="#standings">Standings</a><a href="#power">Power Rankings</a><a href="#matchups">Matchups</a><a href="#awards">Weekly Awards</a><a href="#trades">Trades</a><a href="#records">Record Book</a><a href="#rings">The Ring Room</a><a href="#history">History</a><a href="#polls">Polls</a>
   </nav></div>
 </header>
 
@@ -293,23 +293,6 @@ V.rings=()=>`<h2 class="sec" style="margin-bottom:18px">The Ring Room</h2>
  <div class="stack">${[...D.rings].reverse().map(c=>`<article class="card ring"><div class="ringyr" aria-hidden="true"><span>${c.season}</span></div><div class="ringbody"><span class="tag">${esc(c.tag)}</span><h3>${esc(c.owner)}</h3><div class="meta">${c.seed?`${esc(c.team)} · ${c.seed} seed · ${esc(c.rec)} regular season`:`Beat ${esc(c.opp)} in the final · pre-ESPN records`}</div>
  ${c.score!=null?`<div class="final"><div><b class="num">${f2(c.score)}</b></div><div class="vsx">def.</div><div><small>${esc(c.opp)}</small><b class="num loss">${f2(c.oppScore)}</b></div></div>`:""}
  <p>${esc(c.blurb)}</p>${c.mvp?`<div class="note">Title-game MVP: ${esc(c.mvp)}</div>`:`<div class="note">Final score and stats not on record.</div>`}</div></article>`).join("")}</div>`;
-V.punishment=()=>{ const live=!!LIVE.punAdd;
- return `<h2 class="sec">The Punishment</h2><p class="sub">Last place has to pay. Pitch what the punishment should be and vote for the best ones. Everyone gets 3 ideas and 3 votes, and the top of the board is what the league is leaning toward.</p>
- ${live?`<form class="card" id="pun-form" style="margin-bottom:16px;display:flex;flex-direction:column;gap:10px"><label for="pun-text" style="font-family:var(--f-display);font-weight:700;font-size:18px;text-transform:uppercase;letter-spacing:1px">Pitch a punishment</label>
-  <div style="display:flex;gap:10px;flex-wrap:wrap"><input id="pun-text" maxlength="140" autocomplete="off" placeholder="e.g. Wear the loser's jersey to the draft" style="flex:999 1 260px;min-width:0;background:var(--panel2);color:var(--fg);border:1px solid var(--line);border-radius:8px;padding:11px 12px;font:inherit">
-  <button type="submit" id="pun-submit" style="flex:1 0 auto;background:var(--hot);color:#fff;border:0;border-radius:8px;padding:11px 18px;font-family:var(--f-display);font-weight:800;font-size:17px;letter-spacing:1px;text-transform:uppercase;cursor:pointer">Submit</button></div>
-  <div class="note" id="pun-status" style="margin:0"></div></form>`:(LIVE.punAdd===undefined?`<div class="card" style="margin-bottom:16px"><p style="margin:0">Connecting to the board…</p></div>`:`<div class="card" style="margin-bottom:16px"><p style="margin:0">Submitting and voting happen on the public league site. Open the link from the group chat to pitch your punishment.</p></div>`)}
- <div id="pun-list"></div>`; };
-function renderPun(){ const box=document.getElementById("pun-list"); if(!box) return; const P=LIVE.pun; const st=document.getElementById("pun-status"); const sb=document.getElementById("pun-submit");
- if(!P){ box.innerHTML=""; return; }
- const hidden=new Set(D.punHidden||[]);
- const ideas=P.ideas.filter(i=>!hidden.has(i.id)).map(i=>({...i,v:P.votes[i.id]||0})).sort((a,b)=>b.v-a.v||a.at-b.at);
- const votesLeft=3-P.myVotes.length, ideasLeft=3-P.myIdeas.length; const voted=new Set(P.myVotes.map(x=>x.idea));
- if(st) st.textContent=`You have ${ideasLeft} of 3 ideas and ${votesLeft} of 3 votes left on this device.`;
- if(sb) sb.disabled=ideasLeft<=0;
- const mx=Math.max(1,...ideas.map(i=>i.v));
- box.innerHTML=!P.ready?'<p class="note">Loading the board…</p>':!ideas.length?'<div class="card"><p style="margin:0">No punishments pitched yet. Be the first sick mind to suggest one.</p></div>':`<div class="stack">${ideas.map((i,k)=>`<article class="card" style="display:grid;grid-template-columns:44px minmax(0,1fr) auto;gap:12px;align-items:center"><div style="font-family:var(--f-display);font-weight:800;font-size:30px;color:${k===0?"var(--hot)":"var(--muted)"};text-align:center">${k+1}</div><div style="min-width:0"><p style="margin:0;font-size:16px;overflow-wrap:anywhere">${esc(i.text)}</p><div class="bar" style="margin-top:8px"><i style="width:${Math.round(i.v/mx*100)}%;background:var(--hot)"></i></div></div><div style="text-align:right"><div class="num" style="font-size:20px;font-weight:700">${i.v}</div><button data-punvote="${esc(i.id)}" ${voted.has(i.id)||votesLeft<=0?"disabled":""} style="margin-top:4px;background:var(--panel2);color:var(--fg);border:1px solid var(--line);border-radius:6px;padding:6px 12px;font:inherit;font-weight:600;cursor:pointer;min-height:36px">${voted.has(i.id)?"Voted":"Vote"}</button></div></article>`).join("")}</div>`;
-}
 const PK="lfpffl-poll-";
 const getPick=id=>{try{return localStorage.getItem(PK+id)}catch(e){return null}};
 const setPick=(id,v)=>{try{localStorage.setItem(PK+id,v)}catch(e){}};
@@ -322,17 +305,8 @@ const curView=()=>(location.hash||"#home").slice(1);
   const [fa,fs]=await Promise.all([import("https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js"),import("https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js")]);
   const db=fs.getFirestore(fa.initializeApp(FB));
   LIVE.vote=(poll,opt)=>fs.setDoc(fs.doc(db,"votes",poll+"__"+deviceId()),{poll,opt,at:Date.now()});
-  const PUN={ideas:[],votes:{},myIdeas:[],myVotes:[],ready:false};
-  LIVE.pun=PUN;
-  const mine=id=>id.startsWith(deviceId()+"__");
-  const slot=used=>[1,2,3].find(n=>!used.includes(n));
-  LIVE.punAdd=text=>{ const n=slot(PUN.myIdeas.map(x=>x.n)); if(!n) return Promise.reject(new Error("full")); return fs.setDoc(fs.doc(db,"pun_ideas",deviceId()+"__"+n),{text,at:Date.now()}); };
-  LIVE.punVote=idea=>{ const n=slot(PUN.myVotes.map(x=>x.n)); if(!n) return Promise.reject(new Error("full")); return fs.setDoc(fs.doc(db,"pun_votes",deviceId()+"__"+n),{idea,at:Date.now()}); };
-  fs.onSnapshot(fs.collection(db,"pun_ideas"),snap=>{ const a=[],m=[]; snap.forEach(d=>{ const v=d.data(); if(!v||typeof v.text!=="string") return; a.push({id:d.id,text:v.text,at:v.at||0}); if(mine(d.id)) m.push({id:d.id,n:+d.id.split("__")[1]}); }); PUN.ideas=a; PUN.myIdeas=m; PUN.ready=true; if(curView()==="punishment") renderPun(); },()=>{});
-  fs.onSnapshot(fs.collection(db,"pun_votes"),snap=>{ const c={},m=[]; snap.forEach(d=>{ const v=d.data(); if(!v||typeof v.idea!=="string") return; c[v.idea]=(c[v.idea]||0)+1; if(mine(d.id)) m.push({id:d.id,n:+d.id.split("__")[1],idea:v.idea}); }); PUN.votes=c; PUN.myVotes=m; if(curView()==="punishment") renderPun(); },()=>{});
-  if(curView()==="punishment") render();
   fs.onSnapshot(fs.collection(db,"votes"),snap=>{ const c={}; snap.forEach(d=>{ const v=d.data(); if(!v||typeof v.poll!=="string"||typeof v.opt!=="string") return; (c[v.poll]=c[v.poll]||{})[v.opt]=((c[v.poll]||{})[v.opt]||0)+1; }); LIVE.counts=c; LIVE.ready=true; if(curView()==="polls") render(); },()=>{});
- }catch(e){ LIVE.vote=null; LIVE.punAdd=null; if(curView()==="punishment") render(); } })();
+ }catch(e){ LIVE.vote=null; } })();
 V.polls=()=>{ const live=!!LIVE.vote;
  return `<h2 class="sec">League Polls</h2><p class="sub">${live?"Live results. Tap your pick to vote. One vote per poll on each device, and it's locked once you tap.":"Tap your pick to lock it in on this device, then post it in the group chat. The commish logs the chat votes here with each update."}</p>
  <div class="grid mus">${D.polls.map(p=>{ const cnt=live?p.opts.map(o=>(LIVE.counts[p.id]||{})[o]||0):p.votes; const tot=cnt.reduce((a,b)=>a+b,0); const mine=getPick(p.id);
@@ -341,15 +315,11 @@ V.polls=()=>{ const live=!!LIVE.vote;
 const routes=Object.keys(V);
 function render(){
  const r=(location.hash||"#home").slice(1); const k=routes.includes(r)?r:"home";
- $("#app").innerHTML=V[k](); if(k==="punishment") renderPun();
+ $("#app").innerHTML=V[k]();
  document.querySelectorAll("#tabs a").forEach(a=>a.setAttribute("aria-current",a.getAttribute("href")==="#"+k?"page":"false"));
  const cur=document.querySelector('#tabs a[aria-current="page"]'); if(cur&&cur.scrollIntoView) cur.scrollIntoView({block:"nearest",inline:"nearest"});
 }
-document.addEventListener("submit",e=>{ if(e.target.id!=="pun-form") return; e.preventDefault(); const inp=document.getElementById("pun-text"), st=document.getElementById("pun-status"); const t=(inp.value||"").trim().replace(/\s+/g," ");
- if(t.length<3){ st.textContent="Write at least a few words."; return; } if(!LIVE.punAdd) return;
- LIVE.punAdd(t.slice(0,140)).then(()=>{ inp.value=""; }).catch(err=>{ st.textContent=err&&err.message==="full"?"You've used all 3 of your ideas.":"That didn't go through. Try again in a moment."; }); });
 document.addEventListener("click",e=>{
- const pv=e.target.closest("[data-punvote]"); if(pv){ if(!LIVE.punVote||pv.disabled) return; pv.disabled=true; LIVE.punVote(pv.dataset.punvote).catch(()=>{ const st=document.getElementById("pun-status"); if(st) st.textContent="Vote didn't go through. You may be out of votes."; pv.disabled=false; }); return; }
  const sb=e.target.closest("[data-sort]"); if(sb){ const k=sb.dataset.sort; if(sortKey===k) sortDir*=-1; else {sortKey=k; sortDir=1;} render(); return; }
  const pb=e.target.closest("[data-poll]"); if(pb){ const id=pb.dataset.poll, o=pb.dataset.opt; if(LIVE.vote){ if(getPick(id)) return; setPick(id,o); LIVE.vote(id,o).catch(()=>{}); } else setPick(id,o); render(); }
 });
