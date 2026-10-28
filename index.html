@@ -241,6 +241,18 @@ V.awards=()=>`<h2 class="sec">Weekly Awards</h2><p class="sub">Every week's hero
 V.trades=()=>{
  const L=[...D.tradeLedger].sort((a,b)=>b.net-a.net);
  return `<h2 class="sec">Trade Desk</h2><p class="sub">Every 2026 trade, graded by what it does to each team's starting lineup: points the trade added or cost your best lineup from the trade through Week 17 (actual scores so far, ESPN projections the rest of the way), plus a small credit for bench depth. Grades move as the season plays out.</p>
+ <details class="card" style="margin-bottom:16px"><summary style="margin-top:0">How trade grades work</summary><div class="body">
+ <p>For each team, we rebuild its roster just before and just after the trade. For every week from the trade through Week 17, we work out the team's best possible starting lineup both ways (QB, 2 RB, 2 WR, TE, flex, K, D/ST). Past weeks use real scores and future weeks use ESPN's rest-of-season projections. The grade is how many lineup points the trade added or cost. Bench depth counts for only 15% of its value, so three average players can't outgrade one stud. Each team is graded on its own lineup, so both sides can win a trade.</p>
+ <div class="tbl" style="margin-top:10px"><table><thead><tr><th>Grade</th><th class="r">Lineup points gained</th><th>Grade</th><th class="r">Lineup points gained</th></tr></thead><tbody>
+ <tr><td><span class="g gA">A+</span></td><td class="r num">+50 or more</td><td><span class="g gC">C+</span></td><td class="r num">−2 to +2 (a wash)</td></tr>
+ <tr><td><span class="g gA">A</span></td><td class="r num">+35 to +50</td><td><span class="g gC">C</span></td><td class="r num">−2 to −6</td></tr>
+ <tr><td><span class="g gA">A−</span></td><td class="r num">+22 to +35</td><td><span class="g gC">C−</span></td><td class="r num">−6 to −12</td></tr>
+ <tr><td><span class="g gB">B+</span></td><td class="r num">+12 to +22</td><td><span class="g gD">D+</span></td><td class="r num">−12 to −22</td></tr>
+ <tr><td><span class="g gB">B</span></td><td class="r num">+6 to +12</td><td><span class="g gD">D</span></td><td class="r num">−22 to −35</td></tr>
+ <tr><td><span class="g gB">B−</span></td><td class="r num">+2 to +6</td><td><span class="g gF">F</span></td><td class="r num">worse than −35</td></tr>
+ </tbody></table></div>
+ <p>Each trade is graded as if both teams kept the players. If a player gets flipped again later, that's graded as its own trade. The report card grade is the average of a team's trade grades, and Lineup pts is the total gained across all of its trades.</p>
+ </div></details>
  <div class="grid home"><div class="stack">${D.trades.map(t=>`<article class="card"><div class="note" style="margin:0 0 8px">${esc(t.id)} · Week ${t.week} · ${esc(t.date)}</div><div class="trade">${t.sides.map(s=>`<div class="s"><b>${grade(s.grade)} ${esc(s.team)}</b><p><span class="num ${s.net>0?"pos":s.net<0?"neg":""}">${sg(s.net)}</span> · got ${esc(s.got)}</p></div>`).join("")}</div></article>`).join("")}</div>
  <aside class="stack"><section class="card"><h3 class="mini">Trade report card</h3><div class="tbl" style="border:0"><table><thead><tr><th>Team</th><th class="r">Deals</th><th class="r">Lineup pts</th><th>Grade</th></tr></thead><tbody>${L.map(x=>`<tr><td>${esc(x.team)}</td><td class="r num">${x.trades}</td><td class="r num ${x.net>0?"pos":"neg"}">${sg(x.net)}</td><td>${grade(x.overall)}</td></tr>`).join("")}</tbody></table></div></section>
  <section class="card"><h3 class="mini">Most traded players ever</h3><ol class="rec" style="margin:0;padding-left:20px">${D.mostTraded.map(m=>`<li>${esc(m[0])} · <span class="num">${m[1]}</span> trades, ${m[2]} managers</li>`).join("")}</ol></section>
