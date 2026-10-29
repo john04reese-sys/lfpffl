@@ -142,6 +142,7 @@ tr.cut td{border-bottom:2px dashed var(--hot)}
 .poll button span{position:relative;z-index:1;display:flex;justify-content:space-between;gap:10px}
 .note{color:var(--muted);font-size:13px;margin-top:10px}
 .stack{display:flex;flex-direction:column;gap:16px}
+.lvg{flex-direction:column;gap:2px}.lv{display:grid;grid-template-columns:minmax(0,1fr) auto;column-gap:10px}.lv span:first-child{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.lv small{grid-column:1/-1;color:var(--muted);font-size:12px;margin-top:-2px}
 .when{margin-left:8px;font-size:12px;color:var(--muted)}
 .subtabs{display:flex;gap:6px;flex-wrap:wrap;margin:0 0 18px}
 .subtabs button{all:unset;cursor:pointer;font-family:var(--f-display);font-weight:700;font-size:15px;letter-spacing:.6px;text-transform:uppercase;padding:6px 14px;border-radius:99px;border:1px solid var(--line);color:var(--muted);background:var(--panel)}
@@ -217,6 +218,9 @@ V.home=()=>{
    <div class="grid stories">${rest.map(story).join("")}</div>
   </div>
   <aside class="stack">
+   ${(()=>{const L=D.live; if(!L||!(L.week>D.meta.week)||!L.games||!L.games.length) return ""; const t=Date.parse(L.updated||""); const up=isNaN(t)?"":new Date(t).toLocaleString("en-US",{weekday:"short",hour:"numeric",minute:"2-digit"});
+   const side=(o,s,l,p,lead)=>`<div class="lv"><span class="${lead?"win":"loss"}">${esc(tn(o))}</span><span class="num ${lead?"win":"loss"}">${f2(s)}</span><small>${l} left · proj ${f1(p)}</small></div>`;
+   return `<section class="card"><h3 class="mini">Week ${L.week} ${L.status==="final"?"finals":"live"}${up?` <span class="when">updated ${up}</span>`:""}</h3>${L.games.map(g=>`<div class="score lvg">${side(g.h,g.hs,g.hl,g.hpr,g.hs>=g.as)}${side(g.a,g.as,g.al,g.apr,g.as>g.hs)}</div>`).join("")}</section>`;})()}
    <section class="card"><h3 class="mini">Week ${D.meta.week} finals</h3>${D.week7.map(g=>`<div class="score"><div class="t"><span class="win">${esc(tn(g[0]))}</span><span class="loss">${esc(tn(g[2]))}</span></div><div class="n"><span class="win">${f2(g[1])}</span><span class="loss">${f2(g[3])}</span></div></div>`).join("")}</section>
    <section class="card"><h3 class="mini">Week ${aw.week} awards</h3><dl class="aw">
     <dt>High score</dt><dd>${esc(tn(aw.high[0]))} <span class="num">${f1(aw.high[1])}</span></dd>
