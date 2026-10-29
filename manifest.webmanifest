@@ -1,0 +1,16 @@
+{
+  "name": "LFPFFL Wire",
+  "short_name": "LFP Wire",
+  "description": "Scores, standings, trades and headlines for the LFPFFL.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0A0E13",
+  "theme_color": "#111821",
+  "icons": [
+    {"src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png"},
+    {"src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png"},
+    {"src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}
+  ]
+}

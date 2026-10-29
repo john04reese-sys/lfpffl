@@ -4,6 +4,15 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <style>:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style>
+<meta name="theme-color" content="#111821">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192.png">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="LFP Wire">
+<title>LFPFFL Wire</title>
 </head>
 <body>
 <title>LFPFFL Wire</title>
@@ -384,5 +393,26 @@ render();
 })();
 </script>
 
+<div id="a2hs" hidden style="position:fixed;left:12px;right:12px;bottom:calc(12px + env(safe-area-inset-bottom,0px));z-index:50;background:#16202B;border:1px solid #223040;border-radius:12px;padding:12px 14px;display:flex;gap:12px;align-items:center;font:500 14px/1.35 Barlow,system-ui,sans-serif;color:#E9EEF4;box-shadow:0 8px 30px rgba(0,0,0,.5)">
+<img src="icons/icon-192.png" alt="" width="40" height="40" style="border-radius:9px;flex:none">
+<span id="a2hs-msg" style="flex:1"></span>
+<button id="a2hs-go" hidden style="flex:none;background:#FF3D2E;color:#fff;border:0;border-radius:8px;padding:8px 12px;font:700 14px Barlow,system-ui,sans-serif">Install</button>
+<button id="a2hs-x" aria-label="Dismiss" style="flex:none;background:none;border:0;color:#8C9AAB;font-size:22px;line-height:1;padding:4px">×</button></div>
+<script>
+(function(){
+ if('serviceWorker' in navigator){addEventListener('load',function(){navigator.serviceWorker.register('sw.js').catch(function(){})})}
+ var standalone=matchMedia('(display-mode: standalone)').matches||navigator.standalone===true;
+ var seen=false;try{seen=localStorage.getItem('a2hs-dismissed')==='1'}catch(e){}
+ if(standalone||seen)return;
+ var bar=document.getElementById('a2hs'),msg=document.getElementById('a2hs-msg'),go=document.getElementById('a2hs-go'),deferred=null;
+ function hide(){bar.hidden=true;try{localStorage.setItem('a2hs-dismissed','1')}catch(e){}}
+ document.getElementById('a2hs-x').onclick=hide;
+ var ua=navigator.userAgent,ios=/iPhone|iPad|iPod/.test(ua)||(navigator.platform==='MacIntel'&&navigator.maxTouchPoints>1);
+ if(ios){msg.innerHTML='Get the app: tap <b>Share</b> then <b>Add to Home Screen</b>.';bar.hidden=false;bar.style.display='flex'}
+ addEventListener('beforeinstallprompt',function(e){e.preventDefault();deferred=e;msg.textContent='Install LFPFFL Wire on your phone.';go.hidden=false;bar.hidden=false;bar.style.display='flex'});
+ go.onclick=function(){if(!deferred)return;deferred.prompt();deferred.userChoice.finally(function(){deferred=null;hide()})};
+ addEventListener('appinstalled',hide);
+})();
+</script>
 </body>
 </html>
