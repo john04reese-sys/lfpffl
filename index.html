@@ -27,8 +27,6 @@
   --f-display:"Source Serif 4",Georgia,"Times New Roman",serif; --f-body:"Public Sans","Helvetica Neue",Arial,sans-serif; --f-num:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
   color-scheme:dark;
 }
-/* serif headlines read in normal capitalization */
-.lead h1,.story h3,h2.sec,.pr h3,.ring h3{text-transform:none;letter-spacing:-.3px}
 *{box-sizing:border-box}
 body{background:var(--bg);color:var(--fg);font-family:var(--f-body);font-size:15px;line-height:1.5;margin:0}
 body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--panel)}
@@ -169,6 +167,8 @@ tr.cut td{border-bottom:2px dashed var(--hot)}
 .final .vsx{font-family:var(--f-display);color:var(--muted);font-weight:700;padding-bottom:6px}
 @media (max-width:600px){.ring{grid-template-columns:minmax(0,1fr)}.ringyr{width:100px;height:100px}.ringyr span{font-size:30px}}
 footer{color:var(--muted);font-size:12.5px;border-top:1px solid var(--line);padding-block:16px 40px}
+/* serif headlines read in normal capitalization */
+.lead h1,.story h3,h2.sec{text-transform:none;letter-spacing:-.3px}
 </style>
 
 <header class="top">
