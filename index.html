@@ -134,6 +134,13 @@ tr.cut td{border-bottom:2px dashed var(--hot)}
 .note{color:var(--muted);font-size:13px;margin-top:10px}
 .stack{display:flex;flex-direction:column;gap:16px}
 .when{margin-left:8px;font-size:12px;color:var(--muted)}
+.subtabs{display:flex;gap:6px;flex-wrap:wrap;margin:0 0 18px}
+.subtabs button{all:unset;cursor:pointer;font-family:var(--f-display);font-weight:700;font-size:15px;letter-spacing:.6px;text-transform:uppercase;padding:6px 14px;border-radius:99px;border:1px solid var(--line);color:var(--muted);background:var(--panel)}
+.subtabs button[aria-pressed="true"]{color:#fff;background:var(--hot);border-color:var(--hot)}
+.arcf{display:flex;gap:10px;flex-wrap:wrap;margin:0 0 16px}
+.arcf input,.arcf select{font:inherit;color:var(--fg);background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:8px 10px;min-width:0}
+.arcf input{flex:1 1 220px}
+.arcwk{font-family:var(--f-display);font-weight:800;font-size:22px;text-transform:uppercase;letter-spacing:.5px;margin:22px 0 10px}
 .pill{display:inline-block;font-size:12px;font-weight:700;padding:1px 8px;border-radius:99px;background:var(--panel2);color:var(--muted)}
 .pill.hotp{background:#3A1515;color:#FF8A80}.pill.coolp{background:#10283F;color:#8EC5FF}
 .err{padding:40px 0;color:var(--muted)}
@@ -292,9 +299,25 @@ V.tent=()=>{ const T=D.blueTent; if(!T) return ""; const yrs=["2022","2023","202
  <section class="card"><h3 class="mini">2026 so far</h3><ol style="margin:0;padding-left:20px;font-size:14px">${T.y2026.map(s=>`<li style="margin:6px 0">${esc(s[0])} <span class="num">${s[1]}</span></li>`).join("")}</ol></section>
  <section class="card"><h3 class="mini">How we count</h3><p class="note" style="margin:0">ESPN doesn't save old injury tags, so injuries come from missed games. One counts when a player plays a game for you, then misses his team's next non-bye game. It's charged to the team he got hurt on. Only players averaging 5+ points count, and kickers and defenses are excluded. A suspension or benching can slip in, and a guy who played through it doesn't count.</p></section></aside></div>`;
 };
+let histSub="overview";
+const archived=()=>{ const ts=h=>{const t=Date.parse(h.posted||"");return isNaN(t)?0:t}; const seen=new Set(), out=[];
+ const add=h=>{const k=h.id+"|"+(h.posted||""); if(seen.has(k)) return; seen.add(k); out.push(h);};
+ (D.archive||[]).forEach(add); D.headlines.filter(h=>{const t=ts(h);return t&&Date.now()-t>=5*864e5}).forEach(add);
+ return out.sort((x,y)=>ts(y)-ts(x)); };
+const archiveView=()=>{ const A=archived(); const tags=[...new Set(A.map(h=>h.tag))].sort(); const wks=[...new Set(A.map(h=>h.week))].sort((a,b)=>b-a);
+ const card=h=>{const t=Date.parse(h.posted||""); return `<article class="card story arc" data-tag="${esc(h.tag)}" data-q="${esc((h.title+" "+h.dek+" "+h.body.join(" ")).toLowerCase())}"><span class="tag${h.hot?" hot":""}">${esc(h.tag)}</span>${isNaN(t)?"":`<span class="when">${new Date(t).toLocaleString("en-US",{weekday:"short",month:"short",day:"numeric",hour:"numeric",minute:"2-digit"})}</span>`}<h3>${esc(h.title)}</h3><p class="dek">${esc(h.dek)}</p><details><summary>Read the story</summary><div class="body">${h.body.map(p=>`<p>${esc(p)}</p>`).join("")}</div></details></article>`};
+ if(!A.length) return `<p class="note">No archived stories yet. Stories land here once they come off the front page.</p>`;
+ return `<p class="sub">Every story that's come off the front page, newest first. ${A.length} stor${A.length===1?"y":"ies"} and counting.</p>
+ <div class="arcf"><input id="arq" type="search" placeholder="Search stories, teams, players" aria-label="Search the archive"><select id="art" aria-label="Filter by tag"><option value="">All tags</option>${tags.map(t=>`<option>${esc(t)}</option>`).join("")}</select></div>
+ ${wks.map(w=>`<section class="arcgrp"><h3 class="arcwk">Week ${esc(w)}</h3><div class="grid stories">${A.filter(h=>h.week===w).map(card).join("")}</div></section>`).join("")}<p class="note" id="arcnone" hidden>No stories match.</p>`; };
+const filterArchive=()=>{ const q=($("#arq")||{}).value?.trim().toLowerCase()||"", t=($("#art")||{}).value||""; let n=0;
+ document.querySelectorAll(".arcgrp").forEach(g=>{ let m=0; g.querySelectorAll(".arc").forEach(c=>{ const ok=(!t||c.dataset.tag===t)&&(!q||c.dataset.q.includes(q)); c.hidden=!ok; if(ok) m++; }); g.hidden=!m; n+=m; });
+ const none=$("#arcnone"); if(none) none.hidden=!!n; };
 V.history=()=>{
  const S=D.seasonRank; const O=[...D.owners].sort((a,b)=>b.titles-a.titles||b.winPct-a.winPct);
- return `<h2 class="sec">History</h2><p class="sub">Five seasons of glory, crime and fraud, 2022 to now.</p>
+ const sub=`<div class="subtabs" role="group" aria-label="History sections"><button data-hsub="overview" aria-pressed="${histSub==="overview"}">Overview</button><button data-hsub="archive" aria-pressed="${histSub==="archive"}">Story Archive</button></div>`;
+ if(histSub==="archive") return `<h2 class="sec">History</h2>${sub}${archiveView()}`;
+ return `<h2 class="sec">History</h2>${sub}<p class="sub">Five seasons of glory, crime and fraud, 2022 to now.</p>
  <h3 class="mini">Career standings</h3><div class="tbl"><table><thead><tr><th>Manager</th><th class="r">Seasons</th><th class="r">W-L</th><th class="r">Win %</th><th class="r">Titles</th><th class="r">Playoffs</th><th class="r">Pts/game</th><th class="r">Luck</th></tr></thead><tbody>${O.map(o=>`<tr><td>${esc(o.owner)}</td><td class="r num">${o.seasons}</td><td class="r num">${o.wins}-${o.losses}</td><td class="r num">${o.winPct.toFixed(3)}</td><td class="r num">${o.titles}</td><td class="r num">${o.playoffApps}</td><td class="r num">${f1(o.pfPerGame)}</td><td class="r num ${o.luck>0?"pos":"neg"}">${sg(o.luck)}</td></tr>`).join("")}</tbody></table></div>
  <div style="margin-top:24px"><section class="card"><h3 class="mini">Hall of Shame</h3><p class="note" style="margin-top:0">At least 50 points below an average starter with 8+ starts. Someone kept putting these guys in.</p><div class="tbl" style="border:0"><table><tbody>${D.hos.map(h=>`<tr><td><b>${esc(h[1])}</b> <small style="color:var(--muted)">${h[2]}</small></td><td>${esc(h[0])}</td><td class="r num neg">${h[3]}</td><td class="r num">${h[5]} / start</td></tr>`).join("")}</tbody></table></div></section></div>
  <h3 class="mini" style="margin-top:24px">Every season, ranked</h3><p class="note" style="margin-top:0">Finish 45%, true strength (all-play) 35%, win % 20%.</p>
@@ -350,7 +373,9 @@ function render(){
  document.querySelectorAll("#tabs a").forEach(a=>a.setAttribute("aria-current",a.getAttribute("href")==="#"+k?"page":"false"));
  const cur=document.querySelector('#tabs a[aria-current="page"]'); if(cur&&cur.scrollIntoView) cur.scrollIntoView({block:"nearest",inline:"nearest"});
 }
+document.addEventListener("input",e=>{ if(e.target.id==="arq"||e.target.id==="art") filterArchive(); });
 document.addEventListener("click",e=>{
+ const hs=e.target.closest("[data-hsub]"); if(hs){ histSub=hs.dataset.hsub; render(); return; }
  const sb=e.target.closest("[data-sort]"); if(sb){ const k=sb.dataset.sort; if(sortKey===k) sortDir*=-1; else {sortKey=k; sortDir=1;} render(); return; }
  const pb=e.target.closest("[data-poll]"); if(pb){ const id=pb.dataset.poll, o=pb.dataset.opt; if(LIVE.vote){ if(getPick(id)) return; setPick(id,o); LIVE.vote(id,o).catch(()=>{}); } else setPick(id,o); render(); }
 });
