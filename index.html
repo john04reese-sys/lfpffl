@@ -199,8 +199,9 @@ const grade=g=>`<span class="g g${esc(g[0])}">${esc(g)}</span>`;
 $("#upd").innerHTML=`Through Week ${D.meta.week} · Updated ${esc(D.meta.updated)}`;
 
 // ticker
-const tk=D.week7.map(g=>`<span class="tk"><span class="lbl">FINAL</span> <span class="w">${esc(tn(g[0]))} ${f1(g[1])}</span> · ${esc(tn(g[2]))} ${f1(g[3])}</span>`).join("")
- + D.previews.map(p=>`<span class="tk"><span class="lbl">WK ${D.meta.next}</span> ${esc(p.hteam)} ${p.spread>0?"−"+f1(p.spread):"+"+f1(-p.spread)} vs ${esc(p.ateam)}</span>`).join("");
+const LV=D.live, liveOn=LV&&LV.week>D.meta.week&&LV.games&&LV.games.length;
+const tk=liveOn?LV.games.map(g=>{const hw=g.hs>=g.as; return `<span class="tk"><span class="lbl">${LV.status==="final"?"FINAL":"LIVE"} · WK ${LV.week}</span> <span class="${hw?"w":""}">${esc(tn(g.h))} ${f1(g.hs)}</span> · <span class="${hw?"":"w"}">${esc(tn(g.a))} ${f1(g.as)}</span></span>`}).join(""):(D.week7.map(g=>`<span class="tk"><span class="lbl">FINAL</span> <span class="w">${esc(tn(g[0]))} ${f1(g[1])}</span> · ${esc(tn(g[2]))} ${f1(g[3])}</span>`).join("")
+ + D.previews.map(p=>`<span class="tk"><span class="lbl">WK ${D.meta.next}</span> ${esc(p.hteam)} ${p.spread>0?"−"+f1(p.spread):"+"+f1(-p.spread)} vs ${esc(p.ateam)}</span>`).join(""));
 $("#ticker").innerHTML=tk+tk;
 
 function spark(arr){ const w=90,h=22,mx=Math.max(...arr),mn=Math.min(...arr); const pts=arr.map((v,i)=>`${(i/(arr.length-1)*w).toFixed(1)},${(h-2-(v-mn)/(mx-mn||1)*(h-4)).toFixed(1)}`).join(" ");
