@@ -943,6 +943,19 @@
  ],
  "headlines": [
   {
+   "id": "beat-20261110-pm",
+   "week": 10,
+   "tag": "TRADE WIRE",
+   "hot": true,
+   "title": "Brighton buys Charbonnet back from Sunday's opponent, ships out Breece Hall",
+   "dek": "Four days after trading Zach Charbonnet to the Fighting O'Dons, Jalen rams me got him back, plus Jordyn Tyson, for Breece Hall. The two teams play each other Sunday.",
+   "body": [
+    "Trade No. 26 for Brighton Caushaj is a return. Jalen rams me sent Charbonnet to Zach O'Donoghue on Nov. 6 for Matthew Stafford and Michael Pittman Jr. On Tuesday it bought him back, with WR Jordyn Tyson, for Breece Hall, who had been on the roster for five days and scored 11.7 in his only start. Charbonnet scored 9.6 on the O'Dons' bench in between.",
+    "The lineup math gets settled Sunday, when the 6-3 O'Dons play the 4-5 Jalen rams me. ESPN projects Charbonnet for 14.4 and Tyson for 8.6 in Brighton's flex. Hall slots in next to Rico Dowdle at 12.1 for an O'Dons backfield with Bucky Irving and Saquon Barkley both projected for zero. \"We know Zach,\" a team source said. \"We've had him twice.\""
+   ],
+   "posted": "2026-11-10T13:54:00-05:00"
+  },
+  {
    "id": "injury-20261110",
    "week": 10,
    "tag": "INJURY REPORT",
@@ -1037,33 +1050,6 @@
     "That's seven straight losses, which ties Matthew Reese's 2022–23 streak for the second-longest in LFPFFL history. Only Christopher Bosefski's 10 is longer. The Dons are 1-8 with the league's worst luck at −3.31 wins. Their all-play record is 56-61. Their playoff odds are 0.0%.",
     "The streak can end this week against 2-7 The Park, which projects 116.6 to 99.7. A win would be the Dons' first since Week 2."
    ]
-  },
-  {
-   "id": "desk-20261110-regrade",
-   "week": 10,
-   "tag": "TRADE DESK",
-   "hot": false,
-   "posted": "2026-11-10T08:43:00-05:00",
-   "title": "Re-grades: the O'Dons still run the trade market, and The Overload goes 0-for-2",
-   "dek": "With Week 9's real scores in, every 2026 trade was re-graded. Zach O'Donoghue's 13 deals are +111.5 lineup points. The Stone Cold Dons are last at −227.0.",
-   "body": [
-    "Every 2026 trade got re-graded with Week 9 actuals, and the numbers moved. The Fighting O'Dons still lead the league at +111.5 lineup points on 13 trades (C+). The anomaly’s are second at +96.8 on 11 (B-) and Trust The Process third at +89.9 on nine (B-). Big Dabolls have the best report card, a 3.12 GPA (B).",
-    "The bottom is a crime scene. The Stone Cold Dons are −227.0 on 14 trades (C-). Jalen rams me is −147.7 on 25 (C). The Overload made two trades and both are Fs: Trade No. 26 is −74.4 and Trade No. 47 is −55.6, for a 0.00 GPA. Two trades, two Fs. That's commitment.",
-    "Biggest flip: Trade No. 6, Brian Thomas Jr. and Kenneth Walker III to Brighton for Jalen Coker, Jeremiyah Love, Bo Nix and Tee Higgins. It's now an A for Jalen rams me (+35.7) and a D+ for Aaron Rodgers LSD (−18.3). Trade No. 37 also swung: a C for Brighton (−3.9) and an A- for Rat (+28.4). Trade No. 56 holds at a C- for Jalen rams me (−8.2) and a B- for the O'Dons (+3.6)."
-   ]
-  },
-  {
-   "id": "trade-t56-20261110",
-   "week": 10,
-   "tag": "TRADE WIRE",
-   "hot": true,
-   "title": "Brighton's 25th trade: Charbonnet out, Stafford and an injured Pittman in",
-   "dek": "Jalen rams me grades a C- (-9.8) for paying a starting running back to get a QB who projects below waiver level, and the Fighting O'Dons take a B- (+3.8).",
-   "body": [
-    "Trade No. 56 went through at 9:49 p.m. Friday. Brighton Caushaj's Jalen rams me sent Zach Charbonnet to the Fighting O'Dons for Matthew Stafford and Michael Pittman Jr. It's Brighton's 25th trade of the season, and this one is a damn mess. Kyler Murray projects for zero more points, so Jalen rams me went shopping for a quarterback and came back with Stafford: 11.22 in Week 9 and 116.0 projected the rest of the way, which is less than the waiver-level QB projects. Pittman put up zeros in Weeks 7 and 8 and projects for zero. That's not a throw-in, that's a bench-clogging souvenir.",
-    "The O'Dons get Charbonnet, who put up 9.6 in Week 9 and projects for 96.6 the rest of the way, plus a roster spot back. Lineup gain: -9.8 for Jalen rams me, a C-, and +3.8 for the O'Dons, a B-. That sinks Jalen rams me to -260.8 lineup points across 25 trades. The 6-3 O'Dons keep the top spot on the trade ledger at +233.3. Zach O'Donoghue just keeps winning these."
-   ],
-   "posted": "2026-11-10T08:40:28-05:00"
   }
  ],
  "storylines": [
@@ -5595,6 +5581,33 @@
   "through": "2026 Week 6"
  },
  "archive": [
+  {
+   "id": "desk-20261110-regrade",
+   "week": 10,
+   "tag": "TRADE DESK",
+   "hot": false,
+   "posted": "2026-11-10T08:43:00-05:00",
+   "title": "Re-grades: the O'Dons still run the trade market, and The Overload goes 0-for-2",
+   "dek": "With Week 9's real scores in, every 2026 trade was re-graded. Zach O'Donoghue's 13 deals are +111.5 lineup points. The Stone Cold Dons are last at −227.0.",
+   "body": [
+    "Every 2026 trade got re-graded with Week 9 actuals, and the numbers moved. The Fighting O'Dons still lead the league at +111.5 lineup points on 13 trades (C+). The anomaly’s are second at +96.8 on 11 (B-) and Trust The Process third at +89.9 on nine (B-). Big Dabolls have the best report card, a 3.12 GPA (B).",
+    "The bottom is a crime scene. The Stone Cold Dons are −227.0 on 14 trades (C-). Jalen rams me is −147.7 on 25 (C). The Overload made two trades and both are Fs: Trade No. 26 is −74.4 and Trade No. 47 is −55.6, for a 0.00 GPA. Two trades, two Fs. That's commitment.",
+    "Biggest flip: Trade No. 6, Brian Thomas Jr. and Kenneth Walker III to Brighton for Jalen Coker, Jeremiyah Love, Bo Nix and Tee Higgins. It's now an A for Jalen rams me (+35.7) and a D+ for Aaron Rodgers LSD (−18.3). Trade No. 37 also swung: a C for Brighton (−3.9) and an A- for Rat (+28.4). Trade No. 56 holds at a C- for Jalen rams me (−8.2) and a B- for the O'Dons (+3.6)."
+   ]
+  },
+  {
+   "id": "trade-t56-20261110",
+   "week": 10,
+   "tag": "TRADE WIRE",
+   "hot": true,
+   "title": "Brighton's 25th trade: Charbonnet out, Stafford and an injured Pittman in",
+   "dek": "Jalen rams me grades a C- (-9.8) for paying a starting running back to get a QB who projects below waiver level, and the Fighting O'Dons take a B- (+3.8).",
+   "body": [
+    "Trade No. 56 went through at 9:49 p.m. Friday. Brighton Caushaj's Jalen rams me sent Zach Charbonnet to the Fighting O'Dons for Matthew Stafford and Michael Pittman Jr. It's Brighton's 25th trade of the season, and this one is a damn mess. Kyler Murray projects for zero more points, so Jalen rams me went shopping for a quarterback and came back with Stafford: 11.22 in Week 9 and 116.0 projected the rest of the way, which is less than the waiver-level QB projects. Pittman put up zeros in Weeks 7 and 8 and projects for zero. That's not a throw-in, that's a bench-clogging souvenir.",
+    "The O'Dons get Charbonnet, who put up 9.6 in Week 9 and projects for 96.6 the rest of the way, plus a roster spot back. Lineup gain: -9.8 for Jalen rams me, a C-, and +3.8 for the O'Dons, a B-. That sinks Jalen rams me to -260.8 lineup points across 25 trades. The 6-3 O'Dons keep the top spot on the trade ledger at +233.3. Zach O'Donoghue just keeps winning these."
+   ],
+   "posted": "2026-11-10T08:40:28-05:00"
+  },
   {
    "id": "beat-20261106-pm",
    "week": 9,
