@@ -1,7 +1,7 @@
 {
  "meta": {
   "league": "LFPFFL",
-  "updated": "Nov 10, 2026",
+  "updated": "Nov 12, 2026",
   "week": 9,
   "next": 10,
   "season": 2026
@@ -943,6 +943,19 @@
  ],
  "headlines": [
   {
+   "id": "beat-20261112-am",
+   "week": 10,
+   "tag": "TRADE WIRE",
+   "hot": true,
+   "title": "Big Dabolls flip Sutton after one week, land Judkins from Stone Cold Dons",
+   "dek": "Ben Frey sent Courtland Sutton and Jadarian Price to the 1-8 Stone Cold Dons on Tuesday for running back Quinshon Judkins.",
+   "body": [
+    "The deal went through at 1:26 p.m. Tuesday. Big Dabolls get Judkins, who is averaging 11.5 points a game and scored 5.5 in Week 9 for Danny Stevens. The Stone Cold Dons get Price, averaging 5.3, and Sutton, whom Frey acquired from Trust The Process on Nov. 3 for Eli Raridon. Sutton spent his one week with Big Dabolls on the bench and scored 15.5 there.",
+    "Judkins goes straight into Big Dabolls' flex, projected for 11.8 Sunday against Aaron Rodgers LSD in a game between 6-3 teams. Price starts at running back for the Stone Cold Dons, projected for 11.9 against The Park. Sutton is projected for zero this week and sits on another bench. \"He's a great route runner,\" a Stone Cold source said. \"We'll see him in Week 11.\""
+   ],
+   "posted": "2026-11-12T10:34:00-05:00"
+  },
+  {
    "id": "beat-20261110-pm",
    "week": 10,
    "tag": "TRADE WIRE",
@@ -1035,20 +1048,6 @@
    "body": [
     "This one stings. Rat beat Team Goobz 129.48 to 125.36, the closest game of the week. Kenneth Walker III went for 36.3 and Brock Purdy for 25.28. C.J. Stroud did everything he could for Goobz with 35.36. But D'Andre Swift was projected for 18.6, started and scored 3.1, while Caleb Douglas scored 13.0 and Seth McGowan 11.2 on the bench.",
     "Start the right guys and Goobz score 139.86 and win by 10.38. Instead they're 4-5, in ninth place, and the bench crime officially cost them a W. Goobz host the 8-1 DBC's this week, projected 106.5 to 109.8. “The lineup was fine,” a team source said. “The lineup was also wrong.”"
-   ]
-  },
-  {
-   "id": "recap-20261110-scd",
-   "week": 10,
-   "tag": "RECAP",
-   "hot": false,
-   "posted": "2026-11-10T08:44:00-05:00",
-   "title": "Stone Cold Dons score 130 and lose anyway, and the streak hits seven",
-   "dek": "Only three teams scored more than Danny Stevens in Week 9, and one of them was his opponent. Seven straight losses ties the second-longest losing streak in league history.",
-   "body": [
-    "Danny Stevens finally showed up with a real score. Matthew Golden went for 32.4, Dak Prescott 19.5, and the Stone Cold Dons put up 130.0, the fourth-best score of the week. Too bad Vert put up 144.38 behind Ja'Marr Chase (31.5) and Javonte Williams (22.4). The Dons lost by 14.38.",
-    "That's seven straight losses, which ties Matthew Reese's 2022–23 streak for the second-longest in LFPFFL history. Only Christopher Bosefski's 10 is longer. The Dons are 1-8 with the league's worst luck at −3.31 wins. Their all-play record is 56-61. Their playoff odds are 0.0%.",
-    "The streak can end this week against 2-7 The Park, which projects 116.6 to 99.7. A win would be the Dons' first since Week 2."
    ]
   }
  ],
@@ -5581,6 +5580,20 @@
   "through": "2026 Week 6"
  },
  "archive": [
+  {
+   "id": "recap-20261110-scd",
+   "week": 10,
+   "tag": "RECAP",
+   "hot": false,
+   "posted": "2026-11-10T08:44:00-05:00",
+   "title": "Stone Cold Dons score 130 and lose anyway, and the streak hits seven",
+   "dek": "Only three teams scored more than Danny Stevens in Week 9, and one of them was his opponent. Seven straight losses ties the second-longest losing streak in league history.",
+   "body": [
+    "Danny Stevens finally showed up with a real score. Matthew Golden went for 32.4, Dak Prescott 19.5, and the Stone Cold Dons put up 130.0, the fourth-best score of the week. Too bad Vert put up 144.38 behind Ja'Marr Chase (31.5) and Javonte Williams (22.4). The Dons lost by 14.38.",
+    "That's seven straight losses, which ties Matthew Reese's 2022–23 streak for the second-longest in LFPFFL history. Only Christopher Bosefski's 10 is longer. The Dons are 1-8 with the league's worst luck at −3.31 wins. Their all-play record is 56-61. Their playoff odds are 0.0%.",
+    "The streak can end this week against 2-7 The Park, which projects 116.6 to 99.7. A win would be the Dons' first since Week 2."
+   ]
+  },
   {
    "id": "desk-20261110-regrade",
    "week": 10,
