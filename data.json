@@ -943,6 +943,20 @@
  ],
  "headlines": [
   {
+   "id": "sunnight-20261115",
+   "week": 10,
+   "tag": "GAME DAY",
+   "hot": true,
+   "title": "Top-seeded DBC's trail Goobz by 4.92, need Jaylen Warren on SNF",
+   "dek": "Three games sit within ten points heading into prime time, and two of them run through Bengals-Steelers.",
+   "body": [
+    "The league's best team is losing to family. Lukas Bosefski's 8-1 DBC's trail Christopher Bosefski's Team Goobz 96.44 to 91.52, and Goobz are finished for the week. Jaylen Warren, projected for 15.53, needs 4.93 tonight. \"He can do that on one carry,\" a DBC's source said, which is true and also not a plan.",
+    "Fighting O'Dons trail Jalen rams me 85.96 to 82.20 but still have Joe Burrow and Rico Dowdle, 28.79 projected combined. Stone Cold Dons trail The Park 128.12 to 118.42 and need 9.71 from Derrick Henry, acquired this weekend, on Monday night.",
+    "Vert leads Rat 125.12 to 108.06 with Ja'Marr Chase still to play. Chase Brown needs 27.31 to save Trust The Process against the anomaly's. The Overload (173.34) and Big Dabolls (121.78 to 49.20) can change the channel."
+   ],
+   "posted": "2026-11-15T20:06:54-05:00"
+  },
+  {
    "id": "gameday-20261115",
    "week": 10,
    "tag": "GAME DAY",
@@ -6167,79 +6181,79 @@
   }
  ],
  "live": {
-  "week": 8,
-  "status": "final",
-  "updated": "2026-11-01T20:07:09-05:00",
+  "week": 10,
+  "status": "live",
+  "updated": "2026-11-15T20:06:54-05:00",
   "games": [
    {
-    "h": "Brighton Caushaj",
-    "hs": 97.7,
-    "hl": 2,
-    "hpr": 118.3,
-    "a": "John Francis",
-    "as": 108.06,
-    "al": 1,
-    "apr": 113.86
-   },
-   {
-    "h": "Trevor Illson",
-    "hs": 86.26,
-    "hl": 3,
-    "hpr": 122.26,
-    "a": "Danny Stevens",
-    "as": 73.5,
-    "al": 0,
-    "apr": 73.5
-   },
-   {
-    "h": "Samuel Vert",
-    "hs": 112.88,
-    "hl": 1,
-    "hpr": 121.08,
-    "a": "Matthew Reese",
-    "as": 87.96,
-    "al": 0,
-    "apr": 87.96
-   },
-   {
-    "h": "John Reese",
-    "hs": 84.2,
-    "hl": 1,
-    "hpr": 106.3,
-    "a": "Alex Reese",
-    "as": 127.2,
-    "al": 1,
-    "apr": 150.0
-   },
-   {
-    "h": "Holden Wright",
-    "hs": 120.9,
-    "hl": 1,
-    "hpr": 136.4,
-    "a": "Christopher Bosefski",
-    "as": 54.5,
-    "al": 2,
-    "apr": 78.7
-   },
-   {
-    "h": "lukas bosefski",
-    "hs": 131.74,
-    "hl": 1,
-    "hpr": 137.54,
-    "a": "Ben Frey",
-    "as": 57.3,
-    "al": 1,
-    "apr": 70.7
-   },
-   {
     "h": "Zach O'Donoghue",
-    "hs": 119.88,
+    "hs": 82.2,
     "hl": 2,
-    "hpr": 145.58,
-    "a": "Elijah Dembe",
-    "as": 39.06,
+    "hpr": 110.99,
+    "a": "Brighton Caushaj",
+    "as": 85.96,
+    "al": 0,
+    "apr": 85.96
+   },
+   {
+    "h": "Christopher Bosefski",
+    "hs": 96.44,
+    "hl": 0,
+    "hpr": 96.44,
+    "a": "lukas bosefski",
+    "as": 91.52,
     "al": 1,
-    "apr": 45.96
+    "apr": 107.05
+   },
+   {
+    "h": "Matthew Reese",
+    "hs": 128.12,
+    "hl": 0,
+    "hpr": 128.12,
+    "a": "Danny Stevens",
+    "as": 118.42,
+    "al": 1,
+    "apr": 136.61
+   },
+   {
+    "h": "Elijah Dembe",
+    "hs": 108.06,
+    "hl": 2,
+    "hpr": 127.96,
+    "a": "Samuel Vert",
+    "as": 125.12,
+    "al": 1,
+    "apr": 148.03
+   },
+   {
+    "h": "John Francis",
+    "hs": 122.4,
+    "hl": 0,
+    "hpr": 122.4,
+    "a": "John Reese",
+    "as": 95.1,
+    "al": 1,
+    "apr": 108.63
+   },
+   {
+    "h": "Ben Frey",
+    "hs": 121.78,
+    "hl": 2,
+    "hpr": 140.15,
+    "a": "Holden Wright",
+    "as": 49.2,
+    "al": 3,
+    "apr": 87.9
+   },
+   {
+    "h": "Alex Reese",
+    "hs": 86.76,
+    "hl": 1,
+    "hpr": 94.52,
+    "a": "Trevor Illson",
+    "as": 173.34,
+    "al": 0,
+    "apr": 173.34
    }
   ]
  }
