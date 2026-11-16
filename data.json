@@ -1,7 +1,7 @@
 {
  "meta": {
   "league": "LFPFFL",
-  "updated": "Nov 15, 2026",
+  "updated": "Nov 16, 2026",
   "week": 9,
   "next": 10,
   "season": 2026
@@ -942,6 +942,19 @@
   }
  ],
  "headlines": [
+  {
+   "id": "beat-20261116-am",
+   "week": 10,
+   "tag": "GAME DAY",
+   "hot": true,
+   "title": "Stone Cold Dons need 9.71 from Derrick Henry to end seven-game skid",
+   "dek": "The 1-8 Dons trail The Park 128.12 to 118.42, and the running back they acquired Saturday is the only player left in the game.",
+   "body": [
+    "Derrick Henry arrived in Saturday's 3-for-2 with The anomaly’s and goes Monday night needing 9.71 points to snap a seven-game losing streak; 9.70 gets a tie. He averages 15.8 a game, and ESPN projects him for 18.2. The other two veterans from the deal already showed up: Deebo Samuel had 25.9 and Blake Corum 20.9. \"We bought him for exactly this,\" a team source said.",
+    "The Park has nobody left and one decision to live with: Drake Maye started and scored 3.02 while Deshaun Watson put up 21.38 on the bench. The Dons have their own, with the Vikings D/ST's 21 sitting behind the Bills' 10. Everything else is settled or close to it. Trust The Process beat The anomaly’s by 1.00, the DBC's held off Goobz by 4.18, and Monday's other holdouts, Justin Herbert and Zay Flowers, are chasing deficits of 78.38 and 46.16."
+   ],
+   "posted": "2026-11-16T18:12:00-05:00"
+  },
   {
    "id": "sunnight-20261115",
    "week": 10,
