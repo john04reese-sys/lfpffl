@@ -240,7 +240,7 @@ V.home=()=>{
 let sortKey="seed", sortDir=1;
 V.standings=()=>{
  const rows=[...D.standings].map(r=>({...r,seed:0}));
- const bySeed=[...D.standings].sort((a,b)=>b.w-a.w||b.pf-a.pf); bySeed.forEach((r,i)=>rows.find(x=>x.owner===r.owner).seed=i+1);
+ const bySeed=[...D.standings].sort((a,b)=>(a.seed&&b.seed)?a.seed-b.seed:(b.w-a.w||b.pf-a.pf)); bySeed.forEach((r,i)=>rows.find(x=>x.owner===r.owner).seed=i+1);
  const keys={seed:r=>r.seed,team:r=>r.team,rec:r=>-(r.w+r.pf/10000),pf:r=>-r.pf,pa:r=>-r.pa,ap:r=>-r.ap[0],med:r=>-r.med[0],luck:r=>-r.luck,po:r=>-r.po,seed1:r=>-r.seed1};
  rows.sort((a,b)=>{const ka=keys[sortKey](a),kb=keys[sortKey](b); return (ka>kb?1:ka<kb?-1:0)*sortDir;});
  const H=(k,l,r)=>`<th class="${r?"r":""}"><button data-sort="${k}" aria-label="Sort by ${l}">${l}${sortKey===k?(sortDir>0?" ▾":" ▴"):""}</button></th>`;
