@@ -2,8 +2,8 @@
  "meta": {
   "league": "LFPFFL",
   "updated": "Nov 17, 2026",
-  "week": 9,
-  "next": 10,
+  "week": 10,
+  "next": 11,
   "season": 2026
  },
  "standings": [
@@ -11,28 +11,28 @@
    "id": 1,
    "team": "Fighting O'Dons",
    "owner": "Zach O'Donoghue",
-   "w": 6,
+   "w": 7,
    "l": 3,
-   "pf": 1161.8,
-   "pa": 933.7,
-   "streak": "W5",
+   "pf": 1282.5,
+   "pa": 1019.7,
+   "streak": "W6",
    "ap": [
-    84,
-    33
+    89,
+    41
    ],
    "med": [
     6,
-    3
+    4
    ],
-   "xW": 6.46,
-   "luck": -0.46,
-   "last3": 148.0,
+   "xW": 6.85,
+   "luck": 0.15,
+   "last3": 138.9,
    "hi": 152.0,
    "lo": 74.8,
-   "ros": 1133,
-   "proj10": 118.3,
-   "po": 99.9,
-   "seed1": 32.8,
+   "ros": 1047,
+   "proj11": 135.3,
+   "po": 100.0,
+   "seed1": 22.4,
    "pr": 1,
    "scores": [
     114.96,
@@ -43,36 +43,37 @@
     138.18,
     148.08,
     143.78,
-    152.04
+    152.04,
+    120.76
    ],
-   "blurb": "6-3, five straight wins, a league-best 84-33 all-play record and the most points in the league (1,161.8). Hung a week-high 152.04 on The Park. Averaging 148.0 over the last three. This is the best team in the league right now and it isn't close."
+   "blurb": "7-3, six straight wins, the best all-play record in the league (89-41) and the most points (1,282.5). Beat Jalen rams me 120.76 to 85.96 behind Joe Burrow's 33.16. 100% playoff odds and the top projection on the board this week at 135.3. Still No. 1."
   },
   {
    "id": 4,
    "team": "Vert",
    "owner": "Samuel Vert",
-   "w": 6,
+   "w": 7,
    "l": 3,
-   "pf": 1076.0,
-   "pa": 960.1,
-   "streak": "W3",
+   "pf": 1235.3,
+   "pa": 1084.5,
+   "streak": "W4",
    "ap": [
-    65,
-    52
+    77,
+    53
    ],
    "med": [
-    6,
+    7,
     3
    ],
-   "xW": 5.0,
-   "luck": 1.0,
-   "last3": 128.2,
+   "xW": 5.92,
+   "luck": 1.08,
+   "last3": 140.3,
    "hi": 161.6,
    "lo": 85.6,
-   "ros": 1178,
-   "proj10": 141,
-   "po": 99.4,
-   "seed1": 13.1,
+   "ros": 1075,
+   "proj11": 126.8,
+   "po": 100.0,
+   "seed1": 12.1,
    "pr": 2,
    "scores": [
     96.36,
@@ -83,77 +84,38 @@
     85.58,
     122.9,
     117.18,
-    144.38
+    144.38,
+    159.22
    ],
-   "blurb": "6-3 and three straight wins after beating the Stone Cold Dons 144.38 to 130. Ja'Marr Chase went for 31.5. Best rest-of-season roster in the league and 99.4% playoff odds. Projects 141.0 this week, the highest on the board."
-  },
-  {
-   "id": 14,
-   "team": "The DBC's",
-   "owner": "lukas bosefski",
-   "w": 8,
-   "l": 1,
-   "pf": 1139.0,
-   "pa": 908.2,
-   "streak": "W4",
-   "ap": [
-    80,
-    37
-   ],
-   "med": [
-    6,
-    3
-   ],
-   "xW": 6.15,
-   "luck": 1.85,
-   "last3": 129.1,
-   "hi": 160.1,
-   "lo": 104.2,
-   "ros": 924,
-   "proj10": 109.8,
-   "po": 100.0,
-   "seed1": 51.7,
-   "pr": 3,
-   "scores": [
-    160.1,
-    104.78,
-    104.2,
-    128.14,
-    126.04,
-    128.36,
-    135.02,
-    132.74,
-    119.6
-   ],
-   "blurb": "8-1 and four straight wins after a 119.6 to 85.88 win over Trust The Process. Puka Nacua dropped 35.0. 100% playoff odds, but No. 1 seed odds fell from 75.2% to 51.7% with the O'Dons coming hard."
+   "blurb": "7-3 and four straight wins after a 159.22 to 124.46 beatdown of Rat. Patrick Mahomes 35.42, Ja'Marr Chase 34.1, Amon-Ra St. Brown 25.8. Best rest-of-season roster in the league and the best last-three average (140.3). Gets the 9-1 DBC's this week as a 40-point favorite."
   },
   {
    "id": 10,
    "team": "The Overload",
    "owner": "Trevor Illson",
-   "w": 4,
+   "w": 5,
    "l": 5,
-   "pf": 1095.9,
-   "pa": 1021.6,
-   "streak": "W2",
+   "pf": 1269.2,
+   "pa": 1112.4,
+   "streak": "W3",
    "ap": [
-    72,
+    85,
     45
    ],
    "med": [
-    6,
+    7,
     3
    ],
-   "xW": 5.54,
+   "xW": 6.54,
    "luck": -1.54,
-   "last3": 118.7,
-   "hi": 152.5,
+   "last3": 134.6,
+   "hi": 173.3,
    "lo": 91.5,
-   "ros": 1103,
-   "proj10": 120.1,
-   "po": 86.0,
-   "seed1": 0.1,
-   "pr": 4,
+   "ros": 988,
+   "proj11": 121.5,
+   "po": 95.7,
+   "seed1": 0.0,
+   "pr": 3,
    "scores": [
     137.36,
     131.62,
@@ -163,36 +125,78 @@
     116.5,
     125.72,
     120.26,
-    110.16
+    110.16,
+    173.34
    ],
-   "blurb": "4-5 but third in all-play (72-45) and holding the 8 seed on points. Beat the anomaly’s 110.16 to 89.72 behind 22.7 from Christian McCaffrey. Luck is −1.54 wins. 86.0% playoff odds. This team is way better than its record."
+   "blurb": "173.34. The highest score of the season, an 82.58-point win over A-Rock, McCaffrey 46.3, Hubbard 34.2. Only 5-5, but 85-45 in all-play and 95.7% to make the playoffs. Three straight wins. Nobody wants this team in December."
+  },
+  {
+   "id": 14,
+   "team": "The DBC's",
+   "owner": "lukas bosefski",
+   "w": 9,
+   "l": 1,
+   "pf": 1239.6,
+   "pa": 1004.7,
+   "streak": "W5",
+   "ap": [
+    84,
+    46
+   ],
+   "med": [
+    6,
+    4
+   ],
+   "xW": 6.46,
+   "luck": 2.54,
+   "last3": 117.7,
+   "hi": 160.1,
+   "lo": 100.6,
+   "ros": 841,
+   "proj11": 86.8,
+   "po": 100.0,
+   "seed1": 63.6,
+   "pr": 4,
+   "scores": [
+    160.1,
+    104.78,
+    104.2,
+    128.14,
+    126.04,
+    128.36,
+    135.02,
+    132.74,
+    119.6,
+    100.62
+   ],
+   "blurb": "9-1 and five straight after a 100.62 to 96.44 escape against Goobz. No. 1 seed odds up to 63.6%. Also the luckiest team in the league (+2.54 wins) with the 12th-best rest-of-season roster, and they project 86.8 against Vert. Enjoy the view while it lasts."
   },
   {
    "id": 8,
    "team": "Big Dabolls",
    "owner": "Ben Frey",
-   "w": 6,
+   "w": 7,
    "l": 3,
-   "pf": 1004.5,
-   "pa": 919.5,
-   "streak": "W1",
+   "pf": 1148.7,
+   "pa": 1001.6,
+   "streak": "W2",
    "ap": [
-    62,
-    55
+    73,
+    57
    ],
    "med": [
-    4,
+    5,
     5
    ],
-   "xW": 4.77,
-   "luck": 1.23,
-   "last3": 98.8,
+   "xW": 5.62,
+   "luck": 1.38,
+   "last3": 118.3,
    "hi": 150.6,
    "lo": 75.9,
-   "ros": 1011,
-   "proj10": 114.5,
-   "po": 92.8,
-   "seed1": 1.2,
+   "ros": 943,
+   "proj11": 110.3,
+   "po": 99.6,
+   "seed1": 1.8,
    "pr": 5,
    "scores": [
     139.4,
@@ -203,77 +207,38 @@
     131.04,
     85.66,
     75.9,
-    134.78
+    134.78,
+    144.18
    ],
-   "blurb": "6-3 after the week's biggest blowout, 134.78 to 62.92 over Jalen rams me. Left Jordan Love's 36.18 on the bench and still won by 71.86. 92.8% playoff odds. Start the right quarterback and this team is scary."
-  },
-  {
-   "id": 12,
-   "team": "Aaron Rodgers LSD",
-   "owner": "Holden Wright",
-   "w": 6,
-   "l": 3,
-   "pf": 965.9,
-   "pa": 905.6,
-   "streak": "W2",
-   "ap": [
-    54,
-    63
-   ],
-   "med": [
-    5,
-    4
-   ],
-   "xW": 4.15,
-   "luck": 1.85,
-   "last3": 114.9,
-   "hi": 134.9,
-   "lo": 82.5,
-   "ros": 1022,
-   "proj10": 80.3,
-   "po": 86.9,
-   "seed1": 0.9,
-   "pr": 6,
-   "scores": [
-    122.96,
-    95.82,
-    129.14,
-    82.46,
-    98.12,
-    92.6,
-    83.22,
-    134.88,
-    126.66
-   ],
-   "blurb": "6-3 after beating A-Rock 126.66 to 93.56 with Tee Higgins at 20.2. Tied for the luckiest team in the league (+1.85 wins) on a 54-63 all-play record. 86.9% playoff odds. Projects 80.3 this week. That's not a typo, and that's a problem."
+   "blurb": "7-3 after a 144.18 to 82.06 demolition of LSD. Isaiah Likely 27.7, Cam Skattebo 27.2, Trevor Lawrence 26.78. 99.6% playoff odds. Rat this week in a 2.5-point game."
   },
   {
    "id": 3,
    "team": "Team Goobz",
    "owner": "Christopher Bosefski",
    "w": 4,
-   "l": 5,
-   "pf": 1026.5,
-   "pa": 1074.2,
-   "streak": "L2",
+   "l": 6,
+   "pf": 1122.9,
+   "pa": 1174.8,
+   "streak": "L3",
    "ap": [
-    60,
-    57
+    63,
+    67
    ],
    "med": [
     5,
-    4
+    5
    ],
-   "xW": 4.62,
-   "luck": -0.62,
-   "last3": 100.3,
+   "xW": 4.85,
+   "luck": -0.85,
+   "last3": 102.1,
    "hi": 156.8,
    "lo": 84.4,
-   "ros": 1048,
-   "proj10": 106.5,
-   "po": 64.2,
+   "ros": 996,
+   "proj11": 116.4,
+   "po": 52.1,
    "seed1": 0.0,
-   "pr": 7,
+   "pr": 6,
    "scores": [
     156.8,
     91,
@@ -283,37 +248,38 @@
     89.48,
     91.02,
     84.4,
-    125.36
+    125.36,
+    96.44
    ],
-   "blurb": "4-5 after losing to Rat by 4.12 with 14.5 points on the bench. C.J. Stroud scored 35.36 and it wasn't enough. 64.2% playoff odds and on the wrong side of the line. Gets the DBC's this week."
+   "blurb": "4-6, three straight losses, and two straight losses by about four points. The best lineup this week was 103.94; they started Travis Kelce (5) over Pat Freiermuth (11.5) and lost by 4.18. Third-best rest-of-season roster, 52.1% playoff odds. Start the right guys."
   },
   {
    "id": 13,
    "team": "The anomaly’s",
    "owner": "John Francis",
    "w": 5,
-   "l": 4,
-   "pf": 1002.6,
-   "pa": 1060.5,
-   "streak": "L1",
+   "l": 5,
+   "pf": 1125.0,
+   "pa": 1183.9,
+   "streak": "L2",
    "ap": [
-    60,
-    57
+    66,
+    64
    ],
    "med": [
     5,
-    4
+    5
    ],
-   "xW": 4.62,
-   "luck": 0.38,
-   "last3": 92.9,
+   "xW": 5.08,
+   "luck": -0.08,
+   "last3": 110.1,
    "hi": 153.8,
    "lo": 70.9,
-   "ros": 1027,
-   "proj10": 120.6,
-   "po": 70.8,
-   "seed1": 0.1,
-   "pr": 8,
+   "ros": 871,
+   "proj11": 108.7,
+   "po": 53.6,
+   "seed1": 0.0,
+   "pr": 7,
    "scores": [
     101.86,
     105.6,
@@ -323,35 +289,77 @@
     89.44,
     70.92,
     118.06,
-    89.72
+    89.72,
+    122.4
    ],
-   "blurb": "5-4 and still outscored on the season, now by 57.9 points. Lost to The Overload 110.16 to 89.72 as Jahmyr Gibbs scored 13.4 against a 26.5 projection. Averaging 92.9 over the last three. 70.8% playoff odds, and this week's matchup is a gift."
+   "blurb": "5-5 and lost by 1.00 after shipping Henry, Deebo and Corum to the Dons on Saturday. Those three scored 65.8 for somebody else. Jahmyr Gibbs went for 44.2 in a loss. Hanging onto the eighth seed on points; playoff odds down to 53.6%."
+  },
+  {
+   "id": 12,
+   "team": "Aaron Rodgers LSD",
+   "owner": "Holden Wright",
+   "w": 6,
+   "l": 4,
+   "pf": 1047.9,
+   "pa": 1049.7,
+   "streak": "L1",
+   "ap": [
+    54,
+    76
+   ],
+   "med": [
+    5,
+    5
+   ],
+   "xW": 4.15,
+   "luck": 1.85,
+   "last3": 114.5,
+   "hi": 134.9,
+   "lo": 82.1,
+   "ros": 911,
+   "proj11": 120.1,
+   "po": 75.4,
+   "seed1": 0.0,
+   "pr": 8,
+   "scores": [
+    122.96,
+    95.82,
+    129.14,
+    82.46,
+    98.12,
+    92.6,
+    83.22,
+    134.88,
+    126.66,
+    82.06
+   ],
+   "blurb": "6-4 after the week's lowest score, 82.06 in a 62.12-point loss to Big Dabolls. A 54-76 all-play record and +1.85 luck: this record is borrowed. Playoff odds down from 86.9% to 75.4%. O'Dons next."
   },
   {
    "id": 7,
    "team": "Trust The Process",
    "owner": "John Reese",
-   "w": 4,
+   "w": 5,
    "l": 5,
-   "pf": 1020.8,
-   "pa": 1052.3,
-   "streak": "L2",
+   "pf": 1144.2,
+   "pa": 1174.7,
+   "streak": "W1",
    "ap": [
-    58,
-    59
+    65,
+    65
    ],
    "med": [
-    4,
+    5,
     5
    ],
-   "xW": 4.46,
-   "luck": -0.46,
-   "last3": 109.2,
+   "xW": 5.0,
+   "luck": 0.0,
+   "last3": 105.8,
    "hi": 133.9,
    "lo": 85.9,
-   "ros": 936,
-   "proj10": 82.5,
-   "po": 36.9,
+   "ros": 868,
+   "proj11": 92.5,
+   "po": 72.2,
    "seed1": 0.0,
    "pr": 9,
    "scores": [
@@ -363,35 +371,36 @@
     123,
     133.86,
     108,
-    85.88
+    85.88,
+    123.4
    ],
-   "blurb": "4-5, two straight losses and out of the top 8. Benched Shedeur Sanders (22.68) to start Bo Nix (15.68) in an 85.88 loss to the DBC's. Playoff odds fell from 63.5% to 36.9%. Projects 82.5 this week with no quarterback projected to score."
+   "blurb": "5-5 after winning by 1.00 as an 11% underdog. Jaxon Smith-Njigba 31.1, Chase Brown 28.3. Also benched Omarion Hampton (17.5) and Josh Downs (15.3) for Rhamondre Stevenson (1.5) and Tucker Kraft (2.9). Playoff odds up to 72.2%. Projects 92.5 against The Park."
   },
   {
    "id": 9,
    "team": "Rat",
    "owner": "Elijah Dembe",
    "w": 5,
-   "l": 4,
-   "pf": 946.7,
-   "pa": 969.7,
-   "streak": "W1",
+   "l": 5,
+   "pf": 1071.2,
+   "pa": 1128.9,
+   "streak": "L1",
    "ap": [
-    48,
-    69
+    56,
+    74
    ],
    "med": [
-    5,
+    6,
     4
    ],
-   "xW": 3.69,
-   "luck": 1.31,
-   "last3": 89.2,
+   "xW": 4.31,
+   "luck": 0.69,
+   "last3": 102.3,
    "hi": 144.1,
    "lo": 53.1,
-   "ros": 1036,
-   "proj10": 120,
-   "po": 59.8,
+   "ros": 923,
+   "proj11": 107.8,
+   "po": 48.5,
    "seed1": 0.0,
    "pr": 10,
    "scores": [
@@ -403,77 +412,38 @@
     84.36,
     85.12,
     53.06,
-    129.48
+    129.48,
+    124.46
    ],
-   "blurb": "5-4 and in the 7 seed after edging Goobz 129.48 to 125.36. Kenneth Walker III scored 36.3. Playoff odds jumped from 37.5% to 59.8%. Still only 48-69 in all-play, and Vert is next."
-  },
-  {
-   "id": 6,
-   "team": "A-Rock Balls",
-   "owner": "Alex Reese",
-   "w": 2,
-   "l": 7,
-   "pf": 935.6,
-   "pa": 1107.0,
-   "streak": "L1",
-   "ap": [
-    42,
-    75
-   ],
-   "med": [
-    3,
-    6
-   ],
-   "xW": 3.23,
-   "luck": -1.23,
-   "last3": 119.4,
-   "hi": 142.2,
-   "lo": 82.5,
-   "ros": 1010,
-   "proj10": 108.4,
-   "po": 1.0,
-   "seed1": 0.0,
-   "pr": 11,
-   "scores": [
-    121.86,
-    95.34,
-    82.54,
-    87.68,
-    104.46,
-    85.5,
-    122.48,
-    142.18,
-    93.56
-   ],
-   "blurb": "2-7 after a 126.66 to 93.56 loss to Aaron Rodgers LSD. Tank Dell scored 20.5 on the bench. Averaging 119.4 over the last three, which is the frustrating part. 1.0% playoff odds."
+   "blurb": "5-5 after Vert hung 159.22 on them. Emmett Johnson 35.1 and Brock Purdy 31.66 weren't enough. Out of the top 8 on points, 48.5% playoff odds, and a 2.5-point underdog to Big Dabolls this week."
   },
   {
    "id": 2,
    "team": "Stone Cold Dons",
    "owner": "Danny Stevens",
-   "w": 1,
+   "w": 2,
    "l": 8,
-   "pf": 964.6,
-   "pa": 1127.0,
-   "streak": "L7",
+   "pf": 1102.1,
+   "pa": 1255.2,
+   "streak": "W1",
    "ap": [
-    56,
-    61
+    66,
+    64
    ],
    "med": [
-    4,
+    5,
     5
    ],
-   "xW": 4.31,
-   "luck": -3.31,
-   "last3": 111.1,
+   "xW": 5.08,
+   "luck": -3.08,
+   "last3": 113.6,
    "hi": 138.2,
    "lo": 73.5,
-   "ros": 833,
-   "proj10": 99.7,
-   "po": 0.0,
+   "ros": 721,
+   "proj11": 94.9,
+   "po": 0.3,
    "seed1": 0.0,
-   "pr": 12,
+   "pr": 11,
    "scores": [
     79.4,
     138.16,
@@ -483,35 +453,77 @@
     92.42,
     129.68,
     73.5,
-    130
+    130,
+    137.42
    ],
-   "blurb": "1-8 and seven straight losses after putting up 130.0, the fourth-best score of the week, and losing to Vert anyway. League-worst luck at −3.31 wins. 0.0% playoff odds. The Park is next, and somebody has to win that game."
+   "blurb": "Finally. 137.42 to 128.12 over The Park, and the seven-game skid is dead. Derrick Henry 19, Deebo 25.9, Corum 20.9 from Saturday's deal. Also left 39.3 on the bench, the week's worst. 2-8 with a 66-64 all-play record; unluckiest team in the league at −3.08."
+  },
+  {
+   "id": 6,
+   "team": "A-Rock Balls",
+   "owner": "Alex Reese",
+   "w": 2,
+   "l": 8,
+   "pf": 1026.4,
+   "pa": 1280.3,
+   "streak": "L2",
+   "ap": [
+    44,
+    86
+   ],
+   "med": [
+    3,
+    7
+   ],
+   "xW": 3.38,
+   "luck": -1.38,
+   "last3": 108.8,
+   "hi": 142.2,
+   "lo": 82.5,
+   "ros": 906,
+   "proj11": 114.7,
+   "po": 0.1,
+   "seed1": 0.0,
+   "pr": 12,
+   "scores": [
+    121.86,
+    95.34,
+    82.54,
+    87.68,
+    104.46,
+    85.5,
+    122.48,
+    142.18,
+    93.56,
+    90.76
+   ],
+   "blurb": "2-8 after losing by 82.58 to The Overload, the fourth-biggest blowout in league history. Tony Pollard's 23.9 was the highlight of a 90.76. Two straight losses, 0.1% playoff odds. Dons this week, 2-8 vs 2-8."
   },
   {
    "id": 11,
    "team": "The Park",
    "owner": "Matthew Reese",
    "w": 2,
-   "l": 7,
-   "pf": 846.7,
-   "pa": 1050.2,
-   "streak": "L3",
+   "l": 8,
+   "pf": 974.9,
+   "pa": 1187.7,
+   "streak": "L4",
    "ap": [
-    37,
-    80
+    46,
+    84
    ],
    "med": [
-    2,
+    3,
     7
    ],
-   "xW": 2.85,
-   "luck": -0.85,
-   "last3": 96.8,
-   "hi": 127.5,
+   "xW": 3.54,
+   "luck": -1.54,
+   "last3": 107.3,
+   "hi": 128.1,
    "lo": 61.8,
-   "ros": 972,
-   "proj10": 116.6,
-   "po": 0.5,
+   "ros": 853,
+   "proj11": 95.9,
+   "po": 0.2,
    "seed1": 0.0,
    "pr": 13,
    "scores": [
@@ -523,35 +535,36 @@
     103.9,
     96.54,
     87.96,
-    105.96
+    105.96,
+    128.12
    ],
-   "blurb": "2-7 and three straight losses after the O'Dons ran up 152.04. Justice Hill (18.2) and Rome Odunze (16.0) scored 34.2 on the bench. 37-80 all-play. 0.5% playoff odds. The Park projects as a 16.9-point favorite over the Stone Cold Dons this week."
+   "blurb": "2-8, four straight losses, and this one's self-inflicted: Drake Maye started (3.02), Deshaun Watson sat (21.38), and they lost by 9.30. George Pickens' 43.5 got wasted. Projects 95.9 against TTP this week."
   },
   {
    "id": 5,
    "team": "Jalen rams me",
    "owner": "Brighton Caushaj",
    "w": 4,
-   "l": 5,
-   "pf": 855.4,
-   "pa": 952.3,
-   "streak": "L2",
+   "l": 6,
+   "pf": 941.4,
+   "pa": 1073.0,
+   "streak": "L3",
    "ap": [
-    41,
-    76
+    42,
+    88
    ],
    "med": [
     2,
-    7
+    8
    ],
-   "xW": 3.15,
-   "luck": 0.85,
-   "last3": 92.5,
+   "xW": 3.23,
+   "luck": 0.77,
+   "last3": 88.1,
    "hi": 126.3,
    "lo": 51.8,
-   "ros": 767,
-   "proj10": 90.5,
-   "po": 1.7,
+   "ros": 726,
+   "proj11": 73,
+   "po": 2.4,
    "seed1": 0.0,
    "pr": 14,
    "scores": [
@@ -563,146 +576,147 @@
     91.06,
     99.4,
     115.3,
-    62.92
+    62.92,
+    85.96
    ],
-   "blurb": "4-5 after scoring 62.92, the week's lowest score. Josh Jacobs scored 0.5 and Ladd McConkey scored zero. 41-76 in all-play, second-worst in the league. 25 trades. 1.7% playoff odds. Trading isn't the problem. Okay, it might be the problem."
+   "blurb": "4-6, three straight losses, 85.96 against the O'Dons. Worst all-play record in the league (42-88) and the lowest projection this week (73.0). 27 trades and the lineup is 142.1 points worse for them."
   }
  ],
  "week7": [
   [
-   "Zach O'Donoghue",
-   152.04,
-   "Matthew Reese",
-   105.96
-  ],
-  [
    "Trevor Illson",
-   110.16,
-   "John Francis",
-   89.72
-  ],
-  [
-   "Elijah Dembe",
-   129.48,
-   "Christopher Bosefski",
-   125.36
-  ],
-  [
-   "lukas bosefski",
-   119.6,
-   "John Reese",
-   85.88
-  ],
-  [
-   "Holden Wright",
-   126.66,
+   173.34,
    "Alex Reese",
-   93.56
-  ],
-  [
-   "Samuel Vert",
-   144.38,
-   "Danny Stevens",
-   130
+   90.76
   ],
   [
    "Ben Frey",
-   134.78,
+   144.18,
+   "Holden Wright",
+   82.06
+  ],
+  [
+   "Zach O'Donoghue",
+   120.76,
    "Brighton Caushaj",
-   62.92
+   85.96
+  ],
+  [
+   "Samuel Vert",
+   159.22,
+   "Elijah Dembe",
+   124.46
+  ],
+  [
+   "Danny Stevens",
+   137.42,
+   "Matthew Reese",
+   128.12
+  ],
+  [
+   "lukas bosefski",
+   100.62,
+   "Christopher Bosefski",
+   96.44
+  ],
+  [
+   "John Reese",
+   123.4,
+   "John Francis",
+   122.4
   ]
  ],
  "previews": [
   {
-   "h": "John Francis",
+   "h": "Matthew Reese",
    "a": "John Reese",
-   "hp": 120.6,
-   "ap": 82.5,
-   "hw": 89,
-   "htop": "Jahmyr Gibbs 23.8 · Bryce Young 18.8",
-   "atop": "Jaxon Smith-Njigba 22.5 · Chase Brown 13.5",
-   "take": "Trust The Process has a quarterback problem. Bo Nix and Shedeur Sanders both project for zero, so the best TTP lineup comes in at 82.5. The anomaly’s project 120.6 with Jahmyr Gibbs at 23.8. That's a 38.1-point spread and 89% win odds for John Francis. If TTP can't find a quarterback, this one's over before kickoff.",
-   "hteam": "The anomaly’s",
+   "hp": 95.9,
+   "ap": 92.5,
+   "hw": 54,
+   "htop": "George Pickens 15.7 · Brock Bowers 15.3",
+   "atop": "Bo Nix 20.8 · Chase Brown 15.6",
+   "take": "The Park project 95.9, TTP 92.5, and both lineups have holes. Drake Maye is doubtful, and Jordan Addison and Sam Darnold are out for The Park. Tucker Kraft projects for zero for TTP. Bo Nix (20.8) is back for TTP, George Pickens (15.7) leads The Park. 3.4 points, 54% Park. TTP's last game came down to 1.00, so expect another one like it.",
+   "hteam": "The Park",
    "ateam": "Trust The Process",
-   "spread": 38.1
+   "spread": 3.4
   },
   {
-   "h": "Christopher Bosefski",
-   "a": "lukas bosefski",
-   "hp": 106.5,
-   "ap": 109.8,
-   "hw": 46,
-   "htop": "Bijan Robinson 18.6 · C.J. Stroud 18.2",
-   "atop": "Jared Goff 17.3 · Bhayshul Tuten 17.2",
-   "take": "The closest projection on the board. Goobz project 106.5 to 109.8 for the 8-1 DBC's. Bijan Robinson (18.6) and C.J. Stroud (18.2) against Jared Goff (17.3) and Bhayshul Tuten (17.2). Goobz just lost by 4.12 with 14.5 on the bench. Start the right guys this time and this is a coin flip.",
-   "hteam": "Team Goobz",
-   "ateam": "The DBC's",
-   "spread": -3.3
-  },
-  {
-   "h": "Zach O'Donoghue",
-   "a": "Brighton Caushaj",
-   "hp": 118.3,
-   "ap": 90.5,
-   "hw": 82,
-   "htop": "CeeDee Lamb 20.8 · Joe Burrow 19.0",
-   "atop": "Matthew Stafford 16.9 · Breece Hall 12.7",
-   "take": "The Trade No. 56 bowl. Charbonnet goes to the O'Dons, and Stafford and Pittman go to Brighton, and five days later they play each other. The O'Dons have won five straight and project 118.3. Jalen rams me projects 90.5, with Stafford at 16.9 as its top starter. 82% for the O'Dons. Brighton needs a miracle, or another trade.",
-   "hteam": "Fighting O'Dons",
-   "ateam": "Jalen rams me",
-   "spread": 27.8
+   "h": "John Francis",
+   "a": "Christopher Bosefski",
+   "hp": 108.7,
+   "ap": 116.4,
+   "hw": 40,
+   "htop": "Jahmyr Gibbs 21.9 · Bryce Young 17.4",
+   "atop": "C.J. Stroud 21.8 · Justin Jefferson 20",
+   "take": "Goobz project 116.4 to 108.7 with C.J. Stroud (21.8) and Justin Jefferson (20.0), even with Jason Myers projecting for zero. The anomaly's have Jahmyr Gibbs (21.9) and Bryce Young (17.4). 7.7 points, 60% Goobz. Both teams are fighting for the last playoff spots, and Goobz have lost two straight by about four. Set the lineup, Goobz.",
+   "hteam": "The anomaly’s",
+   "ateam": "Team Goobz",
+   "spread": 7.7
   },
   {
    "h": "Alex Reese",
-   "a": "Trevor Illson",
-   "hp": 108.4,
-   "ap": 120.1,
-   "hw": 35,
-   "htop": "Jayden Daniels 18.6 · Ashton Jeanty 14.6",
-   "atop": "Josh Allen 25.7 · Christian McCaffrey 21.7",
-   "take": "The Overload projects 120.1 with Josh Allen (25.7) and Christian McCaffrey (21.7). A-Rock projects 108.4 behind Jayden Daniels (18.6). Alex is 2-7 but averaging 119.4 the last three weeks. Trevor is holding the 8 seed on points and can't afford to drop this one. 65% Overload.",
-   "hteam": "A-Rock Balls",
-   "ateam": "The Overload",
-   "spread": -11.7
-  },
-  {
-   "h": "Matthew Reese",
    "a": "Danny Stevens",
-   "hp": 116.6,
-   "ap": 99.7,
-   "hw": 71,
-   "htop": "Drake Maye 21.9 · Brock Bowers 16.7",
-   "atop": "Matthew Golden 16.6 · Dak Prescott 16.6",
-   "take": "The basement bowl: 2-7 vs 1-8. The Park projects 116.6 behind Drake Maye (21.9) and Brock Bowers (16.7). The Stone Cold Dons project 99.7 and are trying to snap a seven-game skid. The Park is 71% to win. A loss would make it eight straight for the Dons.",
-   "hteam": "The Park",
+   "hp": 114.7,
+   "ap": 94.9,
+   "hw": 74,
+   "htop": "Jayden Daniels 19.6 · Tony Pollard 18.4",
+   "atop": "Dak Prescott 21.9 · Derrick Henry 14.5",
+   "take": "2-8 against 2-8. A-Rock project 114.7 with Jayden Daniels (19.6) and Tony Pollard (18.4). The Dons get 94.9 with Dak Prescott (21.9) and Derrick Henry (14.5). 19.8 points, 74% A-Rock. Nothing on the line but pride, and both of these teams could use some.",
+   "hteam": "A-Rock Balls",
    "ateam": "Stone Cold Dons",
-   "spread": 16.9
+   "spread": 19.8
   },
   {
-   "h": "Ben Frey",
+   "h": "Zach O'Donoghue",
    "a": "Holden Wright",
-   "hp": 114.5,
-   "ap": 80.3,
-   "hw": 87,
-   "htop": "Trevor Lawrence 21.4 · Jonathan Taylor 17.8",
-   "atop": "James Cook III 21.4 · Tee Higgins 16.1",
-   "take": "6-3 vs 6-3, and the projections say it's a mismatch. Big Dabolls project 114.5. Aaron Rodgers LSD projects 80.3 with Caleb Williams and kicker Cairo Santos both projected for zero. That's a 34.2-point spread and 87% for Ben. Holden has been the luckiest team in the league. He's going to need that luck this week.",
-   "hteam": "Big Dabolls",
+   "hp": 135.3,
+   "ap": 120.1,
+   "hw": 69,
+   "htop": "Joe Burrow 22.9 · CeeDee Lamb 22.5",
+   "atop": "James Cook III 20.9 · Jonah Coleman 19.4",
+   "take": "The O'Dons project 135.3, the top number on the board, with Joe Burrow (22.9) and CeeDee Lamb (22.5). LSD have 120.1 with James Cook III (20.9) and Jonah Coleman (19.4). 15.2 points, 69% O'Dons. LSD need this one more than the O'Dons do.",
+   "hteam": "Fighting O'Dons",
    "ateam": "Aaron Rodgers LSD",
-   "spread": 34.2
+   "spread": 15.2
   },
   {
    "h": "Elijah Dembe",
-   "a": "Samuel Vert",
-   "hp": 120,
-   "ap": 141,
-   "hw": 25,
-   "htop": "Kenneth Walker III 26.0 · Brock Purdy 20.7",
-   "atop": "Ja'Marr Chase 22.9 · Amon-Ra St. Brown 20.3",
-   "take": "Vert projects 141.0, the highest number on the board, with Ja'Marr Chase (22.9) and Amon-Ra St. Brown (20.3). Rat projects 120.0 with Kenneth Walker III (26.0) and Brock Purdy (20.7). Rat just moved into the 7 seed. Vert is 75% to knock it right back out.",
+   "a": "Ben Frey",
+   "hp": 107.8,
+   "ap": 110.3,
+   "hw": 47,
+   "htop": "Kenneth Walker III 25.7 · Brock Purdy 17.6",
+   "atop": "Trevor Lawrence 19.5 · Jonathan Taylor 16.4",
+   "take": "The closest projection of the week: Big Dabolls 110.3, Rat 107.8. Kenneth Walker III (25.7) and Brock Purdy (17.6) against Trevor Lawrence (19.5) and Jonathan Taylor (16.4). Rat's kicker, Andre Szmyt, projects for zero. 2.5 points, 53% Big Dabolls. Rat is 5-5 and on the outside. This is a must-win.",
    "hteam": "Rat",
-   "ateam": "Vert",
-   "spread": -21
+   "ateam": "Big Dabolls",
+   "spread": 2.5
+  },
+  {
+   "h": "Trevor Illson",
+   "a": "Brighton Caushaj",
+   "hp": 121.5,
+   "ap": 73,
+   "hw": 94,
+   "htop": "Josh Allen 23.4 · Chuba Hubbard 20",
+   "atop": "Geno Smith 14.2 · Jordyn Tyson 11.7",
+   "take": "The Overload project 121.5 with Josh Allen (23.4) and Chuba Hubbard (20.0). Jalen rams me project 73.0, the lowest on the board, with Josh Jacobs out and the Packers D/ST projecting for zero. 48.5 points, 94% Overload. Brighton needs about five more trades by Sunday.",
+   "hteam": "The Overload",
+   "ateam": "Jalen rams me",
+   "spread": 48.5
+  },
+  {
+   "h": "Samuel Vert",
+   "a": "lukas bosefski",
+   "hp": 126.8,
+   "ap": 86.8,
+   "hw": 90,
+   "htop": "Ja'Marr Chase 25.4 · Patrick Mahomes 21.5",
+   "atop": "Bhayshul Tuten 16.9 · Jaylen Warren 16.3",
+   "take": "Game of the week. The 9-1 DBC's project 86.8 to Vert's 126.8. Ja'Marr Chase (25.4) and Patrick Mahomes (21.5) against Bhayshul Tuten (16.9) and Jaylen Warren (16.3), with Puka Nacua on IR and the Seahawks D/ST projecting for zero. 40.0 points, 90% Vert. The DBC's can lose and stay first. The question is whether they look like a first-place team doing it.",
+   "hteam": "Vert",
+   "ateam": "The DBC's",
+   "spread": 40.0
   }
  ],
  "awards": [
@@ -939,9 +953,119 @@
     32.2,
     false
    ]
+  },
+  {
+   "week": 10,
+   "high": [
+    "Trevor Illson",
+    173.3
+   ],
+   "low": [
+    "Holden Wright",
+    82.1
+   ],
+   "blowout": [
+    "Trevor Illson",
+    "Alex Reese",
+    82.58
+   ],
+   "closest": [
+    "John Reese",
+    "John Francis",
+    1.0
+   ],
+   "blunder": [
+    "Danny Stevens",
+    39.3,
+    false
+   ]
   }
  ],
  "headlines": [
+  {
+   "id": "recap-20261117-overload",
+   "week": 10,
+   "tag": "RECAP",
+   "hot": true,
+   "title": "173.34: The Overload hang the season's high score and bury A-Rock by 82.58",
+   "dek": "Christian McCaffrey went for 46.3, Chuba Hubbard for 34.2, and Trevor Illson's 5-5 team is suddenly at 95.7% to make the playoffs.",
+   "body": [
+    "Holy hell. Christian McCaffrey dropped 46.3, Chuba Hubbard added 34.2, Josh Allen 22.34 and Stefon Diggs 20.3, and The Overload put up 173.34, the highest score anybody has posted this season. The old 2026 high was Vert's 161.6 from Week 4. It missed the league's all-time top five by six hundredths of a point.",
+    "A-Rock Balls scored 90.76 and lost by 82.58, the fourth-biggest blowout in league history. And The Overload could have made it worse: Alvin Kamara's 16.4 sat on the bench, and the best possible lineup was 183.54.",
+    "Trevor Illson is only 5-5, but the 85-45 all-play record is second in the league, and the luck number (−1.54) says the record should be better. Three straight wins, playoff odds up from 86.0% to 95.7%. A-Rock is 2-8 and at 0.1%."
+   ],
+   "posted": "2026-11-17T10:16:00-05:00"
+  },
+  {
+   "id": "recap-20261117-ttp",
+   "week": 10,
+   "tag": "RECAP",
+   "hot": true,
+   "title": "Trust The Process were 11% to win. They won by 1.00.",
+   "dek": "Projected for 82.5 and a 38.1-point underdog, TTP scored 123.4 and beat The anomaly's 122.4, with 32.8 points sitting on their own bench.",
+   "body": [
+    "Last week's preview gave Trust The Process 11% odds. Jaxon Smith-Njigba ignored it with 31.1, Chase Brown put up 28.3, and backup quarterback Drew Lock threw in 15.6 with Bo Nix not playing. Final: 123.4 to 122.4. Jahmyr Gibbs dropped 44.2 for The anomaly's and it still wasn't enough.",
+    "TTP nearly blew it anyway. Omarion Hampton (17.5) and Josh Downs (15.3), both acquired Tuesday, sat on the bench while Rhamondre Stevenson (1.5) and Tucker Kraft (2.9) started. The best possible lineup was 145.5. Win by 1, learn nothing.",
+    "The anomaly's have their own regret. On Saturday they shipped Derrick Henry, Deebo Samuel and Blake Corum to the Stone Cold Dons, and the three combined for 65.8 points against The Park. Matthew Golden, who came back in the deal, scored 12. TTP's playoff odds jumped from 36.9% to 72.2%. The anomaly's fell from 70.8% to 53.6% and hold the eighth spot only on points."
+   ],
+   "posted": "2026-11-17T10:15:00-05:00"
+  },
+  {
+   "id": "crime-20261117-park",
+   "week": 10,
+   "tag": "BENCH CRIME",
+   "hot": true,
+   "title": "Henry delivers, the Dons end the skid, and The Park benched the win",
+   "dek": "Drake Maye started and scored 3.02. Deshaun Watson scored 21.38 on The Park's bench. The Park lost by 9.30.",
+   "body": [
+    "Derrick Henry needed 9.71 on Monday night and put up 19. The Stone Cold Dons beat The Park 137.42 to 128.12 and snapped a seven-game losing streak that started in Week 3. The three veterans they bought Saturday combined for 65.8, and Dak Prescott added 34.42.",
+    "Now the crime. The Park started Drake Maye (3.02) over Deshaun Watson (21.38). That one swap was worth 18.36 points, and The Park lost by 9.30. Do the math. George Pickens went for 43.5 and Parker Washington 28.2, and they got wasted on a quarterback decision. The best possible Park lineup was 150.78. The Park is 2-8 with four straight losses.",
+    "The Dons won with the week's biggest bench crime anyway: 39.3 points left behind. The Vikings D/ST scored 21 on the bench while the Bills D/ST started for 10, and Ryan Flournoy (19.1) and Mark Andrews (16.2) sat while Omar Cooper Jr. started and scored 0. At 2-8 with a 66-64 all-play record, the Dons are still the unluckiest team in the league at −3.08 wins."
+   ],
+   "posted": "2026-11-17T10:14:00-05:00"
+  },
+  {
+   "id": "recap-20261117-dbc",
+   "week": 10,
+   "tag": "RECAP",
+   "hot": false,
+   "title": "DBC's hold off Goobz by 4.18 and go 9-1, and Goobz lose by about four again",
+   "dek": "Team Goobz's best lineup was 103.94, enough to win. They started Travis Kelce (5) over Pat Freiermuth (11.5).",
+   "body": [
+    "Lukas Bosefski's DBC's beat Christopher Bosefski's Team Goobz 100.62 to 96.44. Jared Goff (20.42) and Bhayshul Tuten (20.3) carried it, and Jaylen Warren added 9.1 on Sunday night. Five straight wins, and No. 1 seed odds are up from 51.7% to 63.6%.",
+    "Goobz lost by 4.12 last week with 14.5 on the bench. This week they lost by 4.18 with a best possible lineup of 103.94. Travis Kelce started and scored 5 while Pat Freiermuth scored 11.5 on the bench. The 49ers D/ST went for −1 and Tyler Allgeier for 1.4. Goobz are 4-6, three straight losses, and their playoff odds fell from 64.2% to 52.1%.",
+    "The DBC's luck is +2.54 wins, the most in the league, and the bill might come due Sunday: they project 86.8 against Vert's 126.8. Puka Nacua is on IR and the Seahawks D/ST projects for zero."
+   ],
+   "posted": "2026-11-17T10:13:00-05:00"
+  },
+  {
+   "id": "race-20261117",
+   "week": 10,
+   "tag": "PLAYOFF PICTURE",
+   "hot": false,
+   "title": "Big Dabolls flatten LSD 144.18 to 82.06, and the bubble is four teams at 5-5",
+   "dek": "Isaiah Likely 27.7, Cam Skattebo 27.2, Trevor Lawrence 26.78. Aaron Rodgers LSD posted the week's lowest score.",
+   "body": [
+    "Ben Frey's Big Dabolls beat Aaron Rodgers LSD by 62.12, the second-biggest margin of the week, with three guys over 26. Big Dabolls are 7-3 at 99.6% playoff odds. LSD's 82.06 was the week's low, and they're 6-4 on a 54-76 all-play record. Their luck is +1.85 wins, and their odds dropped from 86.9% to 75.4%.",
+    "The O'Dons keep rolling: 120.76 to 85.96 over Jalen rams me, Joe Burrow 33.16, six straight wins. Vert hung 159.22 on Rat behind Patrick Mahomes (35.42) and Ja'Marr Chase (34.1). The top five seeds right now: DBC's 9-1, then O'Dons, Vert and Big Dabolls at 7-3, then LSD at 6-4.",
+    "Then the mess. The Overload, Trust The Process, The anomaly's and Rat are all 5-5, and points decide it: The Overload (1,269.2), TTP (1,144.2) and The anomaly's (1,125.0) are in, Rat (1,071.2) is out. Four weeks left. Team Goobz (4-6) sits at 52.1% odds and Rat at 48.5%."
+   ],
+   "posted": "2026-11-17T10:12:00-05:00"
+  },
+  {
+   "id": "hype-20261117-rivalry",
+   "week": 10,
+   "tag": "HYPE",
+   "hot": true,
+   "title": "Rivalry Week is one week out: all seven grudge matches hit in Week 12",
+   "dek": "Every designated rivalry plays in Week 12. Here's where the series stand, and which ones have playoff spots on the line.",
+   "body": [
+    "The Man vs The Mouse: John Reese leads Elijah Dembe 5-2 and beat him in the 2024 championship, but Elijah won the first meeting this year 144.12 to 120.82. Both teams are 5-5, TTP is in at No. 7 and Rat is out on points. The Uck Bowl, the most-played rivalry at 10 games, has Christopher Bosefski up 6-4 on Trevor Illson after a 113.18 to 110.32 Goobz win in Week 4. The Corporate Bowl: Matthew Reese leads 5-2, but Holden Wright won Week 4 82.46 to 61.82.",
+    "The Living Room Bowl: Zach O'Donoghue leads John Francis 2-1, and John Francis took Week 4 140.56 to 137.82. The Battle For The Park: Ben Frey leads Danny Stevens 3-2, and the 2-8 Dons get the 7-3 Big Dabolls. The Cardio Bowl: Samuel Vert leads Alex Reese 4-2 and won Week 4 161.6 to 87.68. The Keyboard Bowl: Lukas Bosefski leads Brighton Caushaj 2-1 after a 128.14 to 107.32 Week 4 win.",
+    "Week 11 first, and it matters: Trust The Process gets The Park, The anomaly's get Goobz and Rat gets Big Dabolls. Lose this week and you walk into your rivalry game needing it."
+   ],
+   "posted": "2026-11-17T10:11:00-05:00"
+  },
   {
    "id": "trade-t57-20261117",
    "week": 10,
@@ -1005,8 +1129,7 @@
    "dek": "The 1-8 Dons take on three veterans in a 3-for-2, and The anomaly’s consolidate around Matthew Golden’s 17.6 points a game.",
    "body": [
     "The anomaly’s sent Derrick Henry (15.8 points a game), Deebo Samuel Sr. (12.1) and Blake Corum (10.5) to Stone Cold Dons on Saturday for Matthew Golden (17.6) and Courtland Sutton (7.1). Sutton is now on his third new team in 11 days: Trust The Process to Big Dabolls on Nov. 3, Big Dabolls to the Dons on Nov. 10, and now here.",
-    "The Dons put all three newcomers straight into the Week 10 lineup, Henry and Deebo in their usual spots and Corum at flex. None has played yet, and the Dons trail The Park 56.92 to 23.8 while riding a seven-game losing streak. Golden has 12 points so far for The anomaly’s, who lead Trust The Process 93.58 to 45.4. Sutton, projected for zero, went to the bench. “He’s unpacking one bag at a time,” a league source said.",
-    "Grades: Stone Cold Dons A+ (+64.6), The anomaly’s F (-48.8). Holy shit, the Dons won a trade, and not by a little. Henry (19.0), Corum (20.9) and Deebo (25.9) combined for 65.8 in Week 10, while Golden put up 12.0 and Sutton a zero. Golden's 124.5 rest-of-season projection is the best piece in the deal, but Henry (97.0), Corum (89.7) and Deebo (86.9) fill three starting spots. The anomaly’s consolidated straight into a wall."
+    "The Dons put all three newcomers straight into the Week 10 lineup, Henry and Deebo in their usual spots and Corum at flex. None has played yet, and the Dons trail The Park 56.92 to 23.8 while riding a seven-game losing streak. Golden has 12 points so far for The anomaly’s, who lead Trust The Process 93.58 to 45.4. Sutton, projected for zero, went to the bench. “He’s unpacking one bag at a time,” a league source said."
    ],
    "posted": "2026-11-15T15:34:00-05:00"
   },
@@ -1019,34 +1142,19 @@
    "dek": "Brighton Caushaj's 27th trade of the season brings back a receiver he owned for one day in October.",
    "body": [
     "Trust The Process traded Jameson Williams to Jalen rams me on Tuesday for wide receiver Josh Downs and running back Omarion Hampton. Williams is averaging 13.2 a game; Downs (8.3) and Hampton (8.5) add up to 16.8. It's Williams' second stint with Brighton. The first lasted one day: Brighton got him from The Park on Oct. 13 and shipped him to the O'Dons on Oct. 14, in the deal that brought Hampton in.",
-    "Hampton goes straight into John Reese's lineup at running back, projected for 7.9 against The anomaly’s, with TreVeyon Henderson out and Rhamondre Stevenson questionable. Downs (9.2) opens on the bench. Williams starts at receiver for Brighton, projected for 12.1 Sunday against the 6-3 O'Dons. \"Jameson knows the building,\" a team source said. \"He's seen the lobby.\"",
-    "Grades: Trust The Process B- (+4.3), Jalen rams me C- (-6.2). Downs (15.3) and Hampton (17.5) put up 32.8 in Week 10 while Jameson Williams gave Brighton 9.0. Williams projects for 96.3 the rest of the way, more than either Downs (70.7) or Hampton (81.7), but two startable bodies beat one in the lineup model. Brighton paid two players to rent back a receiver he already returned once. Bold strategy."
+    "Hampton goes straight into John Reese's lineup at running back, projected for 7.9 against The anomaly’s, with TreVeyon Henderson out and Rhamondre Stevenson questionable. Downs (9.2) opens on the bench. Williams starts at receiver for Brighton, projected for 12.1 Sunday against the 6-3 O'Dons. \"Jameson knows the building,\" a team source said. \"He's seen the lobby.\""
    ],
    "posted": "2026-11-12T17:12:00-05:00"
-  },
-  {
-   "id": "beat-20261112-am",
-   "week": 10,
-   "tag": "TRADE WIRE",
-   "hot": true,
-   "title": "Big Dabolls flip Sutton after one week, land Judkins from Stone Cold Dons",
-   "dek": "Ben Frey sent Courtland Sutton and Jadarian Price to the 1-8 Stone Cold Dons on Tuesday for running back Quinshon Judkins.",
-   "body": [
-    "The deal went through at 1:26 p.m. Tuesday. Big Dabolls get Judkins, who is averaging 11.5 points a game and scored 5.5 in Week 9 for Danny Stevens. The Stone Cold Dons get Price, averaging 5.3, and Sutton, whom Frey acquired from Trust The Process on Nov. 3 for Eli Raridon. Sutton spent his one week with Big Dabolls on the bench and scored 15.5 there.",
-    "Judkins goes straight into Big Dabolls' flex, projected for 11.8 Sunday against Aaron Rodgers LSD in a game between 6-3 teams. Price starts at running back for the Stone Cold Dons, projected for 11.9 against The Park. Sutton is projected for zero this week and sits on another bench. \"He's a great route runner,\" a Stone Cold source said. \"We'll see him in Week 11.\"",
-    "Grades are in, and Ben Frey robbed the Dons again. Big Dabolls get a B- (+5.4): Judkins dropped 16.1 in Week 10 and projects for 85.3 more. Stone Cold Dons get a C- (-11.0). Price gave them 11.4 and projects for 60.9, and Sutton scored a goddamn zero before the Dons flipped him four days later. Even after Saturday's A+, the Dons sit at -173.4 on the trade ledger."
-   ],
-   "posted": "2026-11-12T10:34:00-05:00"
   }
  ],
  "storylines": [
   {
    "title": "Luck report",
-   "body": "Unluckiest: Danny Stevens (−3.31 wins), Trevor Illson (−1.54) and Alex Reese (−1.23). Luckiest: lukas bosefski and Holden Wright (+1.85 each) and Elijah Dembe (+1.31). Holden is 6-3 on a 54-63 all-play record."
+   "body": "Unluckiest: Danny Stevens (−3.08 wins), Trevor Illson and Matthew Reese (−1.54 each) and Alex Reese (−1.38). Luckiest: lukas bosefski (+2.54), Holden Wright (+1.85) and Ben Frey (+1.38). Holden is 6-4 on a 54-76 all-play record."
   },
   {
    "title": "The trade market",
-   "body": "56 trades so far. Brighton Caushaj has made 25 and his lineup is 147.7 points worse for it. Zach O'Donoghue has made 13 and leads the league at +111.5. Stone Cold Dons sit at the bottom: 14 deals, −227.0."
+   "body": "60 trades so far. Brighton Caushaj has made 27 and his lineup is 142.1 points worse for it. Trust The Process leads the re-graded ledger at +203.4 on 10 deals, mostly on the Bo Nix pickup (now +98.9, an A+). Stone Cold Dons sit at the bottom: 16 deals, −174.2."
   }
  ],
  "trades": [
@@ -1059,14 +1167,14 @@
      "team": "Stone Cold Dons",
      "got": "Derrick Henry (RB), Deebo Samuel Sr. (WR), Blake Corum (RB)",
      "gave": "Matthew Golden (WR), Courtland Sutton (WR)",
-     "net": 64.6,
+     "net": 64.4,
      "grade": "A+"
     },
     {
      "team": "The anomaly’s",
      "got": "Matthew Golden (WR), Courtland Sutton (WR)",
      "gave": "Derrick Henry (RB), Deebo Samuel Sr. (WR), Blake Corum (RB)",
-     "net": -48.8,
+     "net": -48.6,
      "grade": "F"
     }
    ]
@@ -1080,15 +1188,15 @@
      "team": "Trust The Process",
      "got": "Josh Downs (WR), Omarion Hampton (RB)",
      "gave": "Jameson Williams (WR)",
-     "net": 4.3,
+     "net": 4.0,
      "grade": "B-"
     },
     {
      "team": "Jalen rams me",
      "got": "Jameson Williams (WR)",
      "gave": "Josh Downs (WR), Omarion Hampton (RB)",
-     "net": -6.2,
-     "grade": "C-"
+     "net": -5.9,
+     "grade": "C"
     }
    ]
   },
@@ -1101,14 +1209,14 @@
      "team": "Big Dabolls",
      "got": "Quinshon Judkins (RB)",
      "gave": "Jadarian Price (RB), Courtland Sutton (WR)",
-     "net": 5.4,
+     "net": 5.5,
      "grade": "B-"
     },
     {
      "team": "Stone Cold Dons",
      "got": "Jadarian Price (RB), Courtland Sutton (WR)",
      "gave": "Quinshon Judkins (RB)",
-     "net": -11.0,
+     "net": -11.1,
      "grade": "C-"
     }
    ]
@@ -1122,14 +1230,14 @@
      "team": "Jalen rams me",
      "got": "Zach Charbonnet (RB), Jordyn Tyson (WR)",
      "gave": "Breece Hall (RB)",
-     "net": 23.0,
+     "net": 22.7,
      "grade": "A-"
     },
     {
      "team": "Fighting O'Dons",
      "got": "Breece Hall (RB)",
      "gave": "Zach Charbonnet (RB), Jordyn Tyson (WR)",
-     "net": -8.6,
+     "net": -8.4,
      "grade": "C-"
     }
    ]
@@ -1143,15 +1251,15 @@
      "team": "Jalen rams me",
      "got": "Matthew Stafford (QB), Michael Pittman Jr. (WR)",
      "gave": "Zach Charbonnet (RB)",
-     "net": -8.2,
-     "grade": "C-"
+     "net": 7.3,
+     "grade": "B"
     },
     {
      "team": "Fighting O'Dons",
      "got": "Zach Charbonnet (RB)",
      "gave": "Matthew Stafford (QB), Michael Pittman Jr. (WR)",
-     "net": 3.6,
-     "grade": "B-"
+     "net": 12.0,
+     "grade": "B+"
     }
    ]
   },
@@ -1164,15 +1272,15 @@
      "team": "Fighting O'Dons",
      "got": "Jordyn Tyson (WR)",
      "gave": "Antonio Williams (WR)",
-     "net": 0,
-     "grade": "C+"
+     "net": 8.6,
+     "grade": "B"
     },
     {
      "team": "Stone Cold Dons",
      "got": "Antonio Williams (WR)",
      "gave": "Jordyn Tyson (WR)",
-     "net": 0,
-     "grade": "C+"
+     "net": -19.8,
+     "grade": "D+"
     }
    ]
   },
@@ -1185,14 +1293,14 @@
      "team": "Trust The Process",
      "got": "Deshaun Watson (QB)",
      "gave": "Joe Fagnano (QB)",
-     "net": 0,
-     "grade": "C+"
+     "net": 5.8,
+     "grade": "B-"
     },
     {
      "team": "Stone Cold Dons",
      "got": "Joe Fagnano (QB)",
      "gave": "Deshaun Watson (QB)",
-     "net": 0,
+     "net": -0.9,
      "grade": "C+"
     }
    ]
@@ -1206,14 +1314,14 @@
      "team": "Jalen rams me",
      "got": "Breece Hall (RB), Ladd McConkey (WR)",
      "gave": "Garrett Wilson (WR), Carnell Tate (WR)",
-     "net": -11.2,
-     "grade": "C-"
+     "net": -25.3,
+     "grade": "D"
     },
     {
      "team": "Rat",
      "got": "Garrett Wilson (WR), Carnell Tate (WR)",
      "gave": "Breece Hall (RB), Ladd McConkey (WR)",
-     "net": 7.4,
+     "net": 11.6,
      "grade": "B"
     }
    ]
@@ -1227,15 +1335,15 @@
      "team": "Jalen rams me",
      "got": "Garrett Wilson (WR), Malik Washington (WR)",
      "gave": "Braelon Allen (RB), Jaylen Waddle (WR)",
-     "net": 1.4,
-     "grade": "C+"
+     "net": 19.5,
+     "grade": "B+"
     },
     {
      "team": "The anomaly’s",
      "got": "Braelon Allen (RB), Jaylen Waddle (WR)",
      "gave": "Garrett Wilson (WR), Malik Washington (WR)",
-     "net": -1.4,
-     "grade": "C+"
+     "net": -8.1,
+     "grade": "C-"
     }
    ]
   },
@@ -1248,15 +1356,15 @@
      "team": "Trust The Process",
      "got": "Bo Nix (QB)",
      "gave": "Khalil Shakir (WR)",
-     "net": 0.9,
-     "grade": "C+"
+     "net": 98.9,
+     "grade": "A+"
     },
     {
      "team": "Aaron Rodgers LSD",
      "got": "Khalil Shakir (WR)",
      "gave": "Bo Nix (QB)",
-     "net": -2.9,
-     "grade": "C"
+     "net": 4.9,
+     "grade": "B-"
     }
    ]
   },
@@ -1269,15 +1377,15 @@
      "team": "Trust The Process",
      "got": "Eli Raridon (TE)",
      "gave": "Courtland Sutton (WR)",
-     "net": -5.5,
-     "grade": "C"
+     "net": 0.5,
+     "grade": "C+"
     },
     {
      "team": "Big Dabolls",
      "got": "Courtland Sutton (WR)",
      "gave": "Eli Raridon (TE)",
-     "net": 5.7,
-     "grade": "B-"
+     "net": 15.2,
+     "grade": "B+"
     }
    ]
   },
@@ -1290,15 +1398,15 @@
      "team": "Jalen rams me",
      "got": "A.J. Brown (WR), Braelon Allen (RB)",
      "gave": "Luther Burden III (WR), Samaje Perine (RB)",
-     "net": -24.1,
-     "grade": "D"
+     "net": -37.3,
+     "grade": "F"
     },
     {
      "team": "Big Dabolls",
      "got": "Luther Burden III (WR), Samaje Perine (RB)",
      "gave": "A.J. Brown (WR), Braelon Allen (RB)",
-     "net": 21.2,
-     "grade": "B+"
+     "net": 48.0,
+     "grade": "A"
     }
    ]
   },
@@ -1311,15 +1419,15 @@
      "team": "Team Goobz",
      "got": "David Montgomery (RB)",
      "gave": "Josh Downs (WR)",
-     "net": -0.2,
-     "grade": "C+"
+     "net": 3.0,
+     "grade": "B-"
     },
     {
      "team": "Jalen rams me",
      "got": "Josh Downs (WR)",
      "gave": "David Montgomery (RB)",
-     "net": -1.7,
-     "grade": "C+"
+     "net": 14.3,
+     "grade": "B+"
     }
    ]
   },
@@ -1332,14 +1440,14 @@
      "team": "The Overload",
      "got": "Wan'Dale Robinson (WR), Rachaad White (RB), Marvin Harrison Jr. (WR)",
      "gave": "Michael Wilson (WR), Jonah Coleman (RB)",
-     "net": -55.6,
+     "net": -62.6,
      "grade": "F"
     },
     {
      "team": "Aaron Rodgers LSD",
      "got": "Michael Wilson (WR), Jonah Coleman (RB)",
      "gave": "Wan'Dale Robinson (WR), Rachaad White (RB), Marvin Harrison Jr. (WR)",
-     "net": 55.7,
+     "net": 65.5,
      "grade": "A+"
     }
    ]
@@ -1353,14 +1461,14 @@
      "team": "Trust The Process",
      "got": "Malachi Fields (WR)",
      "gave": "Konata Mumpfield (WR)",
-     "net": 0,
+     "net": -1.9,
      "grade": "C+"
     },
     {
      "team": "The DBC's",
      "got": "Konata Mumpfield (WR)",
      "gave": "Malachi Fields (WR)",
-     "net": 0,
+     "net": 0.0,
      "grade": "C+"
     }
    ]
@@ -1374,14 +1482,14 @@
      "team": "Stone Cold Dons",
      "got": "Keon Coleman (WR)",
      "gave": "Davante Adams (WR)",
-     "net": 0,
+     "net": 0.0,
      "grade": "C+"
     },
     {
      "team": "Team Goobz",
      "got": "Davante Adams (WR)",
      "gave": "Keon Coleman (WR)",
-     "net": 0,
+     "net": 0.0,
      "grade": "C+"
     }
    ]
@@ -1395,15 +1503,15 @@
      "team": "Trust The Process",
      "got": "TreVeyon Henderson (RB), Jameson Williams (WR)",
      "gave": "DJ Moore (WR)",
-     "net": -1.7,
+     "net": 1.4,
      "grade": "C+"
     },
     {
      "team": "Fighting O'Dons",
      "got": "DJ Moore (WR)",
      "gave": "TreVeyon Henderson (RB), Jameson Williams (WR)",
-     "net": 7.9,
-     "grade": "B"
+     "net": 5.7,
+     "grade": "B-"
     }
    ]
   },
@@ -1416,15 +1524,15 @@
      "team": "Vert",
      "got": "Amon-Ra St. Brown (WR)",
      "gave": "Josh Jacobs (RB), Luther Burden III (WR), Carnell Tate (WR)",
-     "net": -15.9,
+     "net": -21.3,
      "grade": "D+"
     },
     {
      "team": "Jalen rams me",
      "got": "Josh Jacobs (RB), Luther Burden III (WR), Carnell Tate (WR)",
      "gave": "Amon-Ra St. Brown (WR)",
-     "net": 32.7,
-     "grade": "A-"
+     "net": 35.6,
+     "grade": "A"
     }
    ]
   },
@@ -1437,14 +1545,14 @@
      "team": "Jalen rams me",
      "got": "Terry McLaurin (WR)",
      "gave": "Lamar Jackson (QB)",
-     "net": 0,
+     "net": 0.3,
      "grade": "C+"
     },
     {
      "team": "Team Goobz",
      "got": "Lamar Jackson (QB)",
      "gave": "Terry McLaurin (WR)",
-     "net": 0,
+     "net": 0.0,
      "grade": "C+"
     }
    ]
@@ -1458,15 +1566,15 @@
      "team": "Jalen rams me",
      "got": "Zach Charbonnet (RB), George Holani (RB), Amon-Ra St. Brown (WR)",
      "gave": "DJ Moore (WR), Chase Brown (RB), Emeka Egbuka (WR)",
-     "net": 3.7,
-     "grade": "B-"
+     "net": -1.0,
+     "grade": "C+"
     },
     {
      "team": "Trust The Process",
      "got": "DJ Moore (WR), Chase Brown (RB), Emeka Egbuka (WR)",
      "gave": "Zach Charbonnet (RB), George Holani (RB), Amon-Ra St. Brown (WR)",
-     "net": -4.8,
-     "grade": "C"
+     "net": 13.6,
+     "grade": "B+"
     }
    ]
   },
@@ -1479,15 +1587,15 @@
      "team": "Jalen rams me",
      "got": "Lamar Jackson (QB), DJ Moore (WR)",
      "gave": "Mike Evans (WR)",
-     "net": 20.7,
-     "grade": "B+"
+     "net": 22.1,
+     "grade": "A-"
     },
     {
      "team": "A-Rock Balls",
      "got": "Mike Evans (WR)",
      "gave": "Lamar Jackson (QB), DJ Moore (WR)",
-     "net": -21.3,
-     "grade": "D+"
+     "net": -24.6,
+     "grade": "D"
     }
    ]
   },
@@ -1500,14 +1608,14 @@
      "team": "A-Rock Balls",
      "got": "DJ Moore (WR), Tony Pollard (RB)",
      "gave": "Roman Wilson (WR), Breece Hall (RB)",
-     "net": 109.8,
+     "net": 142.5,
      "grade": "A+"
     },
     {
      "team": "Rat",
      "got": "Roman Wilson (WR), Breece Hall (RB)",
      "gave": "DJ Moore (WR), Tony Pollard (RB)",
-     "net": -107.6,
+     "net": -123.4,
      "grade": "F"
     }
    ]
@@ -1521,15 +1629,15 @@
      "team": "Fighting O'Dons",
      "got": "TreVeyon Henderson (RB), Germie Bernard (WR)",
      "gave": "Keaton Mitchell (RB), Dalton Kincaid (TE)",
-     "net": 6.8,
-     "grade": "B"
+     "net": 1.2,
+     "grade": "C+"
     },
     {
      "team": "Stone Cold Dons",
      "got": "Keaton Mitchell (RB), Dalton Kincaid (TE)",
      "gave": "TreVeyon Henderson (RB), Germie Bernard (WR)",
-     "net": -3.1,
-     "grade": "C"
+     "net": 27.6,
+     "grade": "A-"
     }
    ]
   },
@@ -1542,15 +1650,15 @@
      "team": "Jalen rams me",
      "got": "Mike Evans (WR), Kenny Gainwell (RB), Chase Brown (RB)",
      "gave": "Chris Olave (WR), Jordan Mason (RB), DJ Moore (WR)",
-     "net": -3.9,
-     "grade": "C"
+     "net": 1.1,
+     "grade": "C+"
     },
     {
      "team": "Rat",
      "got": "Chris Olave (WR), Jordan Mason (RB), DJ Moore (WR)",
      "gave": "Mike Evans (WR), Kenny Gainwell (RB), Chase Brown (RB)",
-     "net": 28.4,
-     "grade": "A-"
+     "net": 1.0,
+     "grade": "C+"
     }
    ]
   },
@@ -1563,14 +1671,14 @@
      "team": "Fighting O'Dons",
      "got": "Saquon Barkley (RB), Jameson Williams (WR)",
      "gave": "Jordan Mason (RB), Jaylen Waddle (WR), Omarion Hampton (RB)",
-     "net": 36.8,
-     "grade": "A"
+     "net": 28.4,
+     "grade": "A-"
     },
     {
      "team": "Jalen rams me",
      "got": "Jordan Mason (RB), Jaylen Waddle (WR), Omarion Hampton (RB)",
      "gave": "Saquon Barkley (RB), Jameson Williams (WR)",
-     "net": -52.8,
+     "net": -39.4,
      "grade": "F"
     }
    ]
@@ -1584,15 +1692,15 @@
      "team": "Fighting O'Dons",
      "got": "Matthew Stafford (QB), Dohnte Meyers (WR)",
      "gave": "Keenan Allen (WR), Justin Herbert (QB), Tyreek Hill (WR)",
-     "net": -6.6,
-     "grade": "C-"
+     "net": 5.1,
+     "grade": "B-"
     },
     {
      "team": "The anomaly’s",
      "got": "Keenan Allen (WR), Justin Herbert (QB), Tyreek Hill (WR)",
      "gave": "Matthew Stafford (QB), Dohnte Meyers (WR)",
-     "net": 5.7,
-     "grade": "B-"
+     "net": -7.9,
+     "grade": "C-"
     }
    ]
   },
@@ -1605,14 +1713,14 @@
      "team": "Jalen rams me",
      "got": "Chris Olave (WR), David Montgomery (RB)",
      "gave": "Jaylen Warren (RB), Jalen Coker (WR), Brian Robinson Jr. (RB)",
-     "net": -20,
-     "grade": "D+"
+     "net": -28.2,
+     "grade": "D"
     },
     {
      "team": "The DBC's",
      "got": "Jaylen Warren (RB), Jalen Coker (WR), Brian Robinson Jr. (RB)",
      "gave": "Chris Olave (WR), David Montgomery (RB)",
-     "net": 26.3,
+     "net": 32.9,
      "grade": "A-"
     }
    ]
@@ -1626,14 +1734,14 @@
      "team": "Stone Cold Dons",
      "got": "Davante Adams (WR), Quinshon Judkins (RB), Jordyn Tyson (WR)",
      "gave": "Khalil Shakir (WR), Amon-Ra St. Brown (WR)",
-     "net": -62.8,
-     "grade": "F"
+     "net": 23.5,
+     "grade": "A-"
     },
     {
      "team": "Trust The Process",
      "got": "Khalil Shakir (WR), Amon-Ra St. Brown (WR)",
      "gave": "Davante Adams (WR), Quinshon Judkins (RB), Jordyn Tyson (WR)",
-     "net": 68.3,
+     "net": 53.2,
      "grade": "A+"
     }
    ]
@@ -1647,15 +1755,15 @@
      "team": "The Park",
      "got": "Parker Washington (WR), Ollie Gordon II (RB)",
      "gave": "Jameson Williams (WR), Saquon Barkley (RB)",
-     "net": 14,
-     "grade": "B+"
+     "net": 43.5,
+     "grade": "A"
     },
     {
      "team": "Jalen rams me",
      "got": "Jameson Williams (WR), Saquon Barkley (RB)",
      "gave": "Parker Washington (WR), Ollie Gordon II (RB)",
-     "net": -10.5,
-     "grade": "C-"
+     "net": -34.6,
+     "grade": "D"
     }
    ]
   },
@@ -1668,15 +1776,15 @@
      "team": "Rat",
      "got": "Ladd McConkey (WR)",
      "gave": "Jameson Williams (WR)",
-     "net": -23.8,
+     "net": -25.7,
      "grade": "D"
     },
     {
      "team": "The Park",
      "got": "Jameson Williams (WR)",
      "gave": "Ladd McConkey (WR)",
-     "net": 26,
-     "grade": "A-"
+     "net": 37.6,
+     "grade": "A"
     }
    ]
   },
@@ -1689,14 +1797,14 @@
      "team": "The anomaly’s",
      "got": "Deebo Samuel Sr. (WR), Ja'Kobi Lane (WR)",
      "gave": "Colston Loveland (TE), Brian Thomas Jr. (WR)",
-     "net": -26.7,
-     "grade": "D"
+     "net": -46.9,
+     "grade": "F"
     },
     {
      "team": "Fighting O'Dons",
      "got": "Colston Loveland (TE), Brian Thomas Jr. (WR)",
      "gave": "Deebo Samuel Sr. (WR), Ja'Kobi Lane (WR)",
-     "net": 27.3,
+     "net": 30.3,
      "grade": "A-"
     }
    ]
@@ -1710,15 +1818,15 @@
      "team": "Big Dabolls",
      "got": "Jadarian Price (RB)",
      "gave": "Michael Pittman Jr. (WR)",
-     "net": 4.6,
-     "grade": "B-"
+     "net": 16.6,
+     "grade": "B+"
     },
     {
      "team": "Stone Cold Dons",
      "got": "Michael Pittman Jr. (WR)",
      "gave": "Jadarian Price (RB)",
-     "net": -5.8,
-     "grade": "C"
+     "net": -39.3,
+     "grade": "F"
     }
    ]
   },
@@ -1731,15 +1839,15 @@
      "team": "Fighting O'Dons",
      "got": "Jordan Mason (RB), Deebo Samuel Sr. (WR)",
      "gave": "Travis Etienne Jr. (RB), Kenny Gainwell (RB)",
-     "net": -21.9,
-     "grade": "D+"
+     "net": 2.8,
+     "grade": "B-"
     },
     {
      "team": "Rat",
      "got": "Travis Etienne Jr. (RB), Kenny Gainwell (RB)",
      "gave": "Jordan Mason (RB), Deebo Samuel Sr. (WR)",
-     "net": 4.3,
-     "grade": "B-"
+     "net": -11.5,
+     "grade": "C-"
     }
    ]
   },
@@ -1752,14 +1860,14 @@
      "team": "Jalen rams me",
      "got": "Tyjae Spears (RB), Jalen Coker (WR), Emeka Egbuka (WR)",
      "gave": "Makai Lemon (WR), Kyle Monangai (RB), DeVonta Smith (WR)",
-     "net": -14.3,
-     "grade": "D+"
+     "net": -11.5,
+     "grade": "C-"
     },
     {
      "team": "Aaron Rodgers LSD",
      "got": "Makai Lemon (WR), Kyle Monangai (RB), DeVonta Smith (WR)",
      "gave": "Tyjae Spears (RB), Jalen Coker (WR), Emeka Egbuka (WR)",
-     "net": 13.9,
+     "net": 12.8,
      "grade": "B+"
     }
    ]
@@ -1773,14 +1881,14 @@
      "team": "The Overload",
      "got": "Michael Wilson (WR), Alvin Kamara (RB)",
      "gave": "Jaylen Warren (RB), Parker Washington (WR)",
-     "net": -74.4,
+     "net": -86.1,
      "grade": "F"
     },
     {
      "team": "Jalen rams me",
      "got": "Jaylen Warren (RB), Parker Washington (WR)",
      "gave": "Michael Wilson (WR), Alvin Kamara (RB)",
-     "net": 119,
+     "net": 157.6,
      "grade": "A+"
     }
    ]
@@ -1794,15 +1902,15 @@
      "team": "The anomaly’s",
      "got": "Blake Corum (RB), Brian Thomas Jr. (WR), Malik Washington (WR)",
      "gave": "TreVeyon Henderson (RB)",
-     "net": 32.6,
-     "grade": "A-"
+     "net": 85.4,
+     "grade": "A+"
     },
     {
      "team": "Stone Cold Dons",
      "got": "TreVeyon Henderson (RB)",
      "gave": "Blake Corum (RB), Brian Thomas Jr. (WR), Malik Washington (WR)",
-     "net": -34.4,
-     "grade": "D"
+     "net": -87.9,
+     "grade": "F"
     }
    ]
   },
@@ -1815,15 +1923,15 @@
      "team": "The anomaly’s",
      "got": "Jahmyr Gibbs (RB)",
      "gave": "Rico Dowdle (RB), George Pickens (WR), Brock Bowers (TE)",
-     "net": 35.7,
-     "grade": "A"
+     "net": 9.0,
+     "grade": "B"
     },
     {
      "team": "The Park",
      "got": "Rico Dowdle (RB), George Pickens (WR), Brock Bowers (TE)",
      "gave": "Jahmyr Gibbs (RB)",
-     "net": -18.8,
-     "grade": "D+"
+     "net": 12.9,
+     "grade": "B+"
     }
    ]
   },
@@ -1836,15 +1944,15 @@
      "team": "Stone Cold Dons",
      "got": "Emanuel Wilson (RB)",
      "gave": "Rico Dowdle (RB)",
-     "net": -5.4,
-     "grade": "C"
+     "net": -12.5,
+     "grade": "D+"
     },
     {
      "team": "The anomaly’s",
      "got": "Rico Dowdle (RB)",
      "gave": "Emanuel Wilson (RB)",
-     "net": 3.3,
-     "grade": "B-"
+     "net": 61.2,
+     "grade": "A+"
     }
    ]
   },
@@ -1857,15 +1965,15 @@
      "team": "Team Goobz",
      "got": "Tyler Allgeier (RB), Justin Jefferson (WR)",
      "gave": "Makai Lemon (WR), DeVonta Smith (WR), Alvin Kamara (RB)",
-     "net": 33,
-     "grade": "A-"
+     "net": 19.4,
+     "grade": "B+"
     },
     {
      "team": "Jalen rams me",
      "got": "Makai Lemon (WR), DeVonta Smith (WR), Alvin Kamara (RB)",
      "gave": "Tyler Allgeier (RB), Justin Jefferson (WR)",
-     "net": -38.2,
-     "grade": "F"
+     "net": -33.1,
+     "grade": "D"
     }
    ]
   },
@@ -1878,15 +1986,15 @@
      "team": "Jalen rams me",
      "got": "Ollie Gordon II (RB)",
      "gave": "Brian Thomas Jr. (WR), Darren Waller (TE), Malik Washington (WR)",
-     "net": 41.5,
+     "net": 41.7,
      "grade": "A"
     },
     {
      "team": "Stone Cold Dons",
      "got": "Brian Thomas Jr. (WR), Darren Waller (TE), Malik Washington (WR)",
      "gave": "Ollie Gordon II (RB)",
-     "net": -40.2,
-     "grade": "F"
+     "net": -27.9,
+     "grade": "D"
     }
    ]
   },
@@ -1899,14 +2007,14 @@
      "team": "Jalen rams me",
      "got": "Justin Jefferson (WR), Brian Robinson Jr. (RB)",
      "gave": "Saquon Barkley (RB), Ladd McConkey (WR)",
-     "net": 38.7,
+     "net": 35.8,
      "grade": "A"
     },
     {
      "team": "The Park",
      "got": "Saquon Barkley (RB), Ladd McConkey (WR)",
      "gave": "Justin Jefferson (WR), Brian Robinson Jr. (RB)",
-     "net": -39.7,
+     "net": -74.4,
      "grade": "F"
     }
    ]
@@ -1920,15 +2028,15 @@
      "team": "Fighting O'Dons",
      "got": "Kenyon Sadiq (TE), Travis Etienne Jr. (RB)",
      "gave": "J.K. Dobbins (RB), Khalil Shakir (WR)",
-     "net": -5.9,
+     "net": -5.5,
      "grade": "C"
     },
     {
      "team": "Stone Cold Dons",
      "got": "J.K. Dobbins (RB), Khalil Shakir (WR)",
      "gave": "Kenyon Sadiq (TE), Travis Etienne Jr. (RB)",
-     "net": 9.9,
-     "grade": "B"
+     "net": 22.6,
+     "grade": "A-"
     }
    ]
   },
@@ -1941,15 +2049,15 @@
      "team": "Rat",
      "got": "Quentin Johnston (WR), Kyler Murray (QB)",
      "gave": "Justin Herbert (QB), J.K. Dobbins (RB)",
-     "net": -5.1,
-     "grade": "C"
+     "net": 4.0,
+     "grade": "B-"
     },
     {
      "team": "Fighting O'Dons",
      "got": "Justin Herbert (QB), J.K. Dobbins (RB)",
      "gave": "Quentin Johnston (WR), Kyler Murray (QB)",
-     "net": 9.8,
-     "grade": "B"
+     "net": 20.3,
+     "grade": "B+"
     }
    ]
   },
@@ -1962,14 +2070,14 @@
      "team": "Rat",
      "got": "Juwan Johnson (TE), Kenneth Walker III (RB)",
      "gave": "Saquon Barkley (RB), Mark Andrews (TE), DJ Moore (WR)",
-     "net": 130,
+     "net": 77.9,
      "grade": "A+"
     },
     {
      "team": "Jalen rams me",
      "got": "Saquon Barkley (RB), Mark Andrews (TE), DJ Moore (WR)",
      "gave": "Juwan Johnson (TE), Kenneth Walker III (RB)",
-     "net": -122.4,
+     "net": -62.7,
      "grade": "F"
     }
    ]
@@ -1983,15 +2091,15 @@
      "team": "A-Rock Balls",
      "got": "Breece Hall (RB)",
      "gave": "Kyle Monangai (RB), Ladd McConkey (WR)",
-     "net": -0.6,
-     "grade": "C+"
+     "net": -2.9,
+     "grade": "C"
     },
     {
      "team": "Jalen rams me",
      "got": "Kyle Monangai (RB), Ladd McConkey (WR)",
      "gave": "Breece Hall (RB)",
-     "net": 2.3,
-     "grade": "B-"
+     "net": -1.6,
+     "grade": "C+"
     }
    ]
   },
@@ -2004,14 +2112,14 @@
      "team": "Stone Cold Dons",
      "got": "Jadarian Price (RB)",
      "gave": "Luther Burden III (WR), Josh Jacobs (RB)",
-     "net": -74.9,
+     "net": -91.0,
      "grade": "F"
     },
     {
      "team": "Vert",
      "got": "Luther Burden III (WR), Josh Jacobs (RB)",
      "gave": "Jadarian Price (RB)",
-     "net": 71.2,
+     "net": 74.6,
      "grade": "A+"
     }
    ]
@@ -2025,15 +2133,15 @@
      "team": "Jalen rams me",
      "got": "Mack Hollins (WR)",
      "gave": "Kyle Pitts Sr. (TE)",
-     "net": -17.2,
-     "grade": "D+"
+     "net": -29.2,
+     "grade": "D"
     },
     {
      "team": "Big Dabolls",
      "got": "Kyle Pitts Sr. (TE)",
      "gave": "Mack Hollins (WR)",
-     "net": 17.2,
-     "grade": "B+"
+     "net": 24.2,
+     "grade": "A-"
     }
    ]
   },
@@ -2046,14 +2154,14 @@
      "team": "Stone Cold Dons",
      "got": "Josh Jacobs (RB), Travis Etienne Jr. (RB), Blake Corum (RB)",
      "gave": "Khalil Shakir (WR), Kenny Gainwell (RB), Omarion Hampton (RB)",
-     "net": 49.7,
-     "grade": "A"
+     "net": 50.4,
+     "grade": "A+"
     },
     {
      "team": "Fighting O'Dons",
      "got": "Khalil Shakir (WR), Kenny Gainwell (RB), Omarion Hampton (RB)",
      "gave": "Josh Jacobs (RB), Travis Etienne Jr. (RB), Blake Corum (RB)",
-     "net": -49.5,
+     "net": -48.5,
      "grade": "F"
     }
    ]
@@ -2067,15 +2175,15 @@
      "team": "Team Goobz",
      "got": "DeVonta Smith (WR)",
      "gave": "Breece Hall (RB)",
-     "net": 11.8,
-     "grade": "B"
+     "net": 20.6,
+     "grade": "B+"
     },
     {
      "team": "Jalen rams me",
      "got": "Breece Hall (RB)",
      "gave": "DeVonta Smith (WR)",
-     "net": -2.2,
-     "grade": "C"
+     "net": -28.5,
+     "grade": "D"
     }
    ]
   },
@@ -2088,15 +2196,15 @@
      "team": "A-Rock Balls",
      "got": "Lamar Jackson (QB)",
      "gave": "Garrett Wilson (WR)",
-     "net": -38.4,
-     "grade": "F"
+     "net": -17.6,
+     "grade": "D+"
     },
     {
      "team": "The anomaly’s",
      "got": "Garrett Wilson (WR)",
      "gave": "Lamar Jackson (QB)",
-     "net": 38.4,
-     "grade": "A"
+     "net": 60.0,
+     "grade": "A+"
     }
    ]
   },
@@ -2109,15 +2217,15 @@
      "team": "Fighting O'Dons",
      "got": "Josh Jacobs (RB), Quentin Johnston (WR), Travis Etienne Jr. (RB)",
      "gave": "Quinshon Judkins (RB), Davante Adams (WR)",
-     "net": -27,
-     "grade": "D"
+     "net": -36.7,
+     "grade": "F"
     },
     {
      "team": "Trust The Process",
      "got": "Quinshon Judkins (RB), Davante Adams (WR)",
      "gave": "Josh Jacobs (RB), Quentin Johnston (WR), Travis Etienne Jr. (RB)",
-     "net": 23,
-     "grade": "A-"
+     "net": 19.8,
+     "grade": "B+"
     }
    ]
   },
@@ -2130,15 +2238,15 @@
      "team": "Trust The Process",
      "got": "Germie Bernard (WR)",
      "gave": "Kayshon Boutte (WR)",
-     "net": 9.7,
+     "net": 8.1,
      "grade": "B"
     },
     {
      "team": "The anomaly’s",
      "got": "Kayshon Boutte (WR)",
      "gave": "Germie Bernard (WR)",
-     "net": -3.4,
-     "grade": "C"
+     "net": 6.6,
+     "grade": "B"
     }
    ]
   },
@@ -2151,15 +2259,15 @@
      "team": "Jalen rams me",
      "got": "Tyler Allgeier (RB)",
      "gave": "Germie Bernard (WR)",
-     "net": 6.8,
-     "grade": "B"
+     "net": 2.5,
+     "grade": "B-"
     },
     {
      "team": "The anomaly’s",
      "got": "Germie Bernard (WR)",
      "gave": "Tyler Allgeier (RB)",
-     "net": -7.7,
-     "grade": "C-"
+     "net": -57.9,
+     "grade": "F"
     }
    ]
   },
@@ -2172,15 +2280,15 @@
      "team": "The anomaly’s",
      "got": "Colston Loveland (TE)",
      "gave": "DK Metcalf (WR)",
-     "net": -5.8,
-     "grade": "C"
+     "net": -9.1,
+     "grade": "C-"
     },
     {
      "team": "Big Dabolls",
      "got": "DK Metcalf (WR)",
      "gave": "Colston Loveland (TE)",
-     "net": 6.8,
-     "grade": "B"
+     "net": -12.1,
+     "grade": "D+"
     }
    ]
   },
@@ -2193,15 +2301,15 @@
      "team": "Jalen rams me",
      "got": "Brian Thomas Jr. (WR), Kenneth Walker III (RB)",
      "gave": "Jalen Coker (WR), Jeremiyah Love (RB), Bo Nix (QB), Tee Higgins (WR)",
-     "net": 35.7,
-     "grade": "A"
+     "net": -19.4,
+     "grade": "D+"
     },
     {
      "team": "Aaron Rodgers LSD",
      "got": "Jalen Coker (WR), Jeremiyah Love (RB), Bo Nix (QB), Tee Higgins (WR)",
      "gave": "Brian Thomas Jr. (WR), Kenneth Walker III (RB)",
-     "net": -18.3,
-     "grade": "D+"
+     "net": 50.4,
+     "grade": "A+"
     }
    ]
   },
@@ -2214,15 +2322,15 @@
      "team": "Big Dabolls",
      "got": "Braelon Allen (RB)",
      "gave": "Khalil Shakir (WR)",
-     "net": 33,
-     "grade": "A-"
+     "net": 36.1,
+     "grade": "A"
     },
     {
      "team": "Stone Cold Dons",
      "got": "Khalil Shakir (WR)",
      "gave": "Braelon Allen (RB)",
-     "net": -33.1,
-     "grade": "D"
+     "net": -39.9,
+     "grade": "F"
     }
    ]
   },
@@ -2235,15 +2343,15 @@
      "team": "Rat",
      "got": "Jameson Williams (WR), Saquon Barkley (RB)",
      "gave": "Dalton Schultz (TE), Justin Jefferson (WR)",
-     "net": -19.9,
-     "grade": "D+"
+     "net": -47.9,
+     "grade": "F"
     },
     {
      "team": "The Park",
      "got": "Dalton Schultz (TE), Justin Jefferson (WR)",
      "gave": "Jameson Williams (WR), Saquon Barkley (RB)",
-     "net": 0.4,
-     "grade": "C+"
+     "net": 40.4,
+     "grade": "A"
     }
    ]
   },
@@ -2256,14 +2364,14 @@
      "team": "Jalen rams me",
      "got": "DeVonta Smith (WR), De'Von Achane (RB), Germie Bernard (WR)",
      "gave": "Davante Adams (WR), Quinshon Judkins (RB), Malik Nabers (WR)",
-     "net": -123.5,
+     "net": -144.9,
      "grade": "F"
     },
     {
      "team": "Fighting O'Dons",
      "got": "Davante Adams (WR), Quinshon Judkins (RB), Malik Nabers (WR)",
      "gave": "DeVonta Smith (WR), De'Von Achane (RB), Germie Bernard (WR)",
-     "net": 130.2,
+     "net": 138.5,
      "grade": "A+"
     }
    ]
@@ -2277,14 +2385,14 @@
      "team": "The anomaly’s",
      "got": "TreVeyon Henderson (RB), Tyler Allgeier (RB)",
      "gave": "Kenny Gainwell (RB)",
-     "net": 26.1,
+     "net": 23.2,
      "grade": "A-"
     },
     {
      "team": "Stone Cold Dons",
      "got": "Kenny Gainwell (RB)",
      "gave": "TreVeyon Henderson (RB), Tyler Allgeier (RB)",
-     "net": -26.9,
+     "net": -32.4,
      "grade": "D"
     }
    ]
@@ -2298,14 +2406,14 @@
      "team": "Aaron Rodgers LSD",
      "got": "Jacory Croskey-Merritt (RB)",
      "gave": "MarShawn Lloyd (RB)",
-     "net": 0.2,
-     "grade": "C+"
+     "net": -4.5,
+     "grade": "C"
     },
     {
      "team": "A-Rock Balls",
      "got": "MarShawn Lloyd (RB)",
      "gave": "Jacory Croskey-Merritt (RB)",
-     "net": 2.1,
+     "net": 5.6,
      "grade": "B-"
     }
    ]
@@ -2313,102 +2421,102 @@
  ],
  "tradeLedger": [
   {
-   "team": "Fighting O'Dons",
-   "trades": 14,
-   "net": 102.9,
-   "gpa": 2.41,
-   "overall": "C+"
-  },
-  {
    "team": "Trust The Process",
    "trades": 10,
-   "net": 94.2,
-   "gpa": 2.69,
+   "net": 203.4,
+   "gpa": 3.05,
+   "overall": "B"
+  },
+  {
+   "team": "Fighting O'Dons",
+   "trades": 14,
+   "net": 153.8,
+   "gpa": 2.53,
    "overall": "B-"
   },
   {
    "team": "Big Dabolls",
    "trades": 7,
-   "net": 93.9,
+   "net": 133.5,
+   "gpa": 3.19,
+   "overall": "B+"
+  },
+  {
+   "team": "Aaron Rodgers LSD",
+   "trades": 5,
+   "net": 129.1,
+   "gpa": 3.32,
+   "overall": "B+"
+  },
+  {
+   "team": "A-Rock Balls",
+   "trades": 5,
+   "net": 103.0,
+   "gpa": 2.26,
+   "overall": "C+"
+  },
+  {
+   "team": "The anomaly’s",
+   "trades": 12,
+   "net": 66.9,
+   "gpa": 2.31,
+   "overall": "C+"
+  },
+  {
+   "team": "The Park",
+   "trades": 5,
+   "net": 60.0,
    "gpa": 3.06,
    "overall": "B"
   },
   {
    "team": "Vert",
    "trades": 2,
-   "net": 55.3,
+   "net": 53.3,
    "gpa": 2.8,
    "overall": "B-"
   },
   {
-   "team": "A-Rock Balls",
-   "trades": 5,
-   "net": 51.6,
-   "gpa": 2.12,
-   "overall": "C"
-  },
-  {
-   "team": "Aaron Rodgers LSD",
-   "trades": 5,
-   "net": 48.6,
-   "gpa": 2.64,
-   "overall": "B-"
-  },
-  {
-   "team": "The anomaly’s",
-   "trades": 12,
-   "net": 48.0,
-   "gpa": 2.48,
-   "overall": "C+"
-  },
-  {
    "team": "Team Goobz",
    "trades": 5,
-   "net": 44.6,
-   "gpa": 2.72,
+   "net": 43.0,
+   "gpa": 2.78,
    "overall": "B-"
   },
   {
    "team": "The DBC's",
    "trades": 2,
-   "net": 26.3,
+   "net": 32.9,
    "gpa": 3.0,
    "overall": "B"
   },
   {
    "team": "Rat",
    "trades": 8,
-   "net": 13.7,
-   "gpa": 2.25,
-   "overall": "C+"
+   "net": -114.0,
+   "gpa": 1.88,
+   "overall": "C"
   },
   {
-   "team": "The Park",
-   "trades": 5,
-   "net": -18.1,
-   "gpa": 2.12,
+   "team": "Jalen rams me",
+   "trades": 27,
+   "net": -142.1,
+   "gpa": 2.08,
    "overall": "C"
   },
   {
    "team": "The Overload",
    "trades": 2,
-   "net": -130.0,
+   "net": -148.7,
    "gpa": 0.0,
    "overall": "F"
   },
   {
-   "team": "Jalen rams me",
-   "trades": 27,
-   "net": -130.9,
-   "gpa": 2.15,
-   "overall": "C"
-  },
-  {
    "team": "Stone Cold Dons",
    "trades": 16,
-   "net": -173.4,
-   "gpa": 1.81,
-   "overall": "C-"
+   "net": -174.2,
+   "gpa": 1.91,
+   "overall": "C"
   }
  ],
  "mostTraded": [
@@ -2491,11 +2599,11 @@
    ]
   },
   {
-   "id": "gotw-w10",
-   "q": "Game of the week: Big Dabolls vs Aaron Rodgers LSD, both 6-3. Who wins?",
+   "id": "gotw-w11",
+   "q": "Game of the week: Vert (7-3) vs The DBC's (9-1). Who wins?",
    "opts": [
-    "Big Dabolls",
-    "Aaron Rodgers LSD"
+    "Vert",
+    "The DBC's"
    ],
    "votes": [
     0,
@@ -2582,12 +2690,12 @@
    "owner": "Ben Frey",
    "seasons": 5,
    "completed": 4,
-   "wins": 38,
+   "wins": 39,
    "losses": 27,
-   "winPct": 0.585,
-   "pfPerGame": 116.6,
-   "allPlayPct": 0.544,
-   "luck": 2.59,
+   "winPct": 0.591,
+   "pfPerGame": 117.0,
+   "allPlayPct": 0.549,
+   "luck": 2.74,
    "titles": 1,
    "finals": 1,
    "playoffApps": 4,
@@ -2605,12 +2713,12 @@
    "owner": "Zach O'Donoghue",
    "seasons": 5,
    "completed": 4,
-   "wins": 39,
+   "wins": 40,
    "losses": 26,
-   "winPct": 0.6,
+   "winPct": 0.606,
    "pfPerGame": 123.1,
-   "allPlayPct": 0.624,
-   "luck": -1.52,
+   "allPlayPct": 0.62,
+   "luck": -0.9,
    "titles": 2,
    "finals": 1,
    "playoffApps": 3,
@@ -2628,12 +2736,12 @@
    "owner": "John Reese",
    "seasons": 5,
    "completed": 4,
-   "wins": 32,
+   "wins": 33,
    "losses": 33,
-   "winPct": 0.492,
-   "pfPerGame": 116.6,
+   "winPct": 0.5,
+   "pfPerGame": 116.7,
    "allPlayPct": 0.527,
-   "luck": -2.65,
+   "luck": -2.19,
    "titles": 1,
    "finals": 1,
    "playoffApps": 4,
@@ -2651,11 +2759,11 @@
    "owner": "Trevor Illson",
    "seasons": 5,
    "completed": 4,
-   "wins": 25,
+   "wins": 26,
    "losses": 40,
-   "winPct": 0.385,
-   "pfPerGame": 109.7,
-   "allPlayPct": 0.443,
+   "winPct": 0.394,
+   "pfPerGame": 110.7,
+   "allPlayPct": 0.451,
    "luck": -3.57,
    "titles": 1,
    "finals": 1,
@@ -2675,11 +2783,11 @@
    "seasons": 2,
    "completed": 1,
    "wins": 14,
-   "losses": 9,
-   "winPct": 0.609,
-   "pfPerGame": 114.9,
-   "allPlayPct": 0.575,
-   "luck": 0.76,
+   "losses": 10,
+   "winPct": 0.583,
+   "pfPerGame": 115.2,
+   "allPlayPct": 0.57,
+   "luck": 0.3,
    "titles": 0,
    "finals": 0,
    "playoffApps": 1,
@@ -2697,12 +2805,12 @@
    "owner": "lukas bosefski",
    "seasons": 2,
    "completed": 1,
-   "wins": 16,
+   "wins": 17,
    "losses": 7,
-   "winPct": 0.696,
-   "pfPerGame": 114.5,
-   "allPlayPct": 0.541,
-   "luck": 3.54,
+   "winPct": 0.708,
+   "pfPerGame": 113.9,
+   "allPlayPct": 0.531,
+   "luck": 4.23,
    "titles": 0,
    "finals": 1,
    "playoffApps": 1,
@@ -2721,11 +2829,11 @@
    "seasons": 4,
    "completed": 3,
    "wins": 32,
-   "losses": 19,
-   "winPct": 0.627,
-   "pfPerGame": 113.0,
-   "allPlayPct": 0.531,
-   "luck": 5.08,
+   "losses": 20,
+   "winPct": 0.615,
+   "pfPerGame": 112.5,
+   "allPlayPct": 0.522,
+   "luck": 5.0,
    "titles": 0,
    "finals": 0,
    "playoffApps": 3,
@@ -2744,11 +2852,11 @@
    "seasons": 5,
    "completed": 4,
    "wins": 35,
-   "losses": 30,
-   "winPct": 0.538,
-   "pfPerGame": 111.1,
-   "allPlayPct": 0.456,
-   "luck": 4.99,
+   "losses": 31,
+   "winPct": 0.53,
+   "pfPerGame": 111.3,
+   "allPlayPct": 0.458,
+   "luck": 4.37,
    "titles": 0,
    "finals": 2,
    "playoffApps": 3,
@@ -2767,10 +2875,10 @@
    "seasons": 5,
    "completed": 4,
    "wins": 32,
-   "losses": 33,
-   "winPct": 0.492,
-   "pfPerGame": 113.6,
-   "allPlayPct": 0.505,
+   "losses": 34,
+   "winPct": 0.485,
+   "pfPerGame": 113.1,
+   "allPlayPct": 0.497,
    "luck": -0.92,
    "titles": 0,
    "finals": 0,
@@ -2789,12 +2897,12 @@
    "owner": "Samuel Vert",
    "seasons": 5,
    "completed": 4,
-   "wins": 33,
+   "wins": 34,
    "losses": 32,
-   "winPct": 0.508,
-   "pfPerGame": 117.1,
-   "allPlayPct": 0.527,
-   "luck": -1.35,
+   "winPct": 0.515,
+   "pfPerGame": 117.7,
+   "allPlayPct": 0.533,
+   "luck": -1.27,
    "titles": 0,
    "finals": 0,
    "playoffApps": 1,
@@ -2813,11 +2921,11 @@
    "seasons": 5,
    "completed": 4,
    "wins": 30,
-   "losses": 35,
-   "winPct": 0.462,
-   "pfPerGame": 111.8,
-   "allPlayPct": 0.477,
-   "luck": -1.25,
+   "losses": 36,
+   "winPct": 0.455,
+   "pfPerGame": 111.5,
+   "allPlayPct": 0.472,
+   "luck": -1.4,
    "titles": 0,
    "finals": 1,
    "playoffApps": 2,
@@ -2836,11 +2944,11 @@
    "seasons": 5,
    "completed": 4,
    "wins": 30,
-   "losses": 35,
-   "winPct": 0.462,
-   "pfPerGame": 113.4,
-   "allPlayPct": 0.487,
-   "luck": -1.62,
+   "losses": 36,
+   "winPct": 0.455,
+   "pfPerGame": 113.1,
+   "allPlayPct": 0.483,
+   "luck": -1.85,
    "titles": 0,
    "finals": 0,
    "playoffApps": 2,
@@ -2858,12 +2966,12 @@
    "owner": "Danny Stevens",
    "seasons": 5,
    "completed": 4,
-   "wins": 26,
+   "wins": 27,
    "losses": 39,
-   "winPct": 0.4,
-   "pfPerGame": 110.5,
-   "allPlayPct": 0.442,
-   "luck": -2.64,
+   "winPct": 0.409,
+   "pfPerGame": 110.9,
+   "allPlayPct": 0.447,
+   "luck": -2.41,
    "titles": 0,
    "finals": 0,
    "playoffApps": 1,
@@ -2882,11 +2990,11 @@
    "seasons": 5,
    "completed": 4,
    "wins": 26,
-   "losses": 39,
-   "winPct": 0.4,
-   "pfPerGame": 108.9,
-   "allPlayPct": 0.438,
-   "luck": -2.55,
+   "losses": 40,
+   "winPct": 0.394,
+   "pfPerGame": 109.2,
+   "allPlayPct": 0.442,
+   "luck": -3.24,
    "titles": 0,
    "finals": 0,
    "playoffApps": 3,
@@ -3537,20 +3645,20 @@
     68.46
    ],
    [
+    2026,
+    10,
+    "Trevor Illson",
+    "Alex Reese",
+    173.34,
+    90.76
+   ],
+   [
     2025,
     6,
     "Zach O'Donoghue",
     "Christopher Bosefski",
     161.36,
     78.94
-   ],
-   [
-    2025,
-    14,
-    "Zach O'Donoghue",
-    "Matthew Reese",
-    161.76,
-    81.3
    ]
   ],
   "close": [
@@ -3669,6 +3777,11 @@
     "2025 W12 – 2026 W4"
    ],
    [
+    "Zach O'Donoghue",
+    6,
+    "2026 W5 – W10 (active)"
+   ],
+   [
     "Elijah Dembe",
     6,
     "2023 W8 – W13"
@@ -3693,7 +3806,7 @@
    [
     "Danny Stevens",
     7,
-    "2026 W3 – W9 (active)"
+    "2026 W3 – W9"
    ],
    [
     "Alex Reese",
@@ -4015,99 +4128,99 @@
   [
    "John Francis",
    15,
-   8,
+   9,
    14,
-   9
+   10
   ],
   [
    "Zach O'Donoghue",
    41,
-   24,
-   39,
+   25,
+   40,
    26
   ],
   [
    "Brighton Caushaj",
    29,
-   22,
+   23,
    32,
-   19
+   20
   ],
   [
    "Ben Frey",
-   37,
-   28,
    38,
+   28,
+   39,
    27
   ],
   [
    "Samuel Vert",
-   36,
+   37,
    29,
-   33,
+   34,
    32
   ],
   [
    "Elijah Dembe",
-   34,
+   35,
    31,
    35,
-   30
+   31
   ],
   [
    "Alex Reese",
    34,
-   31,
+   32,
    30,
-   35
+   36
   ],
   [
    "John Reese",
-   32,
    33,
-   32,
+   33,
+   33,
    33
   ],
   [
    "Christopher Bosefski",
    31,
-   34,
+   35,
    30,
-   35
+   36
   ],
   [
    "Trevor Illson",
-   31,
+   32,
    34,
-   25,
+   26,
    40
   ],
   [
    "Holden Wright",
    32,
-   33,
+   34,
    32,
-   33
+   34
   ],
   [
    "lukas bosefski",
    11,
-   12,
-   16,
+   13,
+   17,
    7
   ],
   [
    "Matthew Reese",
-   25,
+   26,
    40,
    26,
-   39
+   40
   ],
   [
    "Danny Stevens",
-   23,
+   24,
    42,
-   26,
+   27,
    39
   ]
  ],
@@ -5653,6 +5766,19 @@
  },
  "archive": [
   {
+   "id": "beat-20261112-am",
+   "week": 10,
+   "tag": "TRADE WIRE",
+   "hot": true,
+   "title": "Big Dabolls flip Sutton after one week, land Judkins from Stone Cold Dons",
+   "dek": "Ben Frey sent Courtland Sutton and Jadarian Price to the 1-8 Stone Cold Dons on Tuesday for running back Quinshon Judkins.",
+   "body": [
+    "The deal went through at 1:26 p.m. Tuesday. Big Dabolls get Judkins, who is averaging 11.5 points a game and scored 5.5 in Week 9 for Danny Stevens. The Stone Cold Dons get Price, averaging 5.3, and Sutton, whom Frey acquired from Trust The Process on Nov. 3 for Eli Raridon. Sutton spent his one week with Big Dabolls on the bench and scored 15.5 there.",
+    "Judkins goes straight into Big Dabolls' flex, projected for 11.8 Sunday against Aaron Rodgers LSD in a game between 6-3 teams. Price starts at running back for the Stone Cold Dons, projected for 11.9 against The Park. Sutton is projected for zero this week and sits on another bench. \"He's a great route runner,\" a Stone Cold source said. \"We'll see him in Week 11.\""
+   ],
+   "posted": "2026-11-12T10:34:00-05:00"
+  },
+  {
    "id": "beat-20261110-pm",
    "week": 10,
    "tag": "TRADE WIRE",
@@ -6295,14 +6421,14 @@
  ],
  "live": {
   "week": 10,
-  "status": "live",
-  "updated": "2026-11-15T20:06:54-05:00",
+  "status": "final",
+  "updated": "2026-11-17T09:00:00-05:00",
   "games": [
    {
     "h": "Zach O'Donoghue",
-    "hs": 82.2,
-    "hl": 2,
-    "hpr": 110.99,
+    "hs": 120.76,
+    "hl": 0,
+    "hpr": 120.76,
     "a": "Brighton Caushaj",
     "as": 85.96,
     "al": 0,
@@ -6314,9 +6440,9 @@
     "hl": 0,
     "hpr": 96.44,
     "a": "lukas bosefski",
-    "as": 91.52,
-    "al": 1,
-    "apr": 107.05
+    "as": 100.62,
+    "al": 0,
+    "apr": 100.62
    },
    {
     "h": "Matthew Reese",
@@ -6324,19 +6450,19 @@
     "hl": 0,
     "hpr": 128.12,
     "a": "Danny Stevens",
-    "as": 118.42,
-    "al": 1,
-    "apr": 136.61
+    "as": 137.42,
+    "al": 0,
+    "apr": 137.42
    },
    {
     "h": "Elijah Dembe",
-    "hs": 108.06,
-    "hl": 2,
-    "hpr": 127.96,
+    "hs": 124.46,
+    "hl": 0,
+    "hpr": 124.46,
     "a": "Samuel Vert",
-    "as": 125.12,
-    "al": 1,
-    "apr": 148.03
+    "as": 159.22,
+    "al": 0,
+    "apr": 159.22
    },
    {
     "h": "John Francis",
@@ -6344,25 +6470,25 @@
     "hl": 0,
     "hpr": 122.4,
     "a": "John Reese",
-    "as": 95.1,
-    "al": 1,
-    "apr": 108.63
+    "as": 123.4,
+    "al": 0,
+    "apr": 123.4
    },
    {
     "h": "Ben Frey",
-    "hs": 121.78,
-    "hl": 2,
-    "hpr": 140.15,
+    "hs": 144.18,
+    "hl": 0,
+    "hpr": 144.18,
     "a": "Holden Wright",
-    "as": 49.2,
-    "al": 3,
-    "apr": 87.9
+    "as": 82.06,
+    "al": 0,
+    "apr": 82.06
    },
    {
     "h": "Alex Reese",
-    "hs": 86.76,
-    "hl": 1,
-    "hpr": 94.52,
+    "hs": 90.76,
+    "hl": 0,
+    "hpr": 90.76,
     "a": "Trevor Illson",
     "as": 173.34,
     "al": 0,
