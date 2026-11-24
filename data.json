@@ -1,7 +1,7 @@
 {
  "meta": {
   "league": "LFPFFL",
-  "updated": "Nov 17, 2026",
+  "updated": "Nov 24, 2026",
   "week": 10,
   "next": 11,
   "season": 2026
@@ -997,129 +997,43 @@
  ],
  "headlines": [
   {
-   "id": "draft-capital-20261117",
-   "week": 11,
-   "tag": "DRAFT RETRO",
-   "hot": true,
-   "title": "Why even draft, Danny?",
-   "dek": "Half the Stone Cold Dons roster came off the waiver wire, two of Danny Stevens' 15 picks are left, and he's 2-8.",
-   "body": [
-    "Danny Stevens spent 15 picks in August. Two are still here: Dak Prescott, and Ryan Flournoy, whom Danny cut in September and claimed back off waivers in October. Amon-Ra St. Brown, his first-rounder, plays for Vert. Omarion Hampton, his second, plays for Trust The Process. Eight of the 16 players on the Stone Cold Dons were never drafted by anybody: Keon Coleman, Antonio Williams, Audric Estime, Corey Kiner, Omar Cooper Jr., Spencer Shrader and two waiver-wire defenses. That's the most in the league. The record is 2-8.",
-    "\"Draft day's more of a suggestion,\" a league source said.",
-    "Danny isn't alone at the waiver window. A-Rock Balls (2-8), Big Dabolls and Rat each carry six undrafted players, and The anomaly's have five. Ben Frey somehow turned his into 7-3, so that's one person it's working for. Alex has Aaron Rodgers, Tyler Bass and Cade Otton off the wire, and the most points allowed in the league (1,280.3).",
-    "Compare The Overload: 15 of Trevor Illson's 17 players were drafted by somebody, and 11 are his own picks. He just scored 173.34. The DBC's still have 10 of their picks and are 9-1. Turns out the draft counts."
-   ],
-   "posted": "2026-11-17T17:36:00-05:00"
-  },
-  {
-   "id": "beat-20261117-am",
-   "week": 10,
-   "tag": "RECAP",
-   "hot": true,
-   "title": "Mahomes settles Vert's QB debate in a 159.22 rout of Rat",
-   "dek": "Rat's 124.46 would have beaten eight teams in Week 10. Vert's would have beaten twelve.",
-   "body": [
-    "Vert spent part of October refusing to name a starting quarterback. In Week 10, Patrick Mahomes scored 35.42 while Kirk Cousins put up 15.38 on the bench, and Ja'Marr Chase (34.10), Amon-Ra St. Brown (25.80) and kicker Cam Little (19.00) handled the rest. The 159.22 was the week's second-highest score, and Vert sit 7-3.",
-    "Rat had the bad luck to be across the field. Emmett Johnson went for 35.10 and Brock Purdy added 31.66, and Rat still lost by 34.76. They fall to 5-5, one of four .500 teams in a scrum for the last playoff spots. \"We did everything right except the schedule,\" a team source said."
-   ],
-   "posted": "2026-11-17T16:26:19-05:00"
-  },
-  {
-   "id": "recap-20261117-overload",
-   "week": 10,
-   "tag": "RECAP",
-   "hot": true,
-   "title": "173.34: The Overload hang the season's high score and bury A-Rock by 82.58",
-   "dek": "Christian McCaffrey went for 46.3, Chuba Hubbard for 34.2, and Trevor Illson's 5-5 team is suddenly at 95.7% to make the playoffs.",
-   "body": [
-    "Holy hell. Christian McCaffrey dropped 46.3, Chuba Hubbard added 34.2, Josh Allen 22.34 and Stefon Diggs 20.3, and The Overload put up 173.34, the highest score anybody has posted this season. The old 2026 high was Vert's 161.6 from Week 4. It missed the league's all-time top five by six hundredths of a point.",
-    "A-Rock Balls scored 90.76 and lost by 82.58, the fourth-biggest blowout in league history. And The Overload could have made it worse: Alvin Kamara's 16.4 sat on the bench, and the best possible lineup was 183.54.",
-    "Trevor Illson is only 5-5, but the 85-45 all-play record is second in the league, and the luck number (−1.54) says the record should be better. Three straight wins, playoff odds up from 86.0% to 95.7%. A-Rock is 2-8 and at 0.1%."
-   ],
-   "posted": "2026-11-17T10:16:00-05:00"
-  },
-  {
-   "id": "recap-20261117-ttp",
-   "week": 10,
-   "tag": "RECAP",
-   "hot": true,
-   "title": "Trust The Process were 11% to win. They won by 1.00.",
-   "dek": "Projected for 82.5 and a 38.1-point underdog, TTP scored 123.4 and beat The anomaly's 122.4, with 32.8 points sitting on their own bench.",
-   "body": [
-    "Last week's preview gave Trust The Process 11% odds. Jaxon Smith-Njigba ignored it with 31.1, Chase Brown put up 28.3, and backup quarterback Drew Lock threw in 15.6 with Bo Nix not playing. Final: 123.4 to 122.4. Jahmyr Gibbs dropped 44.2 for The anomaly's and it still wasn't enough.",
-    "TTP nearly blew it anyway. Omarion Hampton (17.5) and Josh Downs (15.3), both acquired Tuesday, sat on the bench while Rhamondre Stevenson (1.5) and Tucker Kraft (2.9) started. The best possible lineup was 145.5. Win by 1, learn nothing.",
-    "The anomaly's have their own regret. On Saturday they shipped Derrick Henry, Deebo Samuel and Blake Corum to the Stone Cold Dons, and the three combined for 65.8 points against The Park. Matthew Golden, who came back in the deal, scored 12. TTP's playoff odds jumped from 36.9% to 72.2%. The anomaly's fell from 70.8% to 53.6% and drop to ninth, one spot out, on the league's head-to-head tiebreaker."
-   ],
-   "posted": "2026-11-17T10:15:00-05:00"
-  },
-  {
-   "id": "crime-20261117-park",
-   "week": 10,
-   "tag": "BENCH CRIME",
-   "hot": true,
-   "title": "Henry delivers, the Dons end the skid, and The Park benched the win",
-   "dek": "Drake Maye started and scored 3.02. Deshaun Watson scored 21.38 on The Park's bench. The Park lost by 9.30.",
-   "body": [
-    "Derrick Henry needed 9.71 on Monday night and put up 19. The Stone Cold Dons beat The Park 137.42 to 128.12 and snapped a seven-game losing streak that started in Week 3. The three veterans they bought Saturday combined for 65.8, and Dak Prescott added 34.42.",
-    "Now the crime. The Park started Drake Maye (3.02) over Deshaun Watson (21.38). That one swap was worth 18.36 points, and The Park lost by 9.30. Do the math. George Pickens went for 43.5 and Parker Washington 28.2, and they got wasted on a quarterback decision. The best possible Park lineup was 150.78. The Park is 2-8 with four straight losses.",
-    "The Dons won with the week's biggest bench crime anyway: 39.3 points left behind. The Vikings D/ST scored 21 on the bench while the Bills D/ST started for 10, and Ryan Flournoy (19.1) and Mark Andrews (16.2) sat while Omar Cooper Jr. started and scored 0. At 2-8 with a 66-64 all-play record, the Dons are still the unluckiest team in the league at −3.08 wins."
-   ],
-   "posted": "2026-11-17T10:14:00-05:00"
-  },
-  {
-   "id": "recap-20261117-dbc",
-   "week": 10,
-   "tag": "RECAP",
-   "hot": false,
-   "title": "DBC's hold off Goobz by 4.18 and go 9-1, and Goobz lose by about four again",
-   "dek": "Team Goobz's best lineup was 103.94, enough to win. They started Travis Kelce (5) over Pat Freiermuth (11.5).",
-   "body": [
-    "Lukas Bosefski's DBC's beat Christopher Bosefski's Team Goobz 100.62 to 96.44. Jared Goff (20.42) and Bhayshul Tuten (20.3) carried it, and Jaylen Warren added 9.1 on Sunday night. Five straight wins, and No. 1 seed odds are up from 51.7% to 63.6%.",
-    "Goobz lost by 4.12 last week with 14.5 on the bench. This week they lost by 4.18 with a best possible lineup of 103.94. Travis Kelce started and scored 5 while Pat Freiermuth scored 11.5 on the bench. The 49ers D/ST went for −1 and Tyler Allgeier for 1.4. Goobz are 4-6, three straight losses, and their playoff odds fell from 64.2% to 52.1%.",
-    "The DBC's luck is +2.54 wins, the most in the league, and the bill might come due Sunday: they project 86.8 against Vert's 126.8. Puka Nacua is on IR and the Seahawks D/ST projects for zero."
-   ],
-   "posted": "2026-11-17T10:13:00-05:00"
-  },
-  {
-   "id": "race-20261117",
-   "week": 10,
-   "tag": "PLAYOFF PICTURE",
-   "hot": false,
-   "title": "Big Dabolls flatten LSD 144.18 to 82.06, and the bubble is four teams at 5-5",
-   "dek": "Isaiah Likely 27.7, Cam Skattebo 27.2, Trevor Lawrence 26.78. Aaron Rodgers LSD posted the week's lowest score.",
-   "body": [
-    "Ben Frey's Big Dabolls beat Aaron Rodgers LSD by 62.12, the second-biggest margin of the week, with three guys over 26. Big Dabolls are 7-3 at 99.6% playoff odds. LSD's 82.06 was the week's low, and they're 6-4 on a 54-76 all-play record. Their luck is +1.85 wins, and their odds dropped from 86.9% to 75.4%.",
-    "The O'Dons keep rolling: 120.76 to 85.96 over Jalen rams me, Joe Burrow 33.16, six straight wins. Vert hung 159.22 on Rat behind Patrick Mahomes (35.42) and Ja'Marr Chase (34.1). The top five seeds right now: DBC's 9-1, then O'Dons, Vert and Big Dabolls at 7-3, then LSD at 6-4.",
-    "Then the mess. The Overload, Rat, Trust The Process and The anomaly's are all 5-5, and this league breaks ties by head-to-head record, not points. On ESPN's seeds, The Overload is sixth, Rat seventh and TTP eighth, and The anomaly's are ninth and on the outside. Four weeks left. Team Goobz (4-6) sits at 52.1% odds."
-   ],
-   "posted": "2026-11-17T10:12:00-05:00"
-  },
-  {
-   "id": "hype-20261117-rivalry",
-   "week": 10,
-   "tag": "HYPE",
-   "hot": true,
-   "title": "Rivalry Week is one week out: all seven grudge matches hit in Week 12",
-   "dek": "Every designated rivalry plays in Week 12. Here's where the series stand, and which ones have playoff spots on the line.",
-   "body": [
-    "The Man vs The Mouse: John Reese leads Elijah Dembe 5-2 and beat him in the 2024 championship, but Elijah won the first meeting this year 144.12 to 120.82. Both teams are 5-5, TTP is in at No. 7 and Rat is out on points. The Uck Bowl, the most-played rivalry at 10 games, has Christopher Bosefski up 6-4 on Trevor Illson after a 113.18 to 110.32 Goobz win in Week 4. The Corporate Bowl: Matthew Reese leads 5-2, but Holden Wright won Week 4 82.46 to 61.82.",
-    "The Living Room Bowl: Zach O'Donoghue leads John Francis 2-1, and John Francis took Week 4 140.56 to 137.82. The Battle For The Park: Ben Frey leads Danny Stevens 3-2, and the 2-8 Dons get the 7-3 Big Dabolls. The Cardio Bowl: Samuel Vert leads Alex Reese 4-2 and won Week 4 161.6 to 87.68. The Keyboard Bowl: Lukas Bosefski leads Brighton Caushaj 2-1 after a 128.14 to 107.32 Week 4 win.",
-    "Week 11 first, and it matters: Trust The Process gets The Park, The anomaly's get Goobz and Rat gets Big Dabolls. Lose this week and you walk into your rivalry game needing it."
-   ],
-   "posted": "2026-11-17T10:11:00-05:00"
-  },
-  {
-   "id": "trade-t57-20261117",
-   "week": 10,
+   "id": "trade-t63-20261124",
+   "week": 12,
    "tag": "TRADE WIRE",
    "hot": true,
-   "title": "Charbonnet boomerang pays off: Jalen rams me grabs an A-",
-   "dek": "Jalen rams me gets an A- (+23.0) for buying back Zach Charbonnet with Jordyn Tyson, and the Fighting O'Dons eat a C- (-8.6) for Breece Hall.",
+   "title": "Goobz cash two vets for Jaylen Warren and grab a B+",
+   "dek": "Team Goobz turn Davante Adams and David Montgomery into Jaylen Warren for a B+ (+12.2), while the 9-1 DBC's settle for a C+ (-1.2).",
    "body": [
-    "Trade No. 57 is graded, and Brighton Caushaj just landed his best grade since Trade No. 43. Jalen rams me sent Breece Hall to the Fighting O'Dons on Nov. 10 for Zach Charbonnet, the back he'd traded them four days earlier, plus Jordyn Tyson. Tyson dropped 19.0 in Week 10 and Charbonnet added 9.4. Hall put up 14.8 for the O'Dons.",
-    "Rest of the way, Charbonnet (93.3) and Tyson (92.6) both project higher than Hall (89.6). That's +23.0 lineup points and an A- for Jalen rams me, and a C- (-8.6) for Zach O'Donoghue. He still tops the trade ledger at +102.9, but he got fleeced on this one."
+    "Trade No. 63 hit at 3 a.m. Tuesday, and Team Goobz played it like a front office that's sick of roster clutter. They shipped Davante Adams and David Montgomery to The DBC's for Jaylen Warren, a two-for-one consolidation that projects to win them lineup points every week from here. Warren's rest-of-season projection is 103.4. Adams sits at 81.5 and Montgomery at 76.0.",
+    "That's +12.2 and a B+ for Goobz. The DBC's get two names and a C+ (-1.2), which is basically a wash for a 9-1 team that didn't need to blink. Adams had a Week 11 bye, and Montgomery put up 15.4."
    ],
-   "posted": "2026-11-17T10:07:47-05:00"
+   "posted": "2026-11-24T09:58:01-05:00"
+  },
+  {
+   "id": "trade-t62-20261121",
+   "week": 11,
+   "tag": "TRADE WIRE",
+   "hot": true,
+   "title": "Rat flip Chris Olave into DJ Moore plus a TE fix",
+   "dek": "Rat land DJ Moore, Chig Okonkwo and Terrance Ferguson for Chris Olave and a B+ (+20.6); the Fighting O'Dons get a C+ (-0.3).",
+   "body": [
+    "Rat finally won a trade, and it wasn't close. Trade No. 62 sent Chris Olave to the Fighting O'Dons for DJ Moore, Chig Okonkwo and Terrance Ferguson. The tight end piece is what makes it: Okonkwo put up 10.6 in Week 11 and projects 69.4 the rest of the way, and Rat's lineup needed that bad. Moore scored 23.1 in Week 11, Olave 19.2.",
+    "Olave still projects higher than Moore (104.6 to 94.3), so the O'Dons don't get robbed, just a C+ at -0.3. Ferguson projects 0.0 and is already back on waivers. Rat take a B+ (+20.6) and climb off a ledger that sat at -114.0."
+   ],
+   "posted": "2026-11-24T09:58:01-05:00"
+  },
+  {
+   "id": "trade-t61-20261118",
+   "week": 11,
+   "tag": "TRADE WIRE",
+   "hot": true,
+   "title": "The Park buy Kirk Cousins with Rome Odunze, grade B+",
+   "dek": "The Park land Kirk Cousins for Rome Odunze and earn a B+ (+16.8); Vert get a C+ (+0.8) for moving a backup QB.",
+   "body": [
+    "The Park had a quarterback problem, and Trade No. 61 fixed it. Drake Maye projects 0.0 the rest of the way, so The Park sent Rome Odunze to Vert for Kirk Cousins, whose 113.3 rest-of-season projection makes him their starter. Cousins scored 7.4 in Week 11; Odunze scored 8.5.",
+    "That's +16.8 and a B+ for The Park. Vert get a C+ (+0.8) for cashing in a QB who was never sitting ahead of Patrick Mahomes. Odunze projects 74.4 the rest of the way, which adds receiver depth for Vert without moving their starting lineup much."
+   ],
+   "posted": "2026-11-24T09:58:01-05:00"
   }
  ],
  "storylines": [
@@ -1133,6 +1047,69 @@
   }
  ],
  "trades": [
+  {
+   "id": "T63",
+   "date": "2026-11-24",
+   "week": 12,
+   "sides": [
+    {
+     "team": "Team Goobz",
+     "got": "Jaylen Warren (RB)",
+     "gave": "Davante Adams (WR), David Montgomery (RB)",
+     "net": 12.2,
+     "grade": "B+"
+    },
+    {
+     "team": "The DBC's",
+     "got": "Davante Adams (WR), David Montgomery (RB)",
+     "gave": "Jaylen Warren (RB)",
+     "net": -1.2,
+     "grade": "C+"
+    }
+   ]
+  },
+  {
+   "id": "T62",
+   "date": "2026-11-21",
+   "week": 11,
+   "sides": [
+    {
+     "team": "Rat",
+     "got": "DJ Moore (WR), Terrance Ferguson (TE), Chig Okonkwo (TE)",
+     "gave": "Chris Olave (WR)",
+     "net": 20.6,
+     "grade": "B+"
+    },
+    {
+     "team": "Fighting O'Dons",
+     "got": "Chris Olave (WR)",
+     "gave": "DJ Moore (WR), Terrance Ferguson (TE), Chig Okonkwo (TE)",
+     "net": -0.3,
+     "grade": "C+"
+    }
+   ]
+  },
+  {
+   "id": "T61",
+   "date": "2026-11-18",
+   "week": 11,
+   "sides": [
+    {
+     "team": "The Park",
+     "got": "Kirk Cousins (QB)",
+     "gave": "Rome Odunze (WR)",
+     "net": 16.8,
+     "grade": "B+"
+    },
+    {
+     "team": "Vert",
+     "got": "Rome Odunze (WR)",
+     "gave": "Kirk Cousins (QB)",
+     "net": 0.8,
+     "grade": "C+"
+    }
+   ]
+  },
   {
    "id": "T60",
    "date": "2026-11-14",
@@ -2404,9 +2381,9 @@
   },
   {
    "team": "Fighting O'Dons",
-   "trades": 14,
-   "net": 153.8,
-   "gpa": 2.53,
+   "trades": 15,
+   "net": 153.5,
+   "gpa": 2.51,
    "overall": "B-"
   },
   {
@@ -2439,37 +2416,37 @@
   },
   {
    "team": "The Park",
-   "trades": 5,
-   "net": 60.0,
-   "gpa": 3.06,
+   "trades": 6,
+   "net": 76.8,
+   "gpa": 3.1,
    "overall": "B"
   },
   {
    "team": "Vert",
-   "trades": 2,
-   "net": 53.3,
-   "gpa": 2.8,
+   "trades": 3,
+   "net": 54.1,
+   "gpa": 2.63,
    "overall": "B-"
   },
   {
    "team": "Team Goobz",
-   "trades": 5,
-   "net": 43.0,
-   "gpa": 2.78,
-   "overall": "B-"
-  },
-  {
-   "team": "The DBC's",
-   "trades": 2,
-   "net": 32.9,
-   "gpa": 3.0,
+   "trades": 6,
+   "net": 55.2,
+   "gpa": 2.87,
    "overall": "B"
   },
   {
+   "team": "The DBC's",
+   "trades": 3,
+   "net": 31.7,
+   "gpa": 2.77,
+   "overall": "B-"
+  },
+  {
    "team": "Rat",
-   "trades": 8,
-   "net": -114.0,
-   "gpa": 1.88,
+   "trades": 9,
+   "net": -93.4,
+   "gpa": 2.03,
    "overall": "C"
   },
   {
@@ -5740,6 +5717,131 @@
   "through": "2026 Week 6"
  },
  "archive": [
+  {
+   "id": "draft-capital-20261117",
+   "week": 11,
+   "tag": "DRAFT RETRO",
+   "hot": true,
+   "title": "Why even draft, Danny?",
+   "dek": "Half the Stone Cold Dons roster came off the waiver wire, two of Danny Stevens' 15 picks are left, and he's 2-8.",
+   "body": [
+    "Danny Stevens spent 15 picks in August. Two are still here: Dak Prescott, and Ryan Flournoy, whom Danny cut in September and claimed back off waivers in October. Amon-Ra St. Brown, his first-rounder, plays for Vert. Omarion Hampton, his second, plays for Trust The Process. Eight of the 16 players on the Stone Cold Dons were never drafted by anybody: Keon Coleman, Antonio Williams, Audric Estime, Corey Kiner, Omar Cooper Jr., Spencer Shrader and two waiver-wire defenses. That's the most in the league. The record is 2-8.",
+    "\"Draft day's more of a suggestion,\" a league source said.",
+    "Danny isn't alone at the waiver window. A-Rock Balls (2-8), Big Dabolls and Rat each carry six undrafted players, and The anomaly's have five. Ben Frey somehow turned his into 7-3, so that's one person it's working for. Alex has Aaron Rodgers, Tyler Bass and Cade Otton off the wire, and the most points allowed in the league (1,280.3).",
+    "Compare The Overload: 15 of Trevor Illson's 17 players were drafted by somebody, and 11 are his own picks. He just scored 173.34. The DBC's still have 10 of their picks and are 9-1. Turns out the draft counts."
+   ],
+   "posted": "2026-11-17T17:36:00-05:00"
+  },
+  {
+   "id": "beat-20261117-am",
+   "week": 10,
+   "tag": "RECAP",
+   "hot": true,
+   "title": "Mahomes settles Vert's QB debate in a 159.22 rout of Rat",
+   "dek": "Rat's 124.46 would have beaten eight teams in Week 10. Vert's would have beaten twelve.",
+   "body": [
+    "Vert spent part of October refusing to name a starting quarterback. In Week 10, Patrick Mahomes scored 35.42 while Kirk Cousins put up 15.38 on the bench, and Ja'Marr Chase (34.10), Amon-Ra St. Brown (25.80) and kicker Cam Little (19.00) handled the rest. The 159.22 was the week's second-highest score, and Vert sit 7-3.",
+    "Rat had the bad luck to be across the field. Emmett Johnson went for 35.10 and Brock Purdy added 31.66, and Rat still lost by 34.76. They fall to 5-5, one of four .500 teams in a scrum for the last playoff spots. \"We did everything right except the schedule,\" a team source said."
+   ],
+   "posted": "2026-11-17T16:26:19-05:00"
+  },
+  {
+   "id": "recap-20261117-overload",
+   "week": 10,
+   "tag": "RECAP",
+   "hot": true,
+   "title": "173.34: The Overload hang the season's high score and bury A-Rock by 82.58",
+   "dek": "Christian McCaffrey went for 46.3, Chuba Hubbard for 34.2, and Trevor Illson's 5-5 team is suddenly at 95.7% to make the playoffs.",
+   "body": [
+    "Holy hell. Christian McCaffrey dropped 46.3, Chuba Hubbard added 34.2, Josh Allen 22.34 and Stefon Diggs 20.3, and The Overload put up 173.34, the highest score anybody has posted this season. The old 2026 high was Vert's 161.6 from Week 4. It missed the league's all-time top five by six hundredths of a point.",
+    "A-Rock Balls scored 90.76 and lost by 82.58, the fourth-biggest blowout in league history. And The Overload could have made it worse: Alvin Kamara's 16.4 sat on the bench, and the best possible lineup was 183.54.",
+    "Trevor Illson is only 5-5, but the 85-45 all-play record is second in the league, and the luck number (−1.54) says the record should be better. Three straight wins, playoff odds up from 86.0% to 95.7%. A-Rock is 2-8 and at 0.1%."
+   ],
+   "posted": "2026-11-17T10:16:00-05:00"
+  },
+  {
+   "id": "recap-20261117-ttp",
+   "week": 10,
+   "tag": "RECAP",
+   "hot": true,
+   "title": "Trust The Process were 11% to win. They won by 1.00.",
+   "dek": "Projected for 82.5 and a 38.1-point underdog, TTP scored 123.4 and beat The anomaly's 122.4, with 32.8 points sitting on their own bench.",
+   "body": [
+    "Last week's preview gave Trust The Process 11% odds. Jaxon Smith-Njigba ignored it with 31.1, Chase Brown put up 28.3, and backup quarterback Drew Lock threw in 15.6 with Bo Nix not playing. Final: 123.4 to 122.4. Jahmyr Gibbs dropped 44.2 for The anomaly's and it still wasn't enough.",
+    "TTP nearly blew it anyway. Omarion Hampton (17.5) and Josh Downs (15.3), both acquired Tuesday, sat on the bench while Rhamondre Stevenson (1.5) and Tucker Kraft (2.9) started. The best possible lineup was 145.5. Win by 1, learn nothing.",
+    "The anomaly's have their own regret. On Saturday they shipped Derrick Henry, Deebo Samuel and Blake Corum to the Stone Cold Dons, and the three combined for 65.8 points against The Park. Matthew Golden, who came back in the deal, scored 12. TTP's playoff odds jumped from 36.9% to 72.2%. The anomaly's fell from 70.8% to 53.6% and drop to ninth, one spot out, on the league's head-to-head tiebreaker."
+   ],
+   "posted": "2026-11-17T10:15:00-05:00"
+  },
+  {
+   "id": "crime-20261117-park",
+   "week": 10,
+   "tag": "BENCH CRIME",
+   "hot": true,
+   "title": "Henry delivers, the Dons end the skid, and The Park benched the win",
+   "dek": "Drake Maye started and scored 3.02. Deshaun Watson scored 21.38 on The Park's bench. The Park lost by 9.30.",
+   "body": [
+    "Derrick Henry needed 9.71 on Monday night and put up 19. The Stone Cold Dons beat The Park 137.42 to 128.12 and snapped a seven-game losing streak that started in Week 3. The three veterans they bought Saturday combined for 65.8, and Dak Prescott added 34.42.",
+    "Now the crime. The Park started Drake Maye (3.02) over Deshaun Watson (21.38). That one swap was worth 18.36 points, and The Park lost by 9.30. Do the math. George Pickens went for 43.5 and Parker Washington 28.2, and they got wasted on a quarterback decision. The best possible Park lineup was 150.78. The Park is 2-8 with four straight losses.",
+    "The Dons won with the week's biggest bench crime anyway: 39.3 points left behind. The Vikings D/ST scored 21 on the bench while the Bills D/ST started for 10, and Ryan Flournoy (19.1) and Mark Andrews (16.2) sat while Omar Cooper Jr. started and scored 0. At 2-8 with a 66-64 all-play record, the Dons are still the unluckiest team in the league at −3.08 wins."
+   ],
+   "posted": "2026-11-17T10:14:00-05:00"
+  },
+  {
+   "id": "recap-20261117-dbc",
+   "week": 10,
+   "tag": "RECAP",
+   "hot": false,
+   "title": "DBC's hold off Goobz by 4.18 and go 9-1, and Goobz lose by about four again",
+   "dek": "Team Goobz's best lineup was 103.94, enough to win. They started Travis Kelce (5) over Pat Freiermuth (11.5).",
+   "body": [
+    "Lukas Bosefski's DBC's beat Christopher Bosefski's Team Goobz 100.62 to 96.44. Jared Goff (20.42) and Bhayshul Tuten (20.3) carried it, and Jaylen Warren added 9.1 on Sunday night. Five straight wins, and No. 1 seed odds are up from 51.7% to 63.6%.",
+    "Goobz lost by 4.12 last week with 14.5 on the bench. This week they lost by 4.18 with a best possible lineup of 103.94. Travis Kelce started and scored 5 while Pat Freiermuth scored 11.5 on the bench. The 49ers D/ST went for −1 and Tyler Allgeier for 1.4. Goobz are 4-6, three straight losses, and their playoff odds fell from 64.2% to 52.1%.",
+    "The DBC's luck is +2.54 wins, the most in the league, and the bill might come due Sunday: they project 86.8 against Vert's 126.8. Puka Nacua is on IR and the Seahawks D/ST projects for zero."
+   ],
+   "posted": "2026-11-17T10:13:00-05:00"
+  },
+  {
+   "id": "race-20261117",
+   "week": 10,
+   "tag": "PLAYOFF PICTURE",
+   "hot": false,
+   "title": "Big Dabolls flatten LSD 144.18 to 82.06, and the bubble is four teams at 5-5",
+   "dek": "Isaiah Likely 27.7, Cam Skattebo 27.2, Trevor Lawrence 26.78. Aaron Rodgers LSD posted the week's lowest score.",
+   "body": [
+    "Ben Frey's Big Dabolls beat Aaron Rodgers LSD by 62.12, the second-biggest margin of the week, with three guys over 26. Big Dabolls are 7-3 at 99.6% playoff odds. LSD's 82.06 was the week's low, and they're 6-4 on a 54-76 all-play record. Their luck is +1.85 wins, and their odds dropped from 86.9% to 75.4%.",
+    "The O'Dons keep rolling: 120.76 to 85.96 over Jalen rams me, Joe Burrow 33.16, six straight wins. Vert hung 159.22 on Rat behind Patrick Mahomes (35.42) and Ja'Marr Chase (34.1). The top five seeds right now: DBC's 9-1, then O'Dons, Vert and Big Dabolls at 7-3, then LSD at 6-4.",
+    "Then the mess. The Overload, Rat, Trust The Process and The anomaly's are all 5-5, and this league breaks ties by head-to-head record, not points. On ESPN's seeds, The Overload is sixth, Rat seventh and TTP eighth, and The anomaly's are ninth and on the outside. Four weeks left. Team Goobz (4-6) sits at 52.1% odds."
+   ],
+   "posted": "2026-11-17T10:12:00-05:00"
+  },
+  {
+   "id": "hype-20261117-rivalry",
+   "week": 10,
+   "tag": "HYPE",
+   "hot": true,
+   "title": "Rivalry Week is one week out: all seven grudge matches hit in Week 12",
+   "dek": "Every designated rivalry plays in Week 12. Here's where the series stand, and which ones have playoff spots on the line.",
+   "body": [
+    "The Man vs The Mouse: John Reese leads Elijah Dembe 5-2 and beat him in the 2024 championship, but Elijah won the first meeting this year 144.12 to 120.82. Both teams are 5-5, TTP is in at No. 7 and Rat is out on points. The Uck Bowl, the most-played rivalry at 10 games, has Christopher Bosefski up 6-4 on Trevor Illson after a 113.18 to 110.32 Goobz win in Week 4. The Corporate Bowl: Matthew Reese leads 5-2, but Holden Wright won Week 4 82.46 to 61.82.",
+    "The Living Room Bowl: Zach O'Donoghue leads John Francis 2-1, and John Francis took Week 4 140.56 to 137.82. The Battle For The Park: Ben Frey leads Danny Stevens 3-2, and the 2-8 Dons get the 7-3 Big Dabolls. The Cardio Bowl: Samuel Vert leads Alex Reese 4-2 and won Week 4 161.6 to 87.68. The Keyboard Bowl: Lukas Bosefski leads Brighton Caushaj 2-1 after a 128.14 to 107.32 Week 4 win.",
+    "Week 11 first, and it matters: Trust The Process gets The Park, The anomaly's get Goobz and Rat gets Big Dabolls. Lose this week and you walk into your rivalry game needing it."
+   ],
+   "posted": "2026-11-17T10:11:00-05:00"
+  },
+  {
+   "id": "trade-t57-20261117",
+   "week": 10,
+   "tag": "TRADE WIRE",
+   "hot": true,
+   "title": "Charbonnet boomerang pays off: Jalen rams me grabs an A-",
+   "dek": "Jalen rams me gets an A- (+23.0) for buying back Zach Charbonnet with Jordyn Tyson, and the Fighting O'Dons eat a C- (-8.6) for Breece Hall.",
+   "body": [
+    "Trade No. 57 is graded, and Brighton Caushaj just landed his best grade since Trade No. 43. Jalen rams me sent Breece Hall to the Fighting O'Dons on Nov. 10 for Zach Charbonnet, the back he'd traded them four days earlier, plus Jordyn Tyson. Tyson dropped 19.0 in Week 10 and Charbonnet added 9.4. Hall put up 14.8 for the O'Dons.",
+    "Rest of the way, Charbonnet (93.3) and Tyson (92.6) both project higher than Hall (89.6). That's +23.0 lineup points and an A- for Jalen rams me, and a C- (-8.6) for Zach O'Donoghue. He still tops the trade ledger at +102.9, but he got fleeced on this one."
+   ],
+   "posted": "2026-11-17T10:07:47-05:00"
+  },
   {
    "id": "beat-20261116-am",
    "week": 10,
